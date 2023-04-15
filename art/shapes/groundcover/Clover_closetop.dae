@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2019-02-15T08:01:53</created>
+    <modified>2019-02-15T08:01:53</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="forest_vegetation-effect">
+      <profile_COMMON>
+        <newparam sid="forest_vegetation_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="forest_vegetation_d_dds-sampler">
+          <sampler2D>
+            <source>forest_vegetation_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="forest_vegetation_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="forest_vegetation_d_dds-sampler" />
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="forest_vegetation-material" name="forest_vegetation">
+      <instance_effect url="#forest_vegetation-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_037-mesh" name="Plane.037">
+      <mesh>
+        <source id="Plane_037-mesh-positions">
+          <float_array count="12" id="Plane_037-mesh-positions-array">-1.217573 -1.158724 0.2068211 1.083575 -1.158724 0.03244119 -1.217573 1.152869 0.03244125 1.083575 1.152869 0.2068212</float_array>
+          <technique_common>
+            <accessor count="4" source="#Plane_037-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_037-mesh-normals">
+          <float_array count="12" id="Plane_037-mesh-normals-array">2.13636e-4 -2.13636e-4 1 0.0753206 -0.0749849 0.994336 -2.13636e-4 2.13636e-4 1 -0.0753206 0.0749849 0.994336</float_array>
+          <technique_common>
+            <accessor count="4" source="#Plane_037-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_037-mesh-map-0">
+          <float_array count="12" id="Plane_037-mesh-map-0-array">0.6293945 0.6289063 0.9990234 0.6289063 0.9990234 0.9980469 0.9990234 0.9980469 0.6293945 0.9980469 0.6293945 0.6289063</float_array>
+          <technique_common>
+            <accessor count="6" source="#Plane_037-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_037-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_037-mesh-positions" />
+        </vertices>
+        <triangles count="2" material="forest_vegetation-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_037-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_037-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_037-mesh-map-0" />
+          <p>0 0 0 1 1 1 3 2 2 3 2 3 2 3 4 0 0 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_036-mesh" name="Plane.036">
+      <mesh>
+        <source id="Plane_036-mesh-positions">
+          <float_array count="15" id="Plane_036-mesh-positions-array">-1.217573 -1.158724 0.04923403 1.083575 -1.158724 0.03662019 -1.217573 1.152869 0.03662025 1.083575 1.152869 0.04923409 -0.06535387 -0.001274585 0.2110001</float_array>
+          <technique_common>
+            <accessor count="5" source="#Plane_036-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_036-mesh-normals">
+          <float_array count="15" id="Plane_036-mesh-normals-array">-0.06961387 -0.06973594 0.9951336 0.07510679 -0.07522886 0.9943338 1.52597e-4 1.52597e-4 1 0.06982755 0.06994962 0.9951037 -0.07516783 0.07516783 0.9943338</float_array>
+          <technique_common>
+            <accessor count="5" source="#Plane_036-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_036-mesh-map-0">
+          <float_array count="24" id="Plane_036-mesh-map-0-array">0.6303711 0.6303711 0.9990234 0.6303711 0.8149414 0.8144531 0.9990234 0.9980469 0.6303711 0.9980469 0.8149414 0.8144531 0.8149414 0.8144531 0.6303711 0.9980469 0.6303711 0.6303711 0.8149414 0.8144531 0.9990234 0.6303711 0.9990234 0.9980469</float_array>
+          <technique_common>
+            <accessor count="12" source="#Plane_036-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_036-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_036-mesh-positions" />
+        </vertices>
+        <triangles count="4" material="forest_vegetation-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_036-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_036-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_036-mesh-map-0" />
+          <p>0 0 0 1 1 1 4 2 2 3 3 3 2 4 4 4 2 5 4 2 6 2 4 7 0 0 8 4 2 9 1 1 10 3 3 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Clover_a50" name="Clover_a50" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="Clover_a50" url="#Plane_037-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="forest_vegetation-material" target="#forest_vegetation-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Clover_a80" name="Clover_a80" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="Clover_a80" url="#Plane_036-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="forest_vegetation-material" target="#forest_vegetation-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="nulldetail7" name="nulldetail7" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

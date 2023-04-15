@@ -1,0 +1,26 @@
+{
+  "cubemap_ocean_reflection" : {
+    "name" : "cubemap_ocean_reflection",
+    "class" : "CubemapData",
+    "persistentId" : "2e7f47af-50e2-4ca0-aa74-30e5002eb38b",
+    "cubeFace" : [
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_1.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_2.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_3.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_4.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_5.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_ocean_reflection/cubemap/skybox_6.dds"
+    ]
+  },
+  "river_reflection" : {
+    "name" : "ocean_reflection",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "000d0837-fb5a-4f05-98d8-22aff488aa96",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "cubemap_ocean_reflection",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}

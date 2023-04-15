@@ -1,0 +1,26 @@
+{
+  "cubemap_road_sky_reflection" : {
+    "name" : "cubemap_road_sky_reflection",
+    "class" : "CubemapData",
+    "persistentId" : "140a6c7a-1053-41c8-8bd1-3b8458ada252",
+    "cubeFace" : [
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_1",
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_2",
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_3",
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_4",
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_5",
+      "/levels/cups_canyon/art/cubemaps/cubemap_road_sky_reflection/cubemap/skybox_6"
+    ]
+  },
+  "road_sky_reflection" : {
+    "name" : "road_sky_reflection",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "32735ec0-e3c0-4e54-9145-4f1e1b69597c",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "road_sky_reflection",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}

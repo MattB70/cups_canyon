@@ -1,0 +1,247 @@
+{
+  "Moss_01": {
+    "name": "Moss_01",
+    "mapTo": "Moss_01",
+    "class": "Material",
+    "persistentId": "762522b3-8630-4db3-be36-3cc1819c165e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_moss_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_moss_b.color.png",
+        "detailNormalMapStrength": 1.5,
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_moss_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_moss_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_moss_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 139,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "GRASS",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.392157",
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "Oak_bark_01": {
+    "name": "Oak_bark_01",
+    "mapTo": "Oak_bark_01",
+    "class": "Material",
+    "persistentId": "deea0fd0-e378-4269-adf6-866838feeff1",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_bark_ao.data.png",
+        "baseColorFactor": [
+          0.862744987,
+          0.862744987,
+          0.862744987,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_bark_b.color.png",
+        "detailNormalMapStrength": 0.5,
+        "detailScale": [
+          1,
+          1
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_bark_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_bark_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "roundType": "WOOD",
+    "specularStrength0": "0.392157",
+    "version": 1.5
+  },
+  "Oak_branch_01": {
+    "name": "Oak_branch_01",
+    "mapTo": "Oak_branch_01",
+    "class": "Material",
+    "persistentId": "6eaadf6b-9fcb-47b2-83a5-eb1d2dddad9c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_b.color.png",
+        "detailNormalMapStrength": 1.5,
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 50,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "materialTag4": "BNG_sky",
+    "specularStrength0": "0.392157",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Oak_branch_02": {
+    "name": "Oak_branch_02",
+    "mapTo": "Oak_branch_02",
+    "class": "Material",
+    "persistentId": "898e9845-04ad-411f-b949-1394a08f8c57",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_02_b.color.png",
+        "detailNormalMapStrength": 1.5,
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_branch_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 75,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "materialTag4": "BNG_sky",
+    "specularStrength0": "0.392157",
+    "version": 1.5
+  },
+  "oak_leaves_01": {
+    "name": "oak_leaves_01",
+    "mapTo": "oak_leaves_01",
+    "class": "Material",
+    "persistentId": "8e283949-b0df-43fd-9dbd-108b9b743618",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "oak_leaves_02": {
+    "name": "oak_leaves_02",
+    "mapTo": "oak_leaves_02",
+    "class": "Material",
+    "persistentId": "21c59c4c-3e55-4591-a9f3-9e1652ff7679",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_02_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_02_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_02_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "oak_leaves_03": {
+    "name": "oak_leaves_03",
+    "mapTo": "oak_leaves_03",
+    "class": "Material",
+    "persistentId": "fc5231ad-0426-4ed0-a31a-7333f972a0dc",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_03_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_03_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_03_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_03_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_oak/t_oak_leaves_03_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  }
+}

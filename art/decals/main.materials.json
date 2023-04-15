@@ -1,0 +1,342 @@
+{
+  "damage": {
+    "name": "damage",
+    "mapTo": "damage",
+    "class": "Material",
+    "persistentId": "ff43e473-94fc-42f7-beed-ef7eb030b772",
+    "Stages": [
+      {
+        "colorMap": "/levels/cups_canyon/art/decals/decals_damage.dds",
+        "diffuseColor": [
+          0.9882353544235228,
+          0.9882353544235228,
+          0.9882353544235228,
+          0.600000024
+        ],
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "road",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "AsphaltRoad_damage_large_decal_01": {
+    "name": "AsphaltRoad_damage_large_decal_01",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "cf4f20eb-79b2-432c-95eb-a5f2c521eed7",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_asphalt_repair_patch_decal_ao.data.png",
+        "baseColorFactor": [
+          0.988235354,
+          0.988235354,
+          0.988235354,
+          1.29999995
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_asphalt_repair_patch_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_asphalt_repair_patch_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_asphalt_repair_patch_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_asphalt_repair_patch_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "decal",
+    "specularStrength0": "0.784314",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "road_01_damage_sml_decal_01": {
+    "name": "road_01_damage_sml_decal_01",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "e64ac429-1402-4cac-9be0-3adfe1958b73",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_asphalt_pothole_decal_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_asphalt_pothole_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_asphalt_pothole_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_asphalt_pothole_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_asphalt_pothole_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "decal",
+    "materialTag2": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "eca_decals_concrete_damage": {
+    "name": "eca_decals_concrete_damage",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "8ca7cf7c-54a6-4fb0-ad87-d9fc6189855e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_dirty_ground_decal_ao.data.png",
+        "baseColorFactor": [
+          0.669938982,
+          0.649349988,
+          0.600718021,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_dirty_ground_decal_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/decals/t_asphalt_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 8,
+        "detailScale": [
+          5,
+          5
+        ],
+        "normalMap": "/levels/cups_canyon/art/decals/t_dirty_ground_decal_nm.normal.png",
+        "opacityFactor": 0.500999987,
+        "opacityMap": "/levels/cups_canyon/art/decals/t_dirty_ground_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_dirty_ground_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "eca_road_variation_and_damage": {
+    "name": "eca_road_variation_and_damage",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "9253836e-db47-44d7-bed1-484a19288cc3",
+    "Stages": [
+      {
+        "colorMap": "eca_road_variation_and_damage_d.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "graffiti": {
+    "name": "graffiti",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "2716d873-ff0a-4e3e-88e3-65b8af45be88",
+    "Stages": [
+      {
+        "colorMap": "/levels/cups_canyon/art/decals/decals_graffiti.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "road",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "ind_decal_stuff_01": {
+    "name": "ind_decal_stuff_01",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "f8462b11-082f-4c27-a09b-faea18012180",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_m.data.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_01_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "ind_decal_stuff_02": {
+    "name": "ind_decal_stuff_02",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "9c2a25dc-eb4a-4e2c-86f8-756b488a4dc4",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_02_decal_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_02_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_02_decal_nm.normal.png",
+        "normalMapStrength": 2,
+        "opacityMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_02_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_02_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "ind_decal_stuff_02b": {
+    "name": "ind_decal_stuff_02b",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "72e0ab33-abce-438d-a158-e0d3cb1711d5",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_03_decal_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_03_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_03_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_03_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_industrial_stuff_03_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "nat_decals_fallen_leaves": {
+    "name": "nat_decals_fallen_leaves",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "9e644394-a1db-4f11-8a62-babe8ca8016c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_fallen_leaves_decal_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_fallen_leaves_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_fallen_leaves_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_fallen_leaves_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_fallen_leaves_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "nat_decals_rocks_01": {
+    "name": "nat_decals_rocks_01",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "9a717521-be3e-4183-af7c-7105435319dc",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_fallen_rocks_01_decal_ao.data.png",
+        "baseColorFactor": [
+          0.933987975,
+          0.916324019,
+          0.832123995,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_fallen_rocks_01_decal_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/decals/t_fallen_rocks_01_decal_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/decals/t_fallen_rocks_01_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_fallen_rocks_01_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.784314",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "sawdust": {
+    "name": "sawdust",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "4e431f3f-5b93-4c3e-99f8-2e0763dd34a7",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_b.color.png",
+        "detailMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_detail.data.png",
+        "detailNormalMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_detail_nm.normal.png",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          4,
+          4
+        ],
+        "normalMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_nm.normal.png",
+        "opacityFactor": 0,
+        "opacityMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/decals/t_sawdust_decal_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  }
+}

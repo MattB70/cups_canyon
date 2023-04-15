@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>LUCA</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 63</authoring_tool>
+      </contributor>
+    <created>2019-02-18T11:38:03</created>
+    <modified>2019-02-18T11:38:03</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    </library_effects>
+  <library_materials>
+    </library_materials>
+  <library_geometries>
+    <geometry id="geom-eca_fv_shore_boat" name="eca_fv_shore_boat">
+      <mesh>
+        <source id="geom-eca_fv_shore_boat-positions">
+          <float_array count="132" id="geom-eca_fv_shore_boat-positions-array">1.097326 0.0127644 -0.5317154 -1.097326 0.0127644 -0.5317154 -0.7759263 -0.8485284 -0.5317154 1.30855e-8 -1.2 -0.5317154 0.7759264 -0.8485284 -0.5317154 1.2 0.0127644 1.397845 -1.2 0.0127644 1.397845 -0.848528 -0.8485287 1.397845 1.43099e-8 -1.2 1.397845 0.8485281 -0.8485287 1.397845 0.9982784 0.0127644 2.962492 -0.9982784 0.0127644 2.962492 -0.7058893 -0.8485284 2.962492 1.19044e-8 -1.2 2.962492 0.7058893 -0.8485284 2.962492 0 0.0127644 4.877863 0 -0.2570091 4.646925 0.8642722 0.0127644 -1.796928 -0.8642722 0.0127644 -1.796928 -0.6111326 -0.6604032 -1.796928 1.03063e-8 -1.011875 -1.796929 0.6111327 -0.6604032 -1.796928 1.041464 0.0127644 -0.525165 -1.041508 0.0127644 -0.5255306 -0.7289559 -0.803722 -0.5248659 6.16383e-4 -1.134411 -0.5261414 0.7287053 -0.8041548 -0.5250787 1.144271 0.0127644 1.395492 -1.144208 0.0127644 1.396461 -0.8014926 -0.8031468 1.397172 -1.95405e-4 -1.134043 1.397595 0.8020424 -0.8036775 1.396001 0.9430986 0.0127644 2.946542 -0.9431857 0.0127644 2.94545 -0.6596031 -0.806816 2.944839 -0.002283248 -1.134111 2.944238 0.6585392 -0.8035033 2.953361 -0.002880938 0.0127644 4.791868 -1.78814e-8 -0.255284 4.516087 0.8170605 0.0127644 -1.736928 -0.8170013 0.0127644 -1.736928 -0.5711052 -0.6239589 -1.736928 0.003227173 -0.9528646 -1.736929 0.5698218 -0.6270743 -1.736928</float_array>
+          <technique_common>
+            <accessor count="44" source="#geom-eca_fv_shore_boat-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-eca_fv_shore_boat-normals">
+          <float_array count="228" id="geom-eca_fv_shore_boat-normals-array">-0.7214526 -0.6923864 0.01034344 -0.9293548 -0.3684636 0.02311026 -0.9303417 -0.3518928 -0.1031297 -0.7212772 -0.684633 -0.1050574 0.002962773 -0.9999884 0.003784355 -0.009363251 -0.9963648 -0.08467398 0.7211968 -0.6921412 0.02856301 0.7265655 -0.6795033 -0.101871 0.9268024 -0.3735059 0.03912279 0.9311772 -0.3479025 -0.1089633 -0.7161176 -0.6425517 0.2725854 -0.9076331 -0.3124577 0.2803077 0.006454518 -0.9698744 0.2435199 0.7176183 -0.6474023 0.2566986 0.9099627 -0.3204277 0.2632374 -0.02992192 -0.6952545 0.7181405 -0.008357545 -0.630102 0.7764676 -0.9225594 -0.3458767 -0.1710359 -0.7427721 -0.6471493 -0.1717191 -0.01923508 -0.9853441 -0.1694907 0.7524911 -0.6302588 -0.1911309 0.9223986 -0.3468609 -0.1699068 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 3.39172e-7 -1 0 3.39172e-7 -1 0 3.39172e-7 -1 0.9272753 0.3598692 0.1032212 0.9256996 0.3775778 -0.02269826 0.7176002 0.6963863 -0.009797039 0.7185934 0.6874931 0.1047701 -0.002645865 0.9999885 -0.003987981 0.009242507 0.996333 0.08505938 -0.7173021 0.6961634 -0.02887866 -0.7239565 0.6823032 0.1017319 -0.9232194 0.3822728 -0.03915904 -0.9281291 0.355865 0.1092542 0.9045718 0.3213602 -0.2801387 0.7139826 0.6450157 -0.2723663 -0.005786179 0.9701908 -0.2422732 -0.7147303 0.6505951 -0.2566837 -0.9090617 0.3263065 -0.2590962 0.01476756 0.6884964 -0.7250894 0.05076032 0.7393782 -0.6713741 0.7394577 0.6507791 0.1723046 0.9194031 0.353902 0.171614 0.01717755 0.9852355 0.1703412 -0.7492784 0.6343512 0.1902115 -0.9191714 0.3551751 0.1702193 -2.31968e-8 1.36033e-7 1 0 1.86311e-7 1 -6.69878e-8 4.11182e-8 1 -1.04595e-7 -4.03935e-8 0.9999999 -1.0598e-7 -5.47503e-7 1 -1.0598e-7 -5.47503e-7 1 -1.0598e-7 -5.47503e-7 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor count="76" source="#geom-eca_fv_shore_boat-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-eca_fv_shore_boat-map1">
+          <float_array count="72" id="geom-eca_fv_shore_boat-map1-array">0.75 0 1 0.25 0 1 0.3750001 0 1 0.5 0 1 0.625 0 1 0.75 1 1 0.25 1 1 0.3750001 1 1 0.5 1 1 0.625 1 1 0.3750001 1 1 0.25 1 1 0.5 1 1 0.625 1 1 0.75 1 1 0.25 1 1 0.5 1 1 0.625 1 1 0.75 1 1 0.25 0 1 0.3750001 0 1 0.5 0 1 0.625 0 1 0.75 0 1</float_array>
+          <technique_common>
+            <accessor count="24" source="#geom-eca_fv_shore_boat-map1-array" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-eca_fv_shore_boat-vertices">
+          <input semantic="POSITION" source="#geom-eca_fv_shore_boat-positions" />
+        </vertices>
+        <triangles count="84" material="ColorMaterial">
+          <input offset="0" semantic="VERTEX" source="#geom-eca_fv_shore_boat-vertices" />
+          <input offset="1" semantic="NORMAL" source="#geom-eca_fv_shore_boat-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#geom-eca_fv_shore_boat-map1" />
+          <p>7 0 7 6 1 6 1 2 1 1 2 1 2 3 2 7 0 7 8 4 8 7 0 7 2 3 2 2 3 2 3 5 3 8 4 8 9 6 9 8 4 8 3 5 3 3 5 3 4 7 4 9 6 9 5 8 5 9 6 9 4 7 4 4 7 4 0 9 0 5 8 5 12 10 10 11 11 11 6 1 6 6 1 6 7 0 7 12 10 10 13 12 12 12 10 10 7 0 7 7 0 7 8 4 8 13 12 12 14 13 13 13 12 12 8 4 8 8 4 8 9 6 9 14 13 13 10 14 14 14 13 13 9 6 9 9 6 9 5 8 5 10 14 14 16 15 16 15 16 15 11 11 11 11 11 11 12 10 10 16 15 16 12 10 10 13 12 12 16 15 16 13 12 12 14 13 13 16 15 16 15 16 18 16 15 16 14 13 13 14 13 13 10 14 14 15 16 18 18 17 19 19 18 20 2 3 2 2 3 2 1 2 1 18 17 19 19 18 20 20 19 21 3 5 3 3 5 3 2 3 2 19 18 20 20 19 21 21 20 22 4 7 4 4 7 4 3 5 3 20 19 21 21 20 22 17 21 23 0 9 0 0 9 0 4 7 4 21 20 22 18 22 17 17 23 16 21 24 20 21 24 20 19 25 18 18 22 17 19 26 20 21 27 20 20 28 21 23 29 1 28 30 6 29 31 7 29 31 7 24 32 2 23 29 1 24 32 2 29 31 7 30 33 8 30 33 8 25 34 3 24 32 2 25 34 3 30 33 8 31 35 9 31 35 9 26 36 4 25 34 3 26 36 4 31 35 9 27 37 5 27 37 5 22 38 0 26 36 4 28 30 6 33 39 11 34 40 10 34 40 10 29 31 7 28 30 6 29 31 7 34 40 10 35 41 12 35 41 12 30 33 8 29 31 7 30 33 8 35 41 12 36 42 13 36 42 13 31 35 9 30 33 8 31 35 9 36 42 13 32 43 14 32 43 14 27 37 5 31 35 9 33 39 11 37 44 15 38 45 16 38 45 16 34 40 10 33 39 11 38 45 16 35 41 12 34 40 10 38 45 16 36 42 13 35 41 12 36 42 13 38 45 16 37 44 18 37 44 18 32 43 14 36 42 13 24 32 2 41 46 20 40 47 19 40 47 19 23 29 1 24 32 2 25 34 3 42 48 21 41 46 20 41 46 20 24 32 2 25 34 3 26 36 4 43 49 22 42 48 21 42 48 21 25 34 3 26 36 4 22 38 0 39 50 23 43 49 22 43 49 22 26 36 4 22 38 0 43 51 20 39 52 16 40 53 17 40 53 17 41 54 18 43 51 20 42 55 21 43 56 20 41 57 20 28 58 6 23 59 1 1 60 1 1 60 1 6 61 6 28 58 6 22 62 0 27 63 5 5 64 5 5 64 5 0 65 0 22 62 0 33 66 11 28 58 6 6 61 6 6 61 6 11 67 11 33 66 11 27 63 5 32 68 14 10 69 14 10 69 14 5 64 5 27 63 5 37 70 15 33 66 11 11 67 11 11 67 11 15 71 15 37 70 15 32 68 14 37 70 18 15 71 18 15 71 18 10 69 14 32 68 14 23 59 1 40 72 19 18 73 19 18 73 19 1 60 1 23 59 1 39 74 23 22 62 0 0 65 0 0 65 0 17 75 23 39 74 23 40 72 17 39 74 16 17 75 16 17 75 16 18 73 17 40 72 17</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight" />
+      </node>
+      <node id="node-eca_fv_shore_boat" name="eca_fv_shore_boat">
+        <rotate>-1 0 0 -90</rotate>
+        <node>
+          <matrix>1 0 0 0 0 1 0 0.593618 0 0 1 -1.540466 0 0 0 1</matrix>
+          <instance_geometry url="#geom-eca_fv_shore_boat">
+            <bind_material>
+              <technique_common>
+                </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,115 @@
+{
+  "Birch_Bark_01": {
+    "name": "Birch_Bark_01",
+    "mapTo": "Birch_Bark_01",
+    "class": "Material",
+    "persistentId": "fed20e4b-919f-46a2-b49c-2a292d295e1b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_bark_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_bark_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_bark_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "vegetation",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "materialTag4": "cups_canyon",
+    "version": 1.5
+  },
+  "Birch_Branch_01": {
+    "name": "Birch_Branch_01",
+    "mapTo": "Birch_Branch_01",
+    "class": "Material",
+    "persistentId": "6004f7c6-146c-4a22-9e85-68e58ff9c241",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_branch_ao.data.png",
+        "baseColorFactor": [
+          0.712957978,
+          0.712951005,
+          0.712951005,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_branch_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_branch_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_branch_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_branch_r.data.png",
+        "specular": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 40,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "version": 1.5
+  },
+  "Birch_Leaves_01": {
+    "name": "Birch_Leaves_01",
+    "mapTo": "Birch_Leaves_01",
+    "class": "Material",
+    "persistentId": "45f63263-9705-4fcb-8c84-59e37090669f",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_aspen/t_birch_leaves_r.data.png",
+        "specular": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 70,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "materialTag4": "cups_canyon",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

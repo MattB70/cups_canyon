@@ -1,0 +1,81 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+   canSave = "1";
+   canSaveDynamicFields = "1";
+      groupPosition = "0 0 0";
+
+   new TSStatic() {
+      shapeName = "/levels/east_coast_usa/art/shapes/clutter/clutter_city_post.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "0.667297363 -0.635314763 0.000434891816";
+      scale = "1 1 1";
+      rotationMatrix = "0.715964258 -0.698136747 0.000482087198 0.698136926 0.715964079 -0.000494397595 0 0.000690533896 0.999999762";
+      isRenderEnabled = "false";
+      annotation = "OBSTACLES";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/east_coast_usa/art/shapes/clutter/clutter_city_post.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-0.000305175781 0.00633239327 -8.18743138e-06";
+      scale = "1 1 1";
+      rotationMatrix = "-0.733086169 0.680135608 -0.000469656807 -0.680135787 -0.73308599 0.000506220851 0 0.000690533896 0.999999762";
+      isRenderEnabled = "false";
+      annotation = "OBSTACLES";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+   new TSStatic() {
+      shapeName = "/levels/east_coast_usa/art/shapes/clutter/clutter_city_post.dae";
+      dynamic = "0";
+      playAmbient = "1";
+      meshCulling = "0";
+      originSort = "0";
+      useInstanceRenderData = "0";
+      instanceColor = "White";
+      instanceColor1 = "White";
+      instanceColor2 = "White";
+      collisionType = "Collision Mesh";
+      decalType = "Collision Mesh";
+      prebuildCollisionData = "0";
+      renderNormals = "0";
+      forceDetail = "-1";
+      position = "-0.667175293 0.628982365 -0.000438148476";
+      scale = "1 1 1";
+      rotationMatrix = "0.715964258 -0.698136747 0.000482087198 0.698136926 0.715964079 -0.000494397595 0 0.000690533896 0.999999762";
+      isRenderEnabled = "false";
+      annotation = "OBSTACLES";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+         mode = "Ignore";
+   };
+};
+//--- OBJECT WRITE END ---
+

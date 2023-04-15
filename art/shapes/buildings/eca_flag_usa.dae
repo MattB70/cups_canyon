@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2019-04-25T11:48:37</created>
+    <modified>2019-04-25T11:48:37</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="eca_bld_shop_opaque_decoration-effect">
+      <profile_COMMON>
+        <newparam sid="eca_bld_shop_opaque_decoration_d_dds_001-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="eca_bld_shop_opaque_decoration_d_dds_001-sampler">
+          <sampler2D>
+            <source>eca_bld_shop_opaque_decoration_d_dds_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="eca_bld_shop_opaque_decoration_d_dds_001-sampler" />
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="eca_bld_cleanmetal-effect">
+      <profile_COMMON>
+        <newparam sid="eca_bld_cleanmetal_d_dds_001-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="eca_bld_cleanmetal_d_dds_001-sampler">
+          <sampler2D>
+            <source>eca_bld_cleanmetal_d_dds_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="eca_bld_cleanmetal_s_dds_001-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="eca_bld_cleanmetal_s_dds_001-sampler">
+          <sampler2D>
+            <source>eca_bld_cleanmetal_s_dds_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="eca_bld_cleanmetal_d_dds_001-sampler" />
+            </diffuse>
+            <specular>
+              <texture texture="eca_bld_cleanmetal_s_dds_001-sampler" />
+            </specular>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="SOFT_COLLISION_GENERAL-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="eca_bld_shop_opaque_decoration-material" name="eca_bld_shop_opaque_decoration">
+      <instance_effect url="#eca_bld_shop_opaque_decoration-effect" />
+    </material>
+    <material id="eca_bld_cleanmetal-material" name="eca_bld_cleanmetal">
+      <instance_effect url="#eca_bld_cleanmetal-effect" />
+    </material>
+    <material id="SOFT_COLLISION_GENERAL-material" name="SOFT_COLLISION_GENERAL">
+      <instance_effect url="#SOFT_COLLISION_GENERAL-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_10858-mesh" name="Plane.10858">
+      <mesh>
+        <source id="Plane_10858-mesh-positions">
+          <float_array count="156" id="Plane_10858-mesh-positions-array">-1.394194 -7.4331e-7 2.972564 -1.182885 -6.37101e-7 2.519411 -1.419408 -7.37055e-7 2.92605 -1.407104 -7.42156e-7 2.963971 -1.551191 -6.13529e-7 2.312946 -1.472379 0.06311529 2.384418 -1.337115 -6.27438e-7 2.447492 -1.230776 -0.01125478 2.497078 -1.508835 -0.01641654 1.873592 -1.304723 -0.02978944 2.047805 -1.419409 -7.37698e-7 2.926049 -1.551192 -6.1419e-7 2.312945 -1.393674 -0.06720107 1.977732 -1.431341 5.7045e-4 1.925662 -1.520655 -6.55168e-7 2.5458 -1.482198 -6.98009e-7 2.747633 -1.520656 -6.55755e-7 2.545802 -1.482194 -6.97981e-7 2.747633 -1.407145 -0.005984961 2.838337 -1.546957 -0.004647552 2.26901 -1.511723 -0.00294888 2.483786 -1.47105 -0.01709502 2.672676 -1.394194 -7.4331e-7 2.972564 -1.182885 -6.37101e-7 2.519411 -1.419408 -7.37055e-7 2.92605 -1.407104 -7.42156e-7 2.963971 -1.551191 -6.13529e-7 2.312946 -1.472379 0.06311529 2.384418 -1.337115 -6.27438e-7 2.447492 -1.230776 -0.01125478 2.497078 -1.508835 -0.01641654 1.873592 -1.304723 -0.02978944 2.047805 -1.419409 -7.37698e-7 2.926049 -1.551192 -6.1419e-7 2.312945 -1.393674 -0.06720107 1.977732 -1.431341 5.7045e-4 1.925662 -1.520655 -6.55168e-7 2.5458 -1.482198 -6.98009e-7 2.747633 -1.520656 -6.55755e-7 2.545802 -1.482194 -6.97981e-7 2.747633 -1.407145 -0.005984961 2.838337 -1.546957 -0.004647552 2.26901 -1.511723 -0.00294888 2.483786 -1.47105 -0.01709502 2.672676 0.02736306 0.01169389 -0.05760353 0.03785371 1.18705e-4 -0.05271166 0.02736306 -0.01145654 -0.05760353 0.01687246 1.18705e-4 -0.06249517 -1.38936 0.01169335 2.980569 -1.37887 1.18117e-4 2.98546 -1.38936 -0.01145708 2.980569 -1.399851 1.18117e-4 2.975677</float_array>
+          <technique_common>
+            <accessor count="52" source="#Plane_10858-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10858-mesh-normals">
+          <float_array count="150" id="Plane_10858-mesh-normals-array">-0.003051877 -0.999843 -0.017457 0.1825019 -0.9788876 0.09204441 0 -1 0 0.4368488 -0.8881331 -0.1427678 0.3613803 -0.9275155 -0.09549522 -0.2815396 -0.958791 -0.03814893 0.03708076 -0.9985874 0.03805738 0.3267993 0.9450566 -0.008392751 0.2559605 0.9632931 -0.08093565 0.2921258 0.9562453 -0.01605284 0.5249497 0.849606 0.05096596 0.1991649 0.979833 0.01614433 0.3450534 0.9364297 -0.06354159 -0.0217297 0.9997192 -0.009460926 -0.183695 0.9818635 -0.04690796 0.3050106 0.9403933 -0.1504299 0.1208566 0.9908105 -0.06073349 -0.3007322 0.9485241 -0.09930813 0.6287842 -0.7693549 -0.1127984 0.6700183 -0.73713 -0.08783423 -0.1825019 0.9788876 -0.09204441 0.003051877 0.999843 0.017457 0 1 0 -0.4368488 0.8881331 0.1427678 -0.3613803 0.9275155 0.09549522 0.2815396 0.958791 0.03814893 -0.03708076 0.9985874 -0.03805738 -0.3267993 -0.9450566 0.008392751 -0.2559605 -0.9632931 0.08093565 -0.3050106 -0.9403933 0.1504299 -0.2921258 -0.9562453 0.01605284 -0.5249497 -0.849606 -0.05096596 -0.3450534 -0.9364297 0.06354159 0.0217297 -0.9997192 0.009460926 -0.1991649 -0.979833 -0.01614433 -0.1208566 -0.9908105 0.06073349 -0.1372432 -0.98936 0.04828077 0.3007322 -0.9485241 0.09930813 -0.6287842 0.7693549 0.1127984 -0.6700183 0.73713 0.08783423 -0.9063133 0 -0.4226064 -0.2440009 0.81648 0.5232821 0.4960305 0 0.8683052 -0.2439722 -0.816486 0.523286 -0.9839943 0 0.1782006 0.9063133 0 0.4226064 -0.4225672 3.82307e-5 0.9063316 0.1372432 0.98936 -0.04828077 0.183695 -0.9818635 0.04690796 -0.4225903 -3.82303e-5 0.9063209</float_array>
+          <technique_common>
+            <accessor count="50" source="#Plane_10858-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10858-mesh-map-0">
+          <float_array count="300" id="Plane_10858-mesh-map-0-array">0.006273686 0.9995304 5.40256e-4 0.7504872 5.40256e-4 0.9995304 0.006273686 0.9995304 0.04838699 0.916516 0.08008426 0.7504872 0.04291802 0.7504872 0.006273686 0.9995304 0.08008426 0.7504872 0.01369929 0.7504872 0.006273686 0.9995304 0.04291802 0.7504872 0.07399553 0.8335016 0.06462287 0.916516 0.09155255 0.8335016 0.09155255 0.8335016 0.2495657 0.916516 0.2495657 0.8335016 0.1039174 0.7504872 0.09155255 0.8335016 0.1184822 0.7504872 0.1184822 0.7504872 0.2495657 0.8335016 0.2495657 0.7504872 0.04407364 0.916516 0.03769314 0.9995304 0.06462287 0.916516 0.06462287 0.916516 0.2495657 0.9995304 0.2495657 0.916516 0.08008426 0.7504872 0.04838699 0.916516 0.07399553 0.8335016 0.1039174 0.7504872 0.08008426 0.7504872 0.07399553 0.8335016 5.40256e-4 0.7504872 0.006273686 0.9995304 5.40256e-4 0.9995304 0.04838699 0.916516 0.006273686 0.9995304 0.08008426 0.7504872 0.04291802 0.7504872 0.08008426 0.7504872 0.006273686 0.9995304 0.01369929 0.7504872 0.04291802 0.7504872 0.006273686 0.9995304 0.07399553 0.8335016 0.06462287 0.916516 0.04407364 0.916516 0.09155255 0.8335016 0.2495657 0.916516 0.06462287 0.916516 0.1039174 0.7504872 0.09155255 0.8335016 0.07399553 0.8335016 0.1184822 0.7504872 0.2495657 0.8335016 0.09155255 0.8335016 0.04407364 0.916516 0.03769314 0.9995304 0.01415175 0.9995304 0.06462287 0.916516 0.2495657 0.9995304 0.03769314 0.9995304 0.08008426 0.7504872 0.07399553 0.8335016 0.04838699 0.916516 0.1039174 0.7504872 0.07399553 0.8335016 0.08008426 0.7504872 0.5285147 -1.459942 0.2250372 1.878799 0.5122036 -1.461345 0.5448257 -1.45854 0.2739658 1.883004 0.2576562 1.881603 0.5285147 -1.459942 0.2576562 1.881603 0.2413468 1.8802 0.5122036 -1.461345 0.208728 1.877395 0.4958927 -1.462747 0.2562537 1.897912 0.2413468 1.8802 0.2576562 1.881603 0.006273686 0.9995304 0.01369929 0.7504872 5.40256e-4 0.7504872 0.006273686 0.9995304 0.01337027 0.9838731 0.04838699 0.916516 0.07399553 0.8335016 0.04407364 0.916516 0.06462287 0.916516 0.09155255 0.8335016 0.06462287 0.916516 0.2495657 0.916516 0.1039174 0.7504872 0.07399553 0.8335016 0.09155255 0.8335016 0.1184822 0.7504872 0.09155255 0.8335016 0.2495657 0.8335016 0.04407364 0.916516 0.01415175 0.9995304 0.03769314 0.9995304 0.06462287 0.916516 0.03769314 0.9995304 0.2495657 0.9995304 5.40256e-4 0.7504872 0.01369929 0.7504872 0.006273686 0.9995304 0.04838699 0.916516 0.01337027 0.9838731 0.006273686 0.9995304 0.07399553 0.8335016 0.09155255 0.8335016 0.06462287 0.916516 0.09155255 0.8335016 0.2495657 0.8335016 0.2495657 0.916516 0.1039174 0.7504872 0.1184822 0.7504872 0.09155255 0.8335016 0.1184822 0.7504872 0.2495657 0.7504872 0.2495657 0.8335016 0.04407364 0.916516 0.06462287 0.916516 0.03769314 0.9995304 0.06462287 0.916516 0.2495657 0.916516 0.2495657 0.9995304 0.5285147 -1.459942 0.2413468 1.8802 0.2250372 1.878799 0.5448257 -1.45854 0.5611367 -1.457138 0.2739658 1.883004 0.5285147 -1.459942 0.5448257 -1.45854 0.2576562 1.881603 0.5122036 -1.461345 0.2250372 1.878799 0.208728 1.877395 0.2562537 1.897912 0.2399445 1.89651 0.2413468 1.8802</float_array>
+          <technique_common>
+            <accessor count="150" source="#Plane_10858-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10858-mesh-colors-Col" name="Col">
+          <float_array count="450" id="Plane_10858-mesh-colors-Col-array">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor count="150" source="#Plane_10858-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_10858-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_10858-mesh-positions" />
+        </vertices>
+        <triangles count="40" material="eca_bld_shop_opaque_decoration-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_10858-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_10858-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_10858-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_10858-mesh-colors-Col" />
+          <p>3 0 0 0 1 1 1 1 0 2 2 2 3 0 3 3 17 3 4 4 5 4 5 5 6 5 6 6 3 0 7 7 5 4 8 8 7 6 9 9 3 0 10 10 6 5 11 11 14 7 12 12 21 8 13 13 20 9 14 14 20 9 15 15 12 10 16 16 13 11 17 17 11 12 18 18 20 9 19 19 19 13 20 20 19 13 21 21 13 11 22 22 8 14 23 23 15 15 24 24 18 16 25 25 21 8 26 26 21 8 27 27 9 17 28 28 12 10 29 29 5 4 30 30 17 3 31 31 16 18 32 32 4 19 33 33 5 4 34 34 16 18 35 35 23 20 36 36 25 21 37 37 22 22 38 38 39 23 39 39 25 21 40 40 27 24 41 41 28 25 42 42 27 24 43 43 25 21 44 44 29 26 45 45 28 25 46 46 25 21 47 47 36 27 48 48 43 28 49 49 37 29 50 50 42 30 51 51 34 31 52 52 43 28 53 53 33 32 54 54 42 30 55 55 36 27 56 56 41 33 57 57 35 34 58 58 42 30 59 59 37 29 60 60 40 35 61 61 32 36 62 62 43 28 63 63 31 37 64 64 40 35 65 65 27 24 66 66 38 38 67 67 39 23 68 68 26 39 69 69 38 38 70 70 27 24 71 71 3 0 87 87 7 6 88 88 1 1 89 89 3 0 90 90 2 22 91 91 17 3 92 92 14 7 93 93 15 15 94 94 21 8 95 95 20 9 96 96 21 8 97 97 12 10 98 98 11 12 99 99 14 7 100 100 20 9 101 101 19 13 102 102 20 9 103 103 13 11 104 104 15 15 105 105 10 47 106 106 18 16 107 107 21 8 108 108 18 16 109 109 9 17 110 110 23 20 111 111 29 26 112 112 25 21 113 113 39 23 114 114 24 2 115 115 25 21 116 116 36 27 117 117 42 30 118 118 43 28 119 119 42 30 120 120 35 34 121 121 34 31 122 122 33 32 123 123 41 33 124 124 42 30 125 125 41 33 126 126 30 48 127 127 35 34 128 128 37 29 129 129 43 28 130 130 40 35 131 131 43 28 132 132 34 31 133 133 31 37 134 134</p>
+        </triangles>
+        <triangles count="10" material="eca_bld_cleanmetal-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_10858-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_10858-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_10858-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_10858-mesh-colors-Col" />
+          <p>47 40 72 72 48 41 73 73 44 22 74 74 46 2 75 75 49 42 76 76 50 43 77 77 47 40 78 78 50 43 79 79 51 44 80 80 44 22 81 81 49 42 82 82 45 45 83 83 49 46 84 84 51 46 85 85 50 46 86 86 47 40 135 135 51 44 136 136 48 41 137 137 46 2 138 138 45 45 139 139 49 42 140 140 47 40 141 141 46 2 142 142 50 43 143 143 44 22 144 144 48 41 145 145 49 42 146 146 49 49 147 147 48 49 148 148 51 49 149 149</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_10859-mesh" name="Plane.10859">
+      <mesh>
+        <source id="Plane_10859-mesh-positions">
+          <float_array count="48" id="Plane_10859-mesh-positions-array">-1.394194 -7.4331e-7 2.972564 -1.182885 -6.37101e-7 2.519411 -1.508835 -0.01641654 1.873592 -1.304723 -0.02978944 2.047805 -1.551192 -6.1419e-7 2.312945 -1.551192 -6.1419e-7 2.312945 -1.304723 -0.02978944 2.047805 -1.508835 -0.01641654 1.873592 -1.182885 -6.37101e-7 2.519411 -1.394194 -7.4331e-7 2.972564 0.03918862 0.01169389 -0.05080574 0.03918862 -0.01145654 -0.05080574 0.01687246 1.18705e-4 -0.06249517 -1.377535 0.01169335 2.987367 -1.377535 -0.01145708 2.987367 -1.399851 1.18117e-4 2.975677</float_array>
+          <technique_common>
+            <accessor count="16" source="#Plane_10859-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10859-mesh-normals">
+          <float_array count="45" id="Plane_10859-mesh-normals-array">-0.09295952 0.995424 0.02212595 0 1 0 -0.1332164 -0.9905016 0.03405946 0.09295952 -0.995424 -0.02212595 0.1332164 0.9905016 -0.03405946 0 -1 0 0.0914359 0.9954496 -0.0268265 -0.0914359 -0.9954496 0.0268265 -0.08960449 -0.9955686 0.02853548 0.4731373 0.8529168 0.2206224 -0.9063133 0 -0.4226064 0.5049723 0.8303995 0.2354564 0.4731373 -0.8529168 0.2206224 0.08960449 0.9955686 -0.02853548 0.5049723 -0.8303995 0.2354564</float_array>
+          <technique_common>
+            <accessor count="15" source="#Plane_10859-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10859-mesh-map-0">
+          <float_array count="72" id="Plane_10859-mesh-map-0-array">5.40256e-4 0.9995304 5.40256e-4 0.7504872 0.1039174 0.7504872 5.40256e-4 0.9995304 0.1039174 0.7504872 5.40256e-4 0.7504872 0.2495657 0.9995304 0.1039174 0.7504872 5.40256e-4 0.9995304 0.2495657 0.9995304 0.1039174 0.7504872 0.2495657 0.7504872 0.5122036 -1.461345 0.2413468 1.8802 0.2250372 1.878799 0.5448257 -1.45854 0.2413468 1.8802 0.5285147 -1.459942 0.2250372 1.878799 0.5448257 -1.45854 0.5122036 -1.461345 0.2495657 0.9995304 0.2495657 0.7504872 0.1039174 0.7504872 0.2495657 0.9995304 5.40256e-4 0.9995304 0.1039174 0.7504872 0.5122036 -1.461345 0.5285147 -1.459942 0.2413468 1.8802 0.5448257 -1.45854 0.2576562 1.881603 0.2413468 1.8802 0.2250372 1.878799 0.2576562 1.881603 0.5448257 -1.45854</float_array>
+          <technique_common>
+            <accessor count="36" source="#Plane_10859-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_10859-mesh-colors-Col" name="Col">
+          <float_array count="108" id="Plane_10859-mesh-colors-Col-array">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor count="36" source="#Plane_10859-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_10859-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_10859-mesh-positions" />
+        </vertices>
+        <triangles count="6" material="eca_bld_shop_opaque_decoration-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_10859-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_10859-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_10859-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_10859-mesh-colors-Col" />
+          <p>9 0 0 0 8 1 1 1 5 2 2 2 0 3 3 3 4 4 4 4 1 5 5 5 3 6 6 6 4 4 7 7 0 3 8 8 6 7 9 9 5 2 10 10 7 8 11 11 3 6 21 21 2 13 22 22 4 4 23 23 6 7 24 24 9 0 25 25 5 2 26 26</p>
+        </triangles>
+        <triangles count="6" material="eca_bld_cleanmetal-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_10859-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_10859-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_10859-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_10859-mesh-colors-Col" />
+          <p>10 9 12 12 15 10 13 13 13 11 14 14 11 12 15 15 15 10 16 16 12 10 17 17 13 11 18 18 11 12 19 19 10 9 20 20 10 9 27 27 12 10 28 28 15 10 29 29 11 12 30 30 14 14 31 31 15 10 32 32 13 11 33 33 14 14 34 34 11 12 35 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Cube_3356-mesh" name="Cube.3356">
+      <mesh>
+        <source id="Cube_3356-mesh-positions">
+          <float_array count="42" id="Cube_3356-mesh-positions-array">-0.01683664 -0.25 -0.06895583 -1.083781 0.2500001 2.219135 -0.01683658 0.25 -0.06895577 -1.083781 -0.25 2.219135 0.4363172 -0.2500001 0.1423533 -0.7222148 -0.25 2.626856 0.4363173 0.25 0.1423533 -0.7222147 0.25 2.626856 -1.439625 -0.2499999 2.982251 -1.439625 0.2500001 2.982251 -0.9864709 0.25 3.19356 -0.986471 -0.25 3.19356 -1.538641 0.2500001 1.800843 -1.538641 -0.2499999 1.800843</float_array>
+          <technique_common>
+            <accessor count="14" source="#Cube_3356-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_3356-mesh-normals">
+          <float_array count="72" id="Cube_3356-mesh-normals-array">0 1 0 0.9063092 0 0.4226153 -1.49482e-7 -1 0 -0.9063093 0 -0.4226151 0.4226183 0 -0.9063078 0.9063093 0 0.4226151 -0.4226186 0 0.9063077 -1.74533e-7 -1 0 0 1 0 0.676899 0 -0.7360759 0 -1 0 0 1 0 -0.9965062 0 0.08351951 0 1 0 0.9063094 -3.81293e-7 0.4226146 -1.62061e-7 -1 0 -0.9063093 0 -0.4226151 0.4226183 0 -0.9063078 0.9063093 -1.30457e-7 0.4226151 -0.4226188 0 0.9063076 -1.61646e-7 -1 0 1.30203e-7 1 0 0.6768988 0 -0.7360761 -0.9965062 0 0.08351945</float_array>
+          <technique_common>
+            <accessor count="24" source="#Cube_3356-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_3356-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_3356-mesh-positions" />
+        </vertices>
+        <triangles count="24" material="SOFT_COLLISION_GENERAL-material">
+          <input offset="0" semantic="VERTEX" source="#Cube_3356-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Cube_3356-mesh-normals" />
+          <p>9 0 7 0 1 0 10 1 5 1 7 1 5 2 8 2 3 2 3 3 2 3 0 3 6 4 0 4 2 4 7 5 4 5 6 5 10 6 8 6 11 6 4 7 3 7 0 7 1 8 6 8 2 8 1 9 13 9 12 9 3 10 8 10 13 10 9 11 1 11 12 11 9 12 13 12 8 12 9 13 10 13 7 13 10 14 11 14 5 14 5 15 11 15 8 15 3 16 1 16 2 16 6 17 4 17 0 17 7 18 5 18 4 18 10 19 9 19 8 19 4 20 5 20 3 20 1 21 7 21 6 21 1 22 3 22 13 22 9 23 12 23 13 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="collision-1" name="collision-1" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="detail30" name="detail30" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="detail300" name="detail300" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="eca_flag_usa_a200" name="eca_flag_usa_a200" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="eca_flag_usa_a200" url="#Plane_10858-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="eca_bld_shop_opaque_decoration-material" target="#eca_bld_shop_opaque_decoration-material" />
+                  <instance_material symbol="eca_bld_cleanmetal-material" target="#eca_bld_cleanmetal-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="eca_flag_usa_a20" name="eca_flag_usa_a20" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="eca_flag_usa_a20" url="#Plane_10859-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="eca_bld_shop_opaque_decoration-material" target="#eca_bld_shop_opaque_decoration-material" />
+                  <instance_material symbol="eca_bld_cleanmetal-material" target="#eca_bld_cleanmetal-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="eca_flag_usa_Colmesh-1" name="eca_flag_usa_Colmesh-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="eca_flag_usa_Colmesh-1" url="#Cube_3356-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="SOFT_COLLISION_GENERAL-material" target="#SOFT_COLLISION_GENERAL-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="nulldetail10" name="nulldetail10" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 10 0 0 0 1</matrix>
+        </node>
+        <node id="detail900" name="detail900" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="detail350" name="detail350" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="collision-1_001" name="collision-1_001" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

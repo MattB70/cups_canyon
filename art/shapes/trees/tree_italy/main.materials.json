@@ -1,0 +1,36 @@
+{
+  "tall_plant_vegetation": {
+    "name": "tall_plant_vegetation",
+    "mapTo": "tall_plant_vegetation",
+    "class": "Material",
+    "persistentId": "370758b4-7546-4cf7-bc07-deeecb6ea427",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/tree_italy/tall_plant_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/tree_italy/tall_plant_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/tree_italy/tall_plant_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/tree_italy/tall_plant_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/tree_italy/tall_plant_r.data.png",
+        "specular": [
+          0.988234997,
+          0.988234997,
+          0.988234997,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 84,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.784314",
+    "version": 1.5
+  }
+}

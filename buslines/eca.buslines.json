@@ -1,0 +1,263 @@
+{
+    "version": 1,
+    "routes": [
+        {"routeID":"1",
+            "variance":"a",
+            "direction":"Church Plaza",
+            "routeColor": "#ff6600",
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "tasklist":[
+                "eca_bs_03",
+                "eca_bs_04_b",
+                "eca_bs_05",
+                "eca_bs_07_b",
+                "eca_bs_10_b",
+                "eca_bs_11",
+                "eca_bs_06"
+            ],
+            "spawnLocation": {
+                "pos": {"x":  566.264, "y": -90.6547, "z":  53.6052},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 131.487}
+            },
+            "navhelp":{
+                "eca_bs_04_b":["wp59","wp61"],
+                "eca_bs_06":["wp93","wp88"]
+            },
+            "previews":[
+                "01_ChurchPlaza.png"
+            ]
+        },
+        {"routeID":"1",
+            "variance":"b",
+            "direction":"Mangold St",
+            "routeColor": "#ff6600",
+            "tasklist":[
+                "eca_bs_03_b",
+                "eca_bs_06_b",
+                "eca_bs_11_b",
+                "eca_bs_10",
+                "eca_bs_07",
+                "eca_bs_05_b",
+                "eca_bs_04"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "spawnLocation": {
+                "pos": {"x": 378.022,"y": 67.0774, "z": 53.583},
+                "rotAngAxisF": {"x":0, "y": 0, "z": -1, "w": 48.2894}
+            },
+            "navhelp":{
+                "eca_bs_11_b":["wp88", "wp93"],
+                "eca_bs_04":["wp61", "wp59"]
+            },
+            "previews":[
+                "01_MangoldSt.png"
+            ]
+        },
+        {"routeID":"2",
+            "variance":"a",
+            "direction":"Gas Station",
+            "routeColor": "#f8032c",
+            "tasklist":[
+                "eca_bs_05_b",
+                "eca_bs_10_b",
+                "eca_bs_11",
+                "eca_bs_06",
+                "eca_bs_03",
+                "eca_bs_01"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "navhelp":{
+                "eca_bs_05_b":["wp103"]
+            },
+            "spawnLocation": {
+                "pos": {"x": 732,"y": -21, "z": 51.1475},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 6}
+            },"previews":[
+                "02_GasStation.png"
+            ]
+        },
+        {"routeID":"2",
+            "variance":"b",
+            "direction":"Titan St",
+            "routeColor": "#f8032c",
+            "tasklist":[
+                "eca_bs_01_b",
+                "eca_bs_03_b",
+                "eca_bs_06_b",
+                "eca_bs_11_b",
+                "eca_bs_10",
+                "eca_bs_05"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "navhelp":{
+                "eca_bs_01_b":["wp139","wp133"],
+                "eca_bs_03_b":["wp13"],
+                "eca_bs_11_b":["wp86"]
+            },
+            "spawnLocation": {
+                "pos": {"x": -785.145,"y": 502.985, "z": 23.677},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 218}
+            },"previews":[
+                "02_TitanSt.png"
+            ]
+        },
+        {"routeID":"3",
+            "variance":"a",
+            "direction":"Seaside Rd",
+            "routeColor": "#418D2A",
+            "tasklist":[
+                "eca_bs_11",
+                "eca_bs_15",
+                "eca_bs_13",
+                "eca_bs_12",
+                "eca_bs_09",
+                "eca_bs_14_b"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "spawnLocation": {
+                "pos": {"x": 757,"y": -448, "z": 53.5866},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 95.6269}
+            },"previews":[
+                "03_SeasideRd.png"
+            ]
+        },
+        {"routeID":"3",
+            "variance":"b",
+            "direction":"Lumber Mill",
+            "routeColor": "#418D2A",
+            "tasklist":[
+                "eca_bs_11_b",
+                "eca_bs_14",
+                "eca_bs_09_b",
+                "eca_bs_12_b",
+                "eca_bs_13_b",
+                "eca_bs_15_b"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "spawnLocation": {
+                "pos": {"x": 710,"y": -453, "z": 53.5428},
+                "rotAngAxisF": {"x":0, "y": 0, "z": -1, "w": 90}
+            },"previews":[
+                "03_LumberMill.png"
+            ]
+        },
+        {"routeID":"4",
+            "variance":"a",
+            "direction":"Atlas St",
+            "routeColor": "#4489f9",
+            "tasklist":[
+                "eca_bs_08_b",
+                "eca_bs_11",
+                "eca_bs_02",
+                "eca_bs_09_b"
+            ],
+            "navhelp":{
+                "eca_bs_09_b":["wp171", "wp82", "wp81", "wp148", "wp152"]
+            },
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "spawnLocation": {
+                "pos": {"x": 904.455,"y": -187.158, "z":  40.8622},
+                "rotAngAxisF": {"x":0, "y": 0, "z": -1, "w": 0}
+            },"previews":[
+                "04_AtlasSt.png"
+            ]
+        },
+        {"routeID":"4",
+            "variance":"b",
+            "direction":"Dover Way",
+            "routeColor": "#4489f9",
+            "tasklist":[
+                "eca_bs_09",
+                "eca_bs_02",
+                "eca_bs_11_b",
+                "eca_bs_08"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "navhelp":{
+                "eca_bs_02":["wp19","wp20", "wp152", "wp148", "wp81", "wp82", "wp17", "wp18"],
+                "eca_bs_11_b":["wp171"]
+            },
+            "spawnLocation": {
+                "pos": {"x": -408.928,"y": -250.128, "z":  35.3093},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 90}
+            },"previews":[
+                "04_DoverWay.png"
+            ]
+        },
+        {"routeID":"5",
+            "variance":"a",
+            "direction":"Main St",
+            "routeColor": "#7D3FC2",
+            "tasklist":[
+                "eca_bs_07_b",
+                "eca_bs_11",
+                "eca_bs_09",
+                "eca_bs_12_b",
+                "eca_bs_13_b"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "navhelp":{
+                "eca_bs_09_b":["wp3", "wp4"],
+                "eca_bs_12_b":["wp6", "wp5"]
+            },
+            "spawnLocation": {
+                "pos": {"x":   831.458,"y": -146.539, "z":   53.4088},
+                "rotAngAxisF": {"x":0, "y": 0, "z": -1, "w": 0.616753}
+            },"previews":[
+                "05_MainSt.png"
+            ]
+        },
+        {"routeID":"5",
+            "variance":"b",
+            "direction":"Kandi Ln",
+            "routeColor": "#7D3FC2",
+            "tasklist":[
+                "eca_bs_13",
+                "eca_bs_12",
+                "eca_bs_09_b",
+                "eca_bs_11_b",
+                "eca_bs_07"
+            ],
+            "vehicle" : {
+                "model": "citybus",
+                "config": "base"
+            },
+            "navhelp":{
+                "eca_bs_09_b":["wp5", "wp6"]
+            },
+            "spawnLocation": {
+                "pos": {"x":  -50.9345,"y": -730.944, "z":  27.4212},
+                "rotAngAxisF": {"x":0, "y": 0, "z": 1, "w": 97.9567}
+            },"previews":[
+                "05_KandiLn.png"
+            ]
+        }
+    ]
+}

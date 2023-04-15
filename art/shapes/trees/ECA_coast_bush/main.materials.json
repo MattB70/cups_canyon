@@ -1,0 +1,227 @@
+{
+  "cork_oak": {
+    "name": "cork_oak",
+    "mapTo": "cork_oak",
+    "class": "Material",
+    "persistentId": "3d343fb9-d454-483d-83b1-7836ba6989ad",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 68,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "cork_oak_trunk": {
+    "name": "cork_oak_trunk",
+    "mapTo": "cork_oak_trunk",
+    "class": "Material",
+    "persistentId": "d185c77f-d4bb-4937-b7a5-ae16a0217b82",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_b.color.png",
+        "detailScale": [
+          0.200000003,
+          0.200000003
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/cork_oak_trunk_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 85,
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "generibush_leaves": {
+    "name": "generibush_leaves",
+    "mapTo": "generibush_leaves",
+    "class": "Material",
+    "persistentId": "d61e7d20-6cf2-468e-96e9-95e3ebf04b49",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/generic_bush_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/generic_bush_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/generic_bush_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/generic_bush_o.data.png",
+        "roughnessFactor": 0.672736585,
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/generic_bush_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 84,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "GRASS",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "holm_oak_branches": {
+    "name": "holm_oak_branches",
+    "mapTo": "holm_oak_branches",
+    "class": "Material",
+    "persistentId": "f5c74b9f-901e-4c53-9d56-17c0c05f4126",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_branches_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_branches_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_branches_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_branches_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_branches_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.490196",
+    "version": 1.5
+  },
+  "holm_oak_trunk": {
+    "name": "holm_oak_trunk",
+    "mapTo": "holm_oak_trunk",
+    "class": "Material",
+    "persistentId": "5beea73f-0bbe-4142-9211-840c569e4302",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_trunk_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_trunk_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_trunk_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/holm_oak_trunk_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 85,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "scots_pine": {
+    "name": "scots_pine",
+    "mapTo": "scots_pine",
+    "class": "Material",
+    "persistentId": "e8f32c57-88d9-4695-808b-6282d597aade",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_ao.data.png",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999994993,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_b.color.png",
+        "minnaertConstant": -2,
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 93,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "version": 1.5
+  },
+  "scots_pine_branches": {
+    "name": "scots_pine_branches",
+    "mapTo": "scots_pine_branches",
+    "class": "Material",
+    "persistentId": "132fad37-3917-4fd8-afda-5da8d13e4497",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_branches_o.data.png",
+        "baseColorFactor": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_branches_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_branches_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_branches_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_branches_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  },
+  "scots_pine_trunk": {
+    "name": "scots_pine_trunk",
+    "mapTo": "scots_pine_trunk",
+    "class": "Material",
+    "persistentId": "69c92e20-11c6-4cd9-95ab-db7b46525f14",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_bark_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_bark_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_bark_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/ECA_coast_bush/scots_pine_bark_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 85,
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "version": 1.5
+  }
+}

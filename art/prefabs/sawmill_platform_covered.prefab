@@ -1,0 +1,53 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+  canSave = "1";
+  canSaveDynamicFields = "1";
+  groupPosition = "0 0 0";
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform_covered.dae";
+    position = "164.18136596679688 -790.6265869140625 47.093902587890625";
+    rotationMatrix = "-0.8890833854675293 0.4577452540397644 -0.0 -0.4577452540397644 -0.8890833854675293 0.0 0.0 0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform_covered.dae";
+    position = "177.40919494628906 -797.4369506835938 47.093902587890625";
+    rotationMatrix = "-0.8890836238861084 0.457744836807251 -0.0 -0.457744836807251 -0.8890836238861084 0.0 0.0 0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform_covered.dae";
+    position = "306.4120178222656 -759.6710815429688 45.02329635620117";
+    rotationMatrix = "-0.7581365704536438 0.6520957946777344 -0.0 -0.6520957946777344 -0.7581365704536438 0.0 0.0 0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform_covered.dae";
+    position = "317.3982238769531 -795.2898559570312 45.395835876464844";
+    rotationMatrix = "-0.6581900119781494 -0.7528518438339233 -0.0 0.7528518438339233 -0.6581900119781494 0.0 -0.0 0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform_covered.dae";
+    position = "276.28668212890625 -773.9347534179688 45.24245071411133";
+    rotationMatrix = "-0.6961822509765625 -0.7178651094436646 -0.0 0.7178651094436646 -0.6961822509765625 0.0 -0.0 0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+};
+//--- OBJECT WRITE END ---

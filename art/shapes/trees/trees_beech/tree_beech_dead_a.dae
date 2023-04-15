@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2019-04-26T10:20:48</created>
+    <modified>2019-04-26T10:20:48</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="beech_branch_01-effect">
+      <profile_COMMON>
+        <newparam sid="beech_branch_01_d_png-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="beech_branch_01_d_png-sampler">
+          <sampler2D>
+            <source>beech_branch_01_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="beech_branch_01_d_png-sampler" />
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="beech_branch_01_d_png-sampler" />
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="leaves_strong-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.2365978 0.1702518 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.4615384</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="beech_branch_01-material" name="beech_branch_01">
+      <instance_effect url="#beech_branch_01-effect" />
+    </material>
+    <material id="leaves_strong-material" name="leaves_strong">
+      <instance_effect url="#leaves_strong-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_13004-mesh" name="Plane.13004">
+      <mesh>
+        <source id="Plane_13004-mesh-positions">
+          <float_array count="48" id="Plane_13004-mesh-positions-array">3.226895 -0.08191251 -0.483861 -2.18651 0.5979769 -0.02089917 3.085729 -1.420318 0.9340105 -2.278432 -1.544683 0.3658747 1.982705 -1.01468 -0.4708454 0.3754139 -0.2908901 0.08290284 2.733966 -0.3625065 1.405322 1.205888 -0.404093 1.459411 0.1987762 0.9176122 -0.04032337 -1.127233 0.1611115 0.2434303 0.8861101 -0.07849365 1.271319 -0.2032002 -0.6185129 0.8539324 -2.228521 -0.003772795 0.05191767 2.217373 0.113211 0.3268647 -0.5157169 0.4014539 0.9974634 2.277437 0.8505817 0.7840635</float_array>
+          <technique_common>
+            <accessor count="16" source="#Plane_13004-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13004-mesh-normals">
+          <float_array count="72" id="Plane_13004-mesh-normals-array">-0.5396966 0.1710188 0.8243059 0.5680989 -0.2438499 0.7860032 0.7489376 0.002380549 0.6626363 -0.5397313 0.1710324 0.8242805 -0.4947521 -0.3166351 0.8092977 0.5681602 -0.2438754 0.785951 0.1111724 -0.0575174 0.9921353 0.5505012 -0.2550092 0.7949332 0.499326 -0.04922795 0.8650146 0.1110606 -0.05750429 0.9921486 0.2445122 -0.06279295 0.967611 0.499228 -0.04923492 0.8650707 -0.2967944 0.06721168 0.9525732 0.1902022 0.002905249 0.9817407 0.05997014 0.2915413 0.9546765 -0.2967664 0.06718808 0.9525836 -0.04587173 -0.1242141 0.9911946 0.1902182 0.002902567 0.9817376 0.5176246 0.04776436 0.8542736 -0.1151339 0.1121243 0.9870017 -0.5466595 0.02176463 0.8370721 0.5176869 0.0477277 0.8542378 0.4748576 0.1958296 0.8579984 -0.1151122 0.1121506 0.9870013</float_array>
+          <technique_common>
+            <accessor count="24" source="#Plane_13004-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13004-mesh-map-0">
+          <float_array count="48" id="Plane_13004-mesh-map-0-array">0.9826923 0.04534077 0.01614737 0.4736348 -0.003935575 0.02304881 0.9826923 0.04534077 0.9929435 0.4622734 0.01614737 0.4736348 0.3104068 0.7577422 0.04604452 0.6242204 -0.06447094 0.9317134 0.3104068 0.7577422 0.166197 0.9582474 -0.06447094 0.9317134 0.3104068 0.7577422 -0.06447094 0.9317134 0.04604452 0.6242204 0.3104068 0.7577422 0.166197 0.9582474 -0.06447094 0.9317134 0.9620695 0.4660092 0.4012535 0.6730318 0.02766501 0.4728062 0.9620695 0.4660092 0.9849174 0.6554073 0.4012535 0.6730318</float_array>
+          <technique_common>
+            <accessor count="24" source="#Plane_13004-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13004-mesh-colors-Col" name="Col">
+          <float_array count="72" id="Plane_13004-mesh-colors-Col-array">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="24" source="#Plane_13004-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_13004-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_13004-mesh-positions" />
+        </vertices>
+        <triangles count="8" material="beech_branch_01-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_13004-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_13004-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_13004-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_13004-mesh-colors-Col" />
+          <p>1 0 0 0 2 1 1 1 0 2 2 2 1 3 3 3 3 4 4 4 2 5 5 5 5 6 6 6 4 7 7 7 6 8 8 8 5 9 9 9 7 10 10 10 6 11 11 11 9 12 12 12 10 13 13 13 8 14 14 14 9 15 15 15 11 16 16 16 10 17 17 17 13 18 18 18 14 19 19 19 12 20 20 20 13 21 21 21 15 22 22 22 14 23 23 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_13005-mesh" name="Plane.13005">
+      <mesh>
+        <source id="Plane_13005-mesh-positions">
+          <float_array count="135" id="Plane_13005-mesh-positions-array">3.229651 0.1090569 0.07476037 0.9268816 -0.360002 0.3005588 3.098603 -1.190825 1.069995 3.159531 -0.8280321 -0.07254433 1.426753 -1.45878 0.7583029 0.4628427 -0.3984801 0.5105609 -2.217619 -0.1271463 0.1099936 0.7885518 -1.473577 0.6907089 -0.5778171 -0.8615955 0.4267615 -2.205791 0.1485454 0.06022816 0.1987473 0.2254824 -0.269883 -1.154759 0.2030065 0.1659719 0.8201315 -0.8027843 0.5699323 1.428406 -1.344238 1.093361 -2.228521 -0.003772199 0.05191951 2.217373 0.1132116 0.3268665 -0.517493 0.2959708 1.071066 2.280809 0.8877885 0.7347826 -1.19641 -0.04222869 0.1616193 -0.9403141 0.2353931 0.8096414 1.811632 0.2375206 0.3203995 0.883225 0.1552273 0.7225482 2.25274 0.4568384 0.6903446 0.2202818 0.8833193 -0.05259203 -1.11409 0.1489839 0.2080526 0.8242931 -0.02144551 1.437735 -0.127042 -0.5935583 0.6546915 -0.4295356 0.07808017 0.599633 0.6408453 0.2769528 0.8032804 -0.243336 0.3826207 0.4512805 -0.8022111 0.1224317 0.409368 0.3731959 0.6025788 0.3565717 0.6075556 0.3660277 0.8629844 0.2434401 0.7548465 0.4928613 1.984736 -1.049657 -0.4347097 0.3701782 -0.337764 0.08220845 2.758591 -0.1420218 1.408599 1.220982 -0.6382943 1.358301 1.192738 -0.3157072 0.5411713 2.465889 -0.5952243 0.7358413 1.4677 -0.4622833 0.2028218 0.7561636 -0.3024508 0.2963878 2.169158 -0.8045076 0.1016071 2.494405 -0.4876591 0.6619022 2.155492 -0.5480999 -0.02891373</float_array>
+          <technique_common>
+            <accessor count="45" source="#Plane_13005-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13005-mesh-normals">
+          <float_array count="285" id="Plane_13005-mesh-normals-array">0.2479017 -0.07095229 0.9661836 -0.3091358 0.07963293 0.947678 0.1210045 -0.0785768 0.9895371 -0.5409552 0.05924338 0.8389623 -0.5384353 -0.00853604 0.8426236 0.2038794 -0.1747583 0.9632719 0.5639033 -0.1993405 0.8014217 -0.1461753 -0.1976686 0.969309 0.06696891 0.1024364 0.9924828 0.6867477 0.04264581 0.7256439 0.6864529 -0.1594458 0.7094784 0.1836344 -0.3182107 0.9300648 0.297383 -0.25915 0.9189149 0.3149275 -0.2997895 0.9005259 0.5177051 0.04777044 0.8542245 0.4431965 0.08023911 0.8928262 0.2136889 0.059282 0.9751014 0.5176109 0.04775977 0.8542822 0.485262 0.117807 0.8663962 0.213798 0.05929344 0.9750769 0.21373 0.05927908 0.9750925 0.4788234 0.2049393 0.8536557 -0.1139271 0.08697813 0.9896744 -0.3205874 0.01348429 0.947123 -0.2181149 0.07666599 0.9729071 -0.5466872 0.02174466 0.8370546 -0.3206387 0.01346731 0.9471059 -0.1139409 0.08694076 0.9896762 -0.2180674 0.07667785 0.9729168 0.2137545 0.05927014 0.9750878 0.4853224 0.117829 0.8663594 0.4788555 0.2049229 0.8536416 -0.320563 0.01347643 0.9471313 0.2136777 0.05926656 0.9751048 -0.1138941 0.08693808 0.9896817 -0.2963232 0.06460154 0.9529005 -0.06116443 0.1237847 0.9904223 0.06651681 0.2833112 0.9567185 -0.029307 -0.124302 0.9918115 -0.2063169 0.05580472 0.9768927 -0.296275 0.06462895 0.9529137 0.1540318 0.08750224 0.9841838 -0.105928 0.04283004 0.993451 0.1715821 0.01457417 0.985062 -0.1059003 0.04283595 0.9934538 -0.02928888 -0.124316 0.9918104 0.1715304 0.0146023 0.9850706 0.06652396 0.2832708 0.95673 -0.06116235 0.1238106 0.9904192 0.06404566 0.2150042 0.9745109 -0.0611661 0.1237803 0.9904228 -0.206389 0.05578941 0.9768784 -0.1058868 0.04286915 0.9934538 0.1008279 0.1834334 0.9778477 -0.1059636 0.04282844 0.9934473 0.1440229 0.1070671 0.9837653 -0.2963047 0.06461638 0.9529052 -0.206335 0.05583351 0.9768872 -0.06118315 0.1238082 0.9904182 -0.02929592 -0.1242706 0.9918158 -0.1059103 0.04284983 0.993452 -0.2063463 0.05581265 0.9768859 0.1008474 0.1834523 0.9778421 -0.06117266 0.1237932 0.9904208 -0.1059327 0.04284608 0.9934498 0.1095358 -0.07101482 0.9914428 0.5452008 -0.2618991 0.7963449 0.3822522 -0.09580951 0.9190778 0.2513067 -0.1115701 0.9614558 0.2051651 -0.0564205 0.9770998 0.109518 -0.07103395 0.9914435 0.5155087 -0.1048339 0.8504473 0.5029467 -0.009089767 0.8642697 0.2948367 -0.0548762 0.9539707 0.2948149 -0.0548408 0.9539795 0.251347 -0.1115911 0.9614428 0.5029666 -0.00903505 0.8642588 0.5451363 -0.2618504 0.796405 0.5427839 -0.1143733 0.8320484 0.3823195 -0.09583503 0.9190471 0.38232 -0.09583932 0.9190465 0.2948527 -0.05486506 0.9539664 0.2051636 -0.0564171 0.9771003 0.5260028 -0.1720581 0.8328969 0.5278034 -0.08340412 0.8452618 0.2948382 -0.05484795 0.9539718 0.1096329 -0.071042 0.9914301 0.382304 -0.0958566 0.9190512 0.2051855 -0.05640536 0.9770964 0.2512474 -0.1116375 0.9614634 0.2948668 -0.05483371 0.9539638 0.2052109 -0.05638086 0.9770925 0.5259971 -0.1720638 0.8328993 0.3822976 -0.09582912 0.9190567 0.2948361 -0.05489099 0.95397</float_array>
+          <technique_common>
+            <accessor count="95" source="#Plane_13005-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13005-mesh-map-0">
+          <float_array count="240" id="Plane_13005-mesh-map-0-array">0.4128965 0.2206526 0.7935442 0.1291558 0.4970406 0.2605421 0.4970406 0.2605421 0.9848425 0.1327941 0.9861615 0.1864399 0.4970406 0.2605421 0.4307361 0.3382608 0.01614737 0.4736348 0.9861615 0.1864399 0.6852179 0.3404446 0.4970406 0.2605421 0.4970406 0.2605421 0.6852179 0.3404446 0.4307361 0.3382608 0.5472291 0.03550189 0.7935442 0.1291558 0.4128965 0.2206526 0.7935442 0.1291558 0.9848425 0.1327941 0.4970406 0.2605421 0.4128965 0.2206526 -0.003935575 0.02304881 0.5472291 0.03550189 0.003816425 0.1969757 0.4128965 0.2206526 0.01614737 0.4736348 0.01614737 0.4736348 0.4128965 0.2206526 0.4970406 0.2605421 0.4307361 0.3382608 0.6852179 0.3404446 0.4344559 0.4687694 0.01614737 0.4736348 0.4307361 0.3382608 0.3182416 0.4701211 0.4344559 0.4687694 0.3182416 0.4701211 0.4307361 0.3382608 0.9620695 0.4660092 0.8790871 0.4666128 0.6886495 0.5669409 0.9620695 0.4660092 0.9762538 0.5835901 0.6886495 0.5669409 0.6886495 0.5669409 0.9849174 0.6554073 0.4012535 0.6730318 0.2448186 0.4712266 0.3088844 0.6235263 0.02766501 0.4728062 0.2448186 0.4712266 0.4012535 0.6730318 0.3088844 0.6235263 0.6886495 0.5669409 0.9762538 0.5835901 0.9849174 0.6554073 0.2448186 0.4712266 0.6886495 0.5669409 0.4012535 0.6730318 0.3104068 0.7577422 0.1353721 0.7529825 0.04604452 0.6242204 0.166197 0.9582474 0.2498888 0.785827 0.3104068 0.7577422 -0.02503508 0.8219891 0.180498 0.8180295 -0.06447094 0.9317134 0.180498 0.8180295 0.166197 0.9582474 -0.06447094 0.9317134 0.04604452 0.6242204 0.1353721 0.7529825 0.01680678 0.7055701 0.1353721 0.7529825 0.2498888 0.785827 0.180498 0.8180295 0.01680678 0.7055701 0.180498 0.8180295 -0.02503508 0.8219891 0.3104068 0.7577422 0.2498888 0.785827 0.1353721 0.7529825 0.166197 0.9582474 0.180498 0.8180295 0.2498888 0.785827 0.01680678 0.7055701 0.1353721 0.7529825 0.180498 0.8180295 0.3104068 0.7577422 0.04604452 0.6242204 0.1353721 0.7529825 0.166197 0.9582474 0.2498888 0.785827 0.3104068 0.7577422 -0.02503508 0.8219891 -0.06447094 0.9317134 0.180498 0.8180295 0.180498 0.8180295 0.166197 0.9582474 -0.06447094 0.9317134 0.04604452 0.6242204 0.01680678 0.7055701 0.1353721 0.7529825 0.1353721 0.7529825 0.180498 0.8180295 0.2498888 0.785827 0.01680678 0.7055701 -0.02503508 0.8219891 0.180498 0.8180295 0.3104068 0.7577422 0.1353721 0.7529825 0.2498888 0.785827 0.166197 0.9582474 0.180498 0.8180295 0.2498888 0.785827 0.01680678 0.7055701 0.1353721 0.7529825 0.180498 0.8180295</float_array>
+          <technique_common>
+            <accessor count="120" source="#Plane_13005-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13005-mesh-colors-Col" name="Col">
+          <float_array count="360" id="Plane_13005-mesh-colors-Col-array">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="120" source="#Plane_13005-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_13005-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_13005-mesh-positions" />
+        </vertices>
+        <triangles count="40" material="beech_branch_01-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_13005-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_13005-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_13005-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Plane_13005-mesh-colors-Col" />
+          <p>1 0 0 0 11 1 1 1 5 2 2 2 5 2 3 3 9 3 4 4 6 4 5 5 5 2 6 6 12 5 7 7 2 6 8 8 6 4 9 9 8 7 10 10 5 2 11 11 5 2 12 12 8 7 13 13 12 5 14 14 10 8 15 15 11 1 16 16 1 0 17 17 11 1 18 18 9 3 19 19 5 2 20 20 1 0 21 21 0 9 22 22 10 8 23 23 3 10 24 24 1 0 25 25 2 6 26 26 2 6 27 27 1 0 28 28 5 2 29 29 12 5 30 30 8 7 31 31 7 11 32 32 2 6 33 33 12 5 34 34 13 12 35 35 7 11 36 36 4 13 37 37 12 5 38 38 15 14 39 39 20 15 40 40 21 16 41 41 15 17 42 42 22 18 43 43 21 19 44 44 21 20 45 45 17 21 46 46 16 22 47 47 18 23 48 48 19 24 49 49 14 25 50 50 18 26 51 51 16 27 52 52 19 28 53 53 21 29 54 54 22 30 55 55 17 31 56 56 18 32 57 57 21 33 58 58 16 34 59 59 24 35 60 60 29 36 61 61 23 37 62 62 26 38 63 63 30 39 64 64 24 40 65 65 28 41 66 66 27 42 67 67 25 43 68 68 27 44 69 69 26 45 70 70 25 46 71 71 23 47 72 72 29 48 73 73 33 49 74 74 29 50 75 75 30 51 76 76 27 52 77 77 31 53 78 78 27 54 79 79 32 55 80 80 24 56 81 81 30 57 82 82 29 58 83 83 26 59 84 84 27 60 85 85 30 61 86 86 31 62 87 87 29 63 88 88 27 64 89 89 35 65 90 90 34 66 91 91 40 67 92 92 37 68 93 93 41 69 94 94 35 70 95 95 39 71 96 96 36 72 97 97 38 73 98 98 38 74 99 99 37 75 100 100 36 76 101 101 34 77 102 102 44 78 103 103 40 79 104 104 40 80 105 105 38 81 106 106 41 82 107 107 42 83 108 108 43 84 109 109 38 85 110 110 35 86 111 111 40 87 112 112 41 88 113 113 37 89 114 114 38 90 115 115 41 91 116 116 42 92 117 117 40 93 118 118 38 94 119 119</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Cube-mesh" name="Cube">
+      <mesh>
+        <source id="Cube-mesh-positions">
+          <float_array count="27" id="Cube-mesh-positions-array">-2.115488 -0.3750226 -0.2104213 -0.4057065 -0.5695829 0.617076 -2.115488 0.3143707 -0.2104213 -0.8894245 0.4045543 0.6058339 3.013404 -0.9999777 -0.2104213 3.1037 -1.381078 0.9877979 2.198386 0.3222734 -0.2042656 2.29326 0.9002593 0.7886666 1.902703 -0.3610312 1.369459</float_array>
+          <technique_common>
+            <accessor count="9" source="#Cube-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube-mesh-normals">
+          <float_array count="27" id="Cube-mesh-normals-array">-0.8271054 -0.5124507 -0.2308485 -0.344596 0.6519277 0.6754583 -0.8126876 0.5265426 -0.2495835 0.3101335 0.5403074 -0.782231 0.4010213 0.8747697 0.2719559 0.6484698 -0.3970229 -0.6495074 -0.3086091 -0.7208915 0.6205448 0.02423232 -0.02865767 0.9992956 0.6422532 -0.6484487 0.4086871</float_array>
+          <technique_common>
+            <accessor count="9" source="#Cube-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube-mesh-vertices">
+          <input semantic="POSITION" source="#Cube-mesh-positions" />
+        </vertices>
+        <triangles count="14" material="leaves_strong-material">
+          <input offset="0" semantic="VERTEX" source="#Cube-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Cube-mesh-normals" />
+          <p>0 0 3 1 2 2 3 1 6 3 2 2 7 4 4 5 6 3 4 5 1 6 0 0 6 3 0 0 2 2 7 4 8 7 5 8 5 8 8 7 1 6 8 7 7 4 3 1 1 6 8 7 3 1 0 0 1 6 3 1 3 1 7 4 6 3 7 4 5 8 4 5 4 5 5 8 1 6 6 3 4 5 0 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="beech_dead_a_a100" name="beech_dead_a_a100" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="beech_dead_a_a100" url="#Plane_13004-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="beech_branch_01-material" target="#beech_branch_01-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="beech_dead_a_a200" name="beech_dead_a_a200" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="beech_dead_a_a200" url="#Plane_13005-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="beech_branch_01-material" target="#beech_branch_01-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Colmesh_dead_a-1" name="Colmesh_dead_a-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="Colmesh_dead_a-1" url="#Cube-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="leaves_strong-material" target="#leaves_strong-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="collision-1" name="collision-1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="bb__autobillboard25" name="bb__autobillboard25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

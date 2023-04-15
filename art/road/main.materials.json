@@ -1,0 +1,1586 @@
+{
+  "AsphaltRoad_variation_one_way": {
+    "name": "AsphaltRoad_variation_one_way",
+    "mapTo": "AsphaltRoad_variation_one_way",
+    "class": "Material",
+    "persistentId": "613cdc39-a8bc-4442-86ca-cea10a614886",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_ao.data.png",
+        "baseColorFactor": [
+          0.822302997,
+          0.82229501,
+          0.82229501,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_b.color.png",
+        "detailNormalMapStrength": 10,
+        "detailScale": [
+          3,
+          30
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_nm.normal.png",
+        "opacityFactor": 0.44600001,
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_o.data.png",
+        "roughnessFactor": 0.490999997,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "AsphaltRoad_variation_track": {
+    "name": "AsphaltRoad_variation_track",
+    "mapTo": "AsphaltRoad_variation_track",
+    "class": "Material",
+    "persistentId": "8b884fbd-3587-40d1-b047-6fd0ea2e3e68",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_ao.data.png",
+        "baseColorFactor": [
+          0.822302997,
+          0.82229501,
+          0.82229501,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_b.color.png",
+        "detailNormalMapStrength": 10,
+        "detailScale": [
+          3,
+          30
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_nm.normal.png",
+        "opacityFactor": 0.44600001,
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_o.data.png",
+        "roughnessFactor": 0.490999997,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "AsphaltRoad_variation_two_way": {
+    "name": "AsphaltRoad_variation_two_way",
+    "mapTo": "AsphaltRoad_variation_two_way",
+    "class": "Material",
+    "persistentId": "d0267d17-2d05-434b-bfe8-5f678a33b8e7",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_variation_02_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_variation_02_b.color.png",
+        "detailNormalMapStrength": 10,
+        "detailScale": [
+          3,
+          30
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_variation_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_variation_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_variation_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "DirtRoad_variation_01": {
+    "name": "DirtRoad_variation_01",
+    "mapTo": "DirtRoad_variation_01",
+    "class": "Material",
+    "persistentId": "91649d8e-69c9-4998-8517-a44330b6dc34",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_variation_01_ao.data.png",
+        "baseColorFactor": [
+          0.454681009,
+          0.440250993,
+          0.378991991,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_variation_01_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_01_nm.normal.png",
+        "detailScale": [
+          0.5,
+          8
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_variation_01_nm.normal.png",
+        "opacityFactor": 0.702000022,
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_variation_01_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_variation_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "Dirt_road_variation_02": {
+    "name": "Dirt_road_variation_02",
+    "mapTo": "Dirt_road_variation_02",
+    "class": "Material",
+    "persistentId": "4d953f9e-1c30-40fb-b98d-fd7a8c9ca544",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_variation_02_ao.data.png",
+        "baseColorFactor": [
+          0.603926003,
+          0.593747973,
+          0.553659976,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_variation_02_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_normal_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 4,
+        "detailScale": [
+          2,
+          8
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_variation_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_variation_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_variation_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "Dirt_road_variation_03": {
+    "name": "Dirt_road_variation_03",
+    "mapTo": "Dirt_road_variation_03",
+    "class": "Material",
+    "persistentId": "c7f6b4a2-b331-4f12-b5bb-fe5609e74d14",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_variation_03_ao.data.png",
+        "baseColorFactor": [
+          0.764652014,
+          0.738534987,
+          0.676867008,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_variation_03_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_normal_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 10,
+        "detailScale": [
+          2,
+          8
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_variation_03_nm.normal.png",
+        "opacityFactor": 0.801999986,
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_variation_03_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_variation_03_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },  
+  "m_dirt_variation_04": {
+    "name": "m_dirt_variation_04",
+    "mapTo": "m_dirt_variation_04",
+    "class": "Material",
+    "persistentId": "0d939f0c-a18c-418b-a8e8-896e25b21944",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_variation_04_ao.data.png",
+        "baseColorFactor": [
+          0.942597985,
+          0.91703397,
+          0.837089002,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_variation_04_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_normal_detail_nm.normal.png",
+        "detailNormalMapStrength": 1.5,
+        "detailScale": [
+          2,
+          8
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_variation_04_nm.normal.png",
+        "opacityFactor": 0.754000008,
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_variation_04_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_variation_04_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "ECA_road_edge_dirt": {
+    "name": "ECA_road_edge_dirt",
+    "mapTo": "ECA_road_edge_dirt",
+    "class": "Material",
+    "persistentId": "15b7d856-cb32-40a2-b5d4-b450ce17d746",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_edge_02_ao.data.png",
+        "baseColorFactor": [
+          0.960511982,
+          0.936806023,
+          0.936806023,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_edge_02_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_edge_brake_up_01_nm.normal.png",
+        "detailNormalMapStrength": 3,
+        "detailScale": [
+          1,
+          0.0625
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_edge_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_edge_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_edge_02_r.data.png",
+        "specular": [
+          0.545098007,
+          0.545098007,
+          0.545098007,
+          1
+        ]
+      },
+      {
+        "specular": [
+          0.521569014,
+          0.521569014,
+          0.521569014,
+          0.00800000038
+        ]
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0.490196",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "ECA_road_edge_dirt_grass": {
+    "name": "ECA_road_edge_dirt_grass",
+    "mapTo": "ECA_road_edge_dirt_grass",
+    "class": "Material",
+    "persistentId": "3f701454-6c16-4064-9cdf-fcb215120369",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_ao.data.png",
+        "baseColorFactor": [
+          1,
+          1,
+          0.999989986,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_edge_brake_up_02_nm.normal.png",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          1,
+          0.200000003
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_r.data.png",
+        "specular": [
+          0.545098007,
+          0.545098007,
+          0.545098007,
+          1
+        ]
+      },
+      {
+        "specular": [
+          0.521569014,
+          0.521569014,
+          0.521569014,
+          0.00800000038
+        ]
+      },
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0.490196",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "ECA_road_edge_grass": {
+    "name": "ECA_road_edge_grass",
+    "mapTo": "ECA_road_edge_grass",
+    "class": "Material",
+    "persistentId": "fbf4a9f7-d488-42ba-ad72-f7f322e29d10",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_eca_asphalt_grass_edge_ao.data.png",
+        "baseColorFactor": [
+          0.999994993,
+          1,
+          0.999989986,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_eca_asphalt_grass_edge_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_edge_brake_up_01_nm.normal.png",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          0.600000024,
+          0.200000003
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_eca_asphalt_grass_edge_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_eca_asphalt_grass_edge_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_eca_asphalt_grass_edge_r.data.png",
+        "specular": [
+          0.545098007,
+          0.545098007,
+          0.545098007,
+          1
+        ]
+      },
+      {
+        "specular": [
+          0.521569014,
+          0.521569014,
+          0.521569014,
+          0.00800000038
+        ]
+      },
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0.490196",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "bank_erosion": {
+    "name": "bank_erosion",
+    "mapTo": "bank_erosion",
+    "class": "Material",
+    "persistentId": "ea42c261-4e27-4c9a-ac26-a075a5d533ef",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_bank_erosion_ao.data.png",
+        "baseColorFactor": [
+          0.690029025,
+          0.686096013,
+          0.678147018,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_bank_erosion_b.color.png",
+        "detailNormalMapStrength": 10,
+        "detailScale": [
+          5,
+          5
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_bank_erosion_nm.normal.png",
+        "opacityFactor": 0.654999971,
+        "opacityMap": "/levels/cups_canyon/art/road/t_bank_erosion_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_bank_erosion_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "dirt_road_flows": {
+    "name": "dirt_road_flows",
+    "mapTo": "dirt_road_flows",
+    "class": "Material",
+    "persistentId": "ff918db1-f987-415d-a2ed-a1b1b826e6ac",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_road_flows_ao.data.png",
+        "baseColorFactor": [
+          0.830663979,
+          0.79519701,
+          0.711459994,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_road_flows_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_road_flows_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_road_flows_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_road_flows_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "dirt_road_gravels": {
+    "name": "dirt_road_gravels",
+    "mapTo": "dirt_road_gravels",
+    "class": "Material",
+    "persistentId": "de243ec6-2515-4804-a261-0966177714e2",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_road_gravels_ao.data.png",
+        "baseColorFactor": [
+          0.870845973,
+          0.844811976,
+          0.783366024,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_road_gravels_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_road_gravels_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_road_gravels_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_road_gravels_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "dirt_tiretracks": {
+    "name": "dirt_tiretracks",
+    "mapTo": "dirt_tiretracks",
+    "class": "Material",
+    "persistentId": "d12813c9-9a7b-43d9-8f71-7885fc25b634",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_ao.data.png",
+        "baseColorFactor": [
+          0.687159002,
+          0.65388298,
+          0.555020988,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_dirt_variation_detail_nm.normal.png",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          2,
+          4
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "dirt_tiretracks_02": {
+    "name": "dirt_tiretracks_02",
+    "mapTo": "dirt_tiretracks_02",
+    "class": "Material",
+    "persistentId": "165f2bc0-d6bd-4614-9164-c48a21de618a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_02_ao.data.png",
+        "baseColorFactor": [
+          0.580965996,
+          0.530330002,
+          0.385876,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_02_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_dirt_variation_detail_nm.normal.png",
+        "detailScale": [
+          2,
+          4
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_dirt_tiretracks_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "italy_road_edge_damage_minor": {
+    "name": "italy_road_edge_damage_minor",
+    "mapTo": "italy_road_edge_damage_minor",
+    "class": "Material",
+    "persistentId": "99349ede-d849-476c-aee7-5b4d7d1caa7b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_thin_damaged_edge_ao.data.png",
+        "baseColorFactor": [
+          0.874509871,
+          0.862745166,
+          0.819607913,
+          0.5
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_thin_damaged_edge_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_thin_damaged_edge_nm.normal.png",
+        "opacityFactor": 0.716000021,
+        "opacityMap": "/levels/cups_canyon/art/road/t_thin_damaged_edge_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_thin_damaged_edge_r.data.png",
+        "specular": [
+          0.545098007,
+          0.545098007,
+          0.545098007,
+          1
+        ]
+      },
+      {
+        "specular": [
+          0.521569014,
+          0.521569014,
+          0.521569014,
+          0.00800000038
+        ]
+      },
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_parking1": {
+    "name": "line_parking1",
+    "mapTo": "line_parking1",
+    "class": "Material",
+    "persistentId": "d8dc6201-7c17-4282-bfc0-b234d9c1e12e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_parking_01_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999994993,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_parking_01_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_parking_01_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_parking_01_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_parking_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 32,
+    "alphaTest": true,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_parking2": {
+    "name": "line_parking2",
+    "mapTo": "line_parking2",
+    "class": "Material",
+    "persistentId": "bab76fee-77be-4919-9511-ba9f756c4fbf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_parking_03_ao.data.png",
+        "baseColorFactor": [
+          0.854902029,
+          0.854902029,
+          0.854902029,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_parking_03_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_parking_03_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_parking_03_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_parking_03_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 32,
+    "alphaTest": true,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_white": {
+    "name": "line_white",
+    "mapTo": "line_white",
+    "class": "Material",
+    "persistentId": "d1149a38-0074-4cf9-9782-7a266b213523",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_r.data.png"
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_white_damage_01": {
+    "name": "line_white_damage_01",
+    "mapTo": "line_white_damage_01",
+    "class": "Material",
+    "persistentId": "4f2d9739-0ea4-43e6-841a-ec9059d6952b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_white_damage_02": {
+    "name": "line_white_damage_02",
+    "mapTo": "line_white_damage_02",
+    "class": "Material",
+    "persistentId": "5049028b-59a0-4fcc-95d8-19b44005ffbf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_white_discontinue": {
+    "name": "line_white_discontinue",
+    "mapTo": "line_white_discontinue",
+    "class": "Material",
+    "persistentId": "b91486d8-15fa-40b0-9800-0218f57d0cc6",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_r.data.png"
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow": {
+    "name": "line_yellow",
+    "mapTo": "line_yellow",
+    "class": "Material",
+    "persistentId": "d9c1cac9-6599-436d-b815-dedd181ab16a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_r.data.png"
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow_damage_01": {
+    "name": "line_yellow_damage_01",
+    "mapTo": "line_yellow_damage_01",
+    "class": "Material",
+    "persistentId": "44612150-9fd3-4172-9dde-cb92f15ba8ec",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_damaged_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow_damage_02": {
+    "name": "line_yellow_damage_02",
+    "mapTo": "line_yellow_damage_02",
+    "class": "Material",
+    "persistentId": "d9f344d8-9390-490f-8c46-0e3299ae3708",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_damaged_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow_discontinue": {
+    "name": "line_yellow_discontinue",
+    "mapTo": "line_yellow_discontinue",
+    "class": "Material",
+    "persistentId": "9968e629-ba66-4cde-b3d1-f76b9d3b54c7",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_white_discontinue_r.data.png"
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow_double": {
+    "name": "line_yellow_double",
+    "mapTo": "line_yellow_double",
+    "class": "Material",
+    "persistentId": "d69a622b-91b5-4034-88a1-92af8a4e1f1d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_yellow_double_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_yellow_double_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_yellow_double_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_yellow_double_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_yellow_double_r.data.png",
+        "specular": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "line_yellow_double_discontinue": {
+    "name": "line_yellow_double_discontinue",
+    "mapTo": "line_yellow_double_discontinue",
+    "class": "Material",
+    "persistentId": "5e96c653-7a4d-488e-9b7a-87ad919b95b2",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_line_yellow_double_discontinue_ao.data.png",
+        "baseColorFactor": [
+          0.941176534,
+          0.792156935,
+          0.274509817,
+          0.899999976
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_line_yellow_double_discontinue_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_line_yellow_double_discontinue_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_line_yellow_double_discontinue_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_line_yellow_double_discontinue_r.data.png"
+      },
+      {
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          0.699999988
+        ],
+        "baseColorMap": "levels/cups_canyon/art/road/AsphaltRoad_variation_01_d.dds"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "m_asphalt_cracks": {
+    "name": "m_asphalt_cracks",
+    "mapTo": "m_asphalt_cracks",
+    "class": "Material",
+    "persistentId": "d2fb93ae-b23a-4aab-9bb1-f656efb41709",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_cracks_02_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_cracks_02_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_cracks_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_cracks_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_cracks_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "RoadAndPath",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "m_asphalt_damaged_01": {
+    "name": "m_asphalt_damaged_01",
+    "mapTo": "m_asphalt_damaged_01",
+    "class": "Material",
+    "persistentId": "6276b183-40bd-4edc-a87d-189f0e207c95",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_01_ao.data.png",
+        "baseColorFactor": [
+          0.585373998,
+          0.585371017,
+          0.585367978,
+          0.600000024
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_01_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 3,
+        "detailScale": [
+          1.5,
+          6
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_01_nm.normal.png",
+        "opacityFactor": 0.810000002,
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_01_o.data.png",
+        "roughnessFactor": 0.832000017,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "materialTag4": "cups_canyon",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "m_asphalt_damaged_02": {
+    "name": "m_asphalt_damaged_02",
+    "mapTo": "m_asphalt_damaged_02",
+    "class": "Material",
+    "persistentId": "1e0daf19-1287-4d90-bc2b-edbfb56aade1",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_02_ao.data.png",
+        "baseColorFactor": [
+          0.728518009,
+          0.728514016,
+          0.728510976,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_02_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          1.5,
+          6
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_02_nm.normal.png",
+        "opacityFactor": 0.813000023,
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_damaged_02_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "materialTag4": "cups_canyon",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "mud_furrows": {
+    "name": "mud_furrows",
+    "mapTo": "mud_furrows",
+    "class": "Material",
+    "persistentId": "6385ef22-f0a3-48ba-82ba-0ac31d7984df",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_mud_furrows_ao.data.png",
+        "baseColorFactor": [
+          0.862744987,
+          0.862744987,
+          0.862744987,
+          0.699999988
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_mud_furrows_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_03_nm.normal.png",
+        "detailNormalMapStrength": 4,
+        "detailScale": [
+          4,
+          16
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_mud_furrows_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_mud_furrows_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_mud_furrows_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "cubemap": "cubemap_substancePanorama_reflection",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "mud_large": {
+    "name": "mud_large",
+    "mapTo": "mud_large",
+    "class": "Material",
+    "persistentId": "08f3f8ea-c1ae-48a4-a371-353cd10d4945",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_mud_large_ao.data.png",
+        "baseColorFactor": [
+          0.894117713,
+          0.894117713,
+          0.894117713,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_mud_large_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 0.5,
+        "detailScale": [
+          4,
+          8
+        ],
+        "metallicFactor": 0.107000001,
+        "normalMap": "/levels/cups_canyon/art/road/t_mud_large_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_mud_large_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_mud_large_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "cubemap": "cubemap_substancePanorama_reflection",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "mud_tiretracks": {
+    "name": "mud_tiretracks",
+    "mapTo": "mud_tiretracks",
+    "class": "Material",
+    "persistentId": "fd1b8b6d-a9e7-4067-a305-3c6475ce8a4d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_mud_tiretracks_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_mud_tiretracks_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "detailNormalMapStrength": 0.5,
+        "detailScale": [
+          2,
+          8
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_mud_tiretracks_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_mud_tiretracks_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_mud_tiretracks_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "cubemap": "cubemap_eca_reflection",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "mud_water": {
+    "name": "mud_water",
+    "mapTo": "mud_water",
+    "class": "Material",
+    "persistentId": "c5c625bb-26b8-4e9d-a662-9dddbd6d3155",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_mud_water_ao.data.png",
+        "baseColorFactor": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          0.5
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_mud_water_b.color.png",
+        "metallicFactor": 0.488000005,
+        "normalMap": "/levels/cups_canyon/art/road/t_mud_water_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_mud_water_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_mud_water_r.data.png",
+        "specular": [
+          0.132997006,
+          0.121610999,
+          0.104448996,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "cubemap": "cubemap_substancePanorama_reflection",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "Natural",
+    "materialTag2": "BNG_sky",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "repair1": {
+    "name": "repair1",
+    "mapTo": "repair1",
+    "class": "Material",
+    "persistentId": "0a219ef9-ecb1-45e6-8b87-adc7c32592c7",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_repair_joint_01_ao.data.png",
+        "baseColorFactor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_repair_joint_01_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_repair_joint_01_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_repair_joint_01_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.508000016,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_repair_joint_01_r.data.png",
+        "specular": [
+          0.333333343,
+          0.333333343,
+          0.333333343,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "decal",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "road_invisible": {
+    "name": "road_invisible",
+    "mapTo": "road_invisible",
+    "class": "material",
+    "persistentId": "8c19da98-a6fe-4e5c-90f3-61f50325e4b1",
+    "Stages": [
+      {
+        "diffuseColor": [
+          1,
+          0.999989986,
+          0.999989986,
+          0
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 255,
+    "alphaTest": true,
+    "annotation": "STREET",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "translucent": true
+  },
+  "tread_marks_clean": {
+    "name": "tread_marks_clean",
+    "mapTo": "tread_marks_clean",
+    "class": "Material",
+    "persistentId": "4edea3cc-4e31-43e3-817b-1af67941edec",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_tread_marks_clean_ao.data.png",
+        "baseColorFactor": [
+          0.999989986,
+          0.999996006,
+          1,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_tread_marks_clean_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_variation_01_nm.normal.png",
+        "detailNormalMapStrength": 0.300000012,
+        "detailScale": [
+          2,
+          0.25
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_tread_marks_clean_nm.normal.png",
+        "opacityFactor": 0.805999994,
+        "opacityMap": "/levels/cups_canyon/art/road/t_tread_marks_clean_o.data.png",
+        "roughnessFactor": 0.810000002,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_tread_marks_clean_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "materialTag4": "cups_canyon",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "tread_marks_damaged": {
+    "name": "tread_marks_damaged",
+    "mapTo": "tread_marks_damaged",
+    "class": "Material",
+    "persistentId": "ad2e5c6c-e132-4fbc-b4eb-7d66d943c64c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_tread_marks_damaged_ao.data.png",
+        "baseColorFactor": [
+          0.614989996,
+          0.614983976,
+          0.614983976,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_tread_marks_damaged_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_03_nm.normal.png",
+        "detailScale": [
+          1,
+          4
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_tread_marks_damaged_nm.normal.png",
+        "opacityFactor": 0.703999996,
+        "opacityMap": "/levels/cups_canyon/art/road/t_tread_marks_damaged_o.data.png",
+        "roughnessFactor": 0.904999971,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_tread_marks_damaged_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "materialTag4": "cups_canyon",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "tread_marks_worn": {
+    "name": "tread_marks_worn",
+    "mapTo": "tread_marks_worn",
+    "class": "Material",
+    "persistentId": "37c64ea7-206b-43db-b7c1-20deb28f678b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_tread_marks_worn_ao.data.png",
+        "baseColorFactor": [
+          0.698894978,
+          0.698898017,
+          0.698902011,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_tread_marks_worn_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "detailScale": [
+          1.5,
+          6
+        ],
+        "normalMap": "/levels/cups_canyon/art/road/t_tread_marks_worn_nm.normal.png",
+        "opacityFactor": 0.504999995,
+        "opacityMap": "/levels/cups_canyon/art/road/t_tread_marks_worn_o.data.png",
+        "roughnessFactor": 0.764999986,
+        "roughnessMap": "/levels/cups_canyon/art/road/t_tread_marks_worn_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "Natural",
+    "materialTag4": "cups_canyon",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentRecvShadows": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "zebra_crossing": {
+    "name": "zebra_crossing",
+    "mapTo": "zebra_crossing",
+    "class": "Material",
+    "persistentId": "b64a9202-f018-43c2-a761-1f02303c4192",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_marking_slash_white_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/road/t_marking_slash_white_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_marking_slash_white_nm.normal.png",
+        "opacityFactor": 0.699999988,
+        "opacityMap": "/levels/cups_canyon/art/road/t_marking_slash_white_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_marking_slash_white_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 32,
+    "alphaTest": true,
+    "annotation": "SOLID_LINE",
+    "castShadows": false,
+    "groundType": "ASPHALT",
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  }
+}

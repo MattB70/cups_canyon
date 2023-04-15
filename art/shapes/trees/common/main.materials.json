@@ -1,0 +1,59 @@
+{
+  "trunk_chopped": {
+    "name": "trunk_chopped",
+    "mapTo": "trunk_chopped",
+    "class": "Material",
+    "persistentId": "968bb891-2ebe-4aad-8f53-1b29629c3844",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/common/t_trunk_chopped_ao.data.png",
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/common/t_trunk_chopped_b.color.png",
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/common/t_trunk_chopped_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/common/t_trunk_chopped_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "materialTag2": "vegetation",
+    "version": 1.5
+  },
+  "wood_splinters": {
+    "name": "wood_splinters",
+    "mapTo": "wood_splinters",
+    "class": "Material",
+    "persistentId": "604ba5de-7cf5-492c-96e5-be4ce841d61b",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/common/t_wood_splinters_ao.data.png",
+        "detailMap": "/levels/cups_canyon/art/shapes/trees/common/t_wood_splinters_b.color.png",
+        "minnaertConstant": 0,
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/common/t_wood_splinters_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/common/t_wood_splinters_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/common/t_wood_splinters_r.data.png",
+        "specular": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 90,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "materialTag0": "vegetation",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "version": 1.5
+  }
+}

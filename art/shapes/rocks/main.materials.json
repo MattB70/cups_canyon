@@ -1,0 +1,63 @@
+{
+  "eca_rocks": {
+    "name": "eca_rocks",
+    "mapTo": "eca_rocks",
+    "class": "Material",
+    "persistentId": "7ed6ec7d-833f-44d7-87f4-b102ed9777d0",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_ao.data.png",
+        "baseColorFactor": [
+          1,
+          1,
+          0.999000013,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_b.color.png",
+        "detailMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_detail_b.data.png",
+        "detailNormalMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_detail_nm.normal.png",
+        "detailNormalMapStrength": 0.300000012,
+        "detailScale": [
+          24,
+          24
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/rocks/t_rocks_eca_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "ROCK",
+    "doubleSided": true,
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "rock_01_a": {
+    "name": "rock_01_a",
+    "mapTo": "rocks_01_a",
+    "class": "Material",
+    "persistentId": "5fe9b75a-99bf-4abf-8eaf-94d425eead15",
+    "Stages": [
+      {
+        "colorMap": "levels/cups_canyon/art/shapes/rocks/moss_rocks_01_a_d.dds",
+        "normalMap": "levels/cups_canyon/art/shapes/rocks/moss_rocks_01_a_n.dds",
+        "specularMap": "levels/cups_canyon/art/shapes/rocks/moss_rocks_01_a_s.dds",
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "ROCK",
+    "doubleSided": true,
+    "groundType": "ROCK",
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None"
+  }
+}

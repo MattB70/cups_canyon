@@ -1,0 +1,220 @@
+{
+    "segments" : {
+        "intersection1" : {
+            "nodes" : ["wp70", "wp30", "wp29"],
+            "drivability" : 1
+        },
+        "intersection3" : {
+          "nodes" : ["wp16", "wp126"],
+          "drivability" : 1
+        },
+        "intersection4" : {
+          "nodes" : ["wp16", "wp178"],
+          "drivability" : 1
+        },
+        "bridge1" : {
+            "nodes" : ["wp1", "wp2"],
+            "drivability" : 1
+        },
+        "bridge2" : {
+            "nodes" : ["wp3", "wp4"],
+            "drivability" : 1
+        },
+        "bridge3" : {
+            "nodes" : ["wp5", "wp6"],
+            "drivability" : 1
+        },
+        "bridge4" : {
+            "nodes" : ["wp7", "wp8", "wp159", "wp158"],
+            "drivability" : 1
+        },
+        "bridge4a" : {
+            "nodes" : ["wp159", "wp160"],
+            "drivability" : 1
+        },
+        "bridge5" : {
+            "nodes" : ["wp9", "wp10"],
+            "drivability" : 1
+        },
+        "bridge6" : {
+            "nodes" : ["wp138", "wp11", "wp12"],
+            "drivability" : 1
+        },
+        "bridge7" : {
+            "nodes" : ["wp13", "wp14"],
+            "drivability" : 1
+        },
+        "bridge9" : {
+            "nodes" : ["wp17", "wp18"],
+            "drivability" : 1
+        },
+        "bridge10" : {
+            "nodes" : ["wp19", "wp20"],
+            "drivability" : 1
+        },
+        "bridge11" : {
+            "nodes" : ["wp21", "wp22"],
+            "drivability" : 1
+        },
+        "bridge12" : {
+            "nodes" : ["wp23", "wp24"],
+            "drivability" : 1
+        },
+        "bridge13" : {
+            "nodes" : ["wp25", "wp26"],
+            "drivability" : 1
+        },
+        "bridge14a" : {
+            "nodes" : ["wp27", "wp28"],
+            "drivability" : 1
+        },
+        "town1" : {
+            "nodes" : ["wp31", "wp32", "wp33", "wp179", "wp34", "wp35", "wp180", "wp36", "wp37", "wp38", "wp39", "wp40"],
+            "drivability" : 1
+        },
+        "town2" : {
+            "nodes" : ["wp40", "wp41", "wp32"],
+            "drivability" : 1
+        },
+        "town3" : {
+            "nodes" : ["wp43", "wp42", "wp40"],
+            "drivability" : 1
+        },
+        "town4" : {
+            "nodes" : ["wp32", "wp51", "wp128", "wp44", "wp47", "wp112", "wp48", "wp49", "wp50", "wp52", "wp53", "wp54", "wp55", "wp131", "wp185", "wp56", "wp184", "wp163", "wp57", "wp132", "wp58"],
+            "drivability" : 1
+        },
+        "town5" : {
+            "nodes" : ["wp41", "wp45", "wp46", "wp105", "wp106", "wp107", "wp108", "wp109", "wp113", "wp91"],
+            "drivability" : 1
+        },
+        "town6" : {
+            "nodes" : ["wp57", "wp59", "wp60", "wp165", "wp61", "wp62", "wp63"],
+            "drivability" : 1
+        },
+        "town7" : {
+            "nodes" : ["wp56", "wp64", "wp63", "wp65", "wp66", "wp157", "wp67", "wp68"],
+            "drivability" : 1
+        },
+        "town8" : {
+            "nodes" : ["wp54", "wp162", "wp161", "wp69", "wp68"],
+            "drivability" : 1
+        },
+        "town9" : {
+            "nodes" : ["wp76", "wp114", "wp75", "wp74", "wp172", "wp73", "wp69", "wp71", "wp72", "wp63"],
+            "drivability" : 1
+        },
+        "town9.5a" : {
+            "nodes" : ["wp50", "wp76"],
+            "drivability" : 1
+        },
+        "town9.5b" : {
+            "nodes" : ["wp52", "wp76"],
+            "drivability" : 1
+        },
+        "town10" : {
+            "nodes" : ["wp53", "wp85", "wp86", "wp87", "wp88", "wp89", "wp90", "wp91", "wp92", "wp93", "wp40"],
+            "drivability" : 1
+        },
+        "town11" : {
+            "nodes" : ["wp47", "wp94", "wp95", "wp96", "wp97", "wp156" ,"wp98", "wp99", "wp125", "wp100", "wp101", "wp124", "wp102"],
+            "drivability" : 1
+        },
+        "town12" : {
+            "nodes" : ["wp103", "wp104", "wp102", "wp75"],
+            "drivability" : 1
+        },
+        "town_13" : {
+            "nodes" : ["wp108", "wp110", "wp111", "wp112"],
+            "drivability" : 1
+        },
+        "town_14" : {
+            "nodes" : ["wp114", "wp115", "wp116", "wp117", "wp118", "wp119", "wp120", "wp95"],
+            "drivability" : 1
+        },
+        "town_15" : {
+            "nodes" : ["wp68", "wp122", "wp121"],
+            "drivability" : 1
+        },
+        "town_16" : {
+            "nodes" : ["wp122", "wp104"],
+            "drivability" : 1
+        },
+        "town_17" : {
+            "nodes" : ["wp170", "wp169", "wp168", "wp167", "wp166"],
+            "drivability" : 0.5
+        },
+        "town_18" : {
+            "nodes" : ["wp169", "wp166"],
+            "drivability" : 0.5
+        },
+        "town_19" : {
+          "nodes" : ["wp176", "wp175", "wp174", "wp173", "wp55"],
+          "drivability" : 1
+        },
+        "town_20" : {
+          "nodes" : ["wp174", "wp175", "wp177"],
+          "drivability" : 1
+        },
+        "town_21" : {
+          "nodes" : ["wp181", "wp182", "wp183"],
+          "drivability" : 1
+        },
+        "river1" : {
+            "nodes" : ["wp77", "wp78"],
+            "drivability" : 0.4
+        },
+        "bridge15" : {
+            "nodes" : ["wp79", "wp80"],
+            "drivability" : 1
+        },
+        "bridge16" : {
+            "nodes" : ["wp81", "wp82"],
+            "drivability" : 1
+        },
+        "bridge17" : {
+            "nodes" : ["wp83", "wp84"],
+            "drivability" : 1
+        },
+        "manual_road_2" : {
+            "nodes" : ["wp127", "wp129"],
+            "drivability" : 1
+        },
+        "manual_road_3" : {
+            "nodes" : ["wp129", "wp130"],
+            "drivability" : 1
+        },
+        "gas_station_1": {
+            "nodes" : ["wp133", "wp134", "wp135", "wp136", "wp137", "wp140", "wp138", "wp141", "wp139"],
+            "drivability" : 1
+        },
+        "gas_station_junction_1": {
+            "nodes" : ["wp142", "wp146", "wp143"],
+            "drivability" : 1
+        },
+        "gas_station_junction_2": {
+            "nodes" : ["wp142", "wp147", "wp144"],
+            "drivability" : 1
+        },
+        "gas_station_junction_3": {
+            "nodes" : ["wp142", "wp145"],
+            "drivability" : 1
+        },
+        "gas_station_junction_4": {
+            "nodes" : ["wp148", "wp149", "wp150"],
+            "drivability" : 1
+        },
+        "gas_station_junction_5": {
+            "nodes" : ["wp150", "wp151", "wp152"],
+            "drivability" : 1
+        },
+        "gas_station_junction_6": {
+            "nodes" : ["wp152", "wp153", "wp154"],
+            "drivability" : 1
+        },
+        "gas_station_junction_7": {
+            "nodes" : ["wp154", "wp155", "wp148"],
+            "drivability" : 1
+        }
+    }
+}

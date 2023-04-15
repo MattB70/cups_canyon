@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>LUCA</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 63</authoring_tool>
+      </contributor>
+    <created>2019-02-28T18:46:49</created>
+    <modified>2019-02-28T18:46:49</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="lod_vertcol">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="ind_bld__2__rustymetal_01">
+      <profile_COMMON>
+        <newparam sid="ind_bld_rustymetal_01_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="ind_bld_rustymetal_01_d_dds-sampler">
+          <sampler2D>
+            <source>ind_bld_rustymetal_01_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL1" texture="ind_bld_rustymetal_01_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="lumber_raw">
+      <profile_COMMON>
+        <newparam sid="lumber_raw_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="lumber_raw_d_dds-sampler">
+          <sampler2D>
+            <source>lumber_raw_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL1" texture="lumber_raw_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Ind_planks">
+      <profile_COMMON>
+        <newparam sid="ind_planks_01_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="ind_planks_01_d_dds-sampler">
+          <sampler2D>
+            <source>ind_planks_01_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL1" texture="ind_planks_01_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="ind_bld__2__Tin-02">
+      <profile_COMMON>
+        <newparam sid="tin-01b_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="tin-01b_d_dds-sampler">
+          <sampler2D>
+            <source>tin-01b_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL1" texture="tin-01b_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="ind_metalplates">
+      <profile_COMMON>
+        <newparam sid="ind_metalplates_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="ind_metalplates_d_dds-sampler">
+          <sampler2D>
+            <source>ind_metalplates_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.4313726 0.4313726 0.4313726 1</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL1" texture="ind_metalplates_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lod_vertcol-material" name="lod_vertcol">
+      <instance_effect url="#lod_vertcol" />
+    </material>
+    <material id="ind_bld__2__rustymetal_01-material" name="ind_bld__2__rustymetal_01">
+      <instance_effect url="#ind_bld__2__rustymetal_01" />
+    </material>
+    <material id="lumber_raw-material" name="lumber_raw">
+      <instance_effect url="#lumber_raw" />
+    </material>
+    <material id="Ind_planks-material" name="Ind_planks">
+      <instance_effect url="#Ind_planks" />
+    </material>
+    <material id="ind_bld__2__Tin-02-material" name="ind_bld__2__Tin-02">
+      <instance_effect url="#ind_bld__2__Tin-02" />
+    </material>
+    <material id="ind_metalplates-material" name="ind_metalplates">
+      <instance_effect url="#ind_metalplates" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Colmesh-1_25" name="Colmesh-1">
+      <mesh>
+        <source id="geom-Colmesh-1_25-positions">
+          <float_array count="24" id="geom-Colmesh-1_25-positions-array">-0.4025344 -0.08762178 0 0.1224773 -0.3780754 0 -0.2088989 0.2623857 0 0.3161128 -0.02806795 0 -0.4025344 -0.08762178 0.25 0.1224773 -0.3780754 0.25 -0.2088989 0.2623857 0.25 0.3161128 -0.02806795 0.25</float_array>
+          <technique_common>
+            <accessor count="8" source="#geom-Colmesh-1_25-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_25-normals">
+          <float_array count="72" id="geom-Colmesh-1_25-normals-array">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.484089 -0.8750188 0 -0.484089 -0.8750188 0 -0.484089 -0.8750188 0 -0.484089 -0.8750188 0 0.8750189 -0.4840888 0 0.8750188 -0.4840887 0 0.8750189 -0.4840888 0 0.8750188 -0.4840887 0 0.484089 0.8750187 0 0.484089 0.8750188 0 0.484089 0.8750187 0 0.484089 0.8750188 0 -0.8750189 0.4840888 0 -0.8750188 0.4840887 0 -0.8750189 0.4840888 0 -0.8750188 0.4840887 0</float_array>
+          <technique_common>
+            <accessor count="24" source="#geom-Colmesh-1_25-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_25-map1">
+          <float_array count="72" id="geom-Colmesh-1_25-map1-array">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor count="24" source="#geom-Colmesh-1_25-map1-array" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Colmesh-1_25-vertices">
+          <input semantic="POSITION" source="#geom-Colmesh-1_25-positions" />
+        </vertices>
+        <triangles count="12" material="ColorMaterial">
+          <input offset="0" semantic="VERTEX" source="#geom-Colmesh-1_25-vertices" />
+          <input offset="1" semantic="NORMAL" source="#geom-Colmesh-1_25-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#geom-Colmesh-1_25-map1" />
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 4 4 4 5 5 5 7 6 7 7 6 7 6 7 6 4 4 4 0 8 8 1 9 9 5 10 11 5 10 11 4 11 10 0 8 8 1 12 12 3 13 13 7 14 15 7 14 15 5 15 14 1 12 12 3 16 16 2 17 17 6 18 19 6 18 19 7 19 18 3 16 16 2 20 20 0 21 21 4 22 23 4 22 23 6 23 22 2 20 20</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-eca_fv_wood_box" name="eca_fv_wood_box">
+      <mesh>
+        <source id="geom-eca_fv_wood_box-positions">
+          <float_array count="120" id="geom-eca_fv_wood_box-positions-array">1.766541 0.03871429 0.01381087 2.270552 -0.2401209 0.01381083 2.452569 0.0888862 0.01381083 1.948558 0.3677213 0.01381087 2.270552 -0.2401209 -3.72529e-8 1.766541 0.03871429 3.72529e-9 1.948558 0.3677213 3.72529e-9 2.452569 0.0888862 -3.35276e-8 2.281052 -0.24593 -4.47035e-8 2.463069 0.08307713 -4.47035e-8 2.463069 0.08307713 0.25 2.281052 -0.24593 0.25 1.938058 0.3735304 7.45058e-9 1.756041 0.04452324 7.45058e-9 1.756041 0.04452324 0.25 1.938058 0.3735304 0.25 2.452569 0.08888608 0.25 2.270552 -0.2401209 0.25 1.766541 0.03871423 0.25 1.948558 0.3677213 0.25 2.452569 0.08888608 -1.49012e-8 2.270552 -0.2401209 -2.98023e-8 1.766541 0.03871429 7.45058e-9 1.948558 0.3677213 0 1.750231 0.03402328 7.45058e-9 2.275243 -0.2564302 -3.72529e-8 2.275243 -0.2564302 0.25 1.750231 0.03402328 0.25 2.468879 0.09357733 -3.72529e-8 1.943867 0.3840308 7.45058e-9 1.943867 0.3840308 0.25 2.468879 0.09357733 0.25 2.281052 -0.24593 0.25 1.75604 0.0445233 0.25 1.938058 0.3735304 0.25 2.463069 0.08307707 0.25 2.281052 -0.2459299 -3.72529e-8 1.75604 0.04452342 -7.45058e-9 1.938058 0.3735304 -7.45058e-9 2.463069 0.08307707 -3.72529e-8</float_array>
+          <technique_common>
+            <accessor count="40" source="#geom-eca_fv_wood_box-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-eca_fv_wood_box-normals">
+          <float_array count="342" id="geom-eca_fv_wood_box-normals-array">5.64331e-8 -2.91363e-8 1 5.61605e-8 -2.54084e-8 1 5.63194e-8 -2.75807e-8 1 5.6592e-8 -3.13085e-8 1 -5.6592e-8 3.13085e-8 -1 -5.6592e-8 3.13085e-8 -1 -5.6592e-8 3.13085e-8 -1 -5.7455e-8 4.31088e-8 -1 -5.7455e-8 4.31088e-8 -1 -5.7455e-8 4.31088e-8 -1 0.8750187 -0.4840891 0 0.8750187 -0.4840891 0 0.8750187 -0.4840891 0 0.8750187 -0.4840891 0 -0.8750188 0.4840888 0 -0.8750188 0.4840888 0 -0.8750188 0.4840888 0 -0.8750188 0.4840888 0 0 0 1 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.9999999 0 0 1 -0.8750188 0.4840887 0 -0.8750188 0.4840887 0 -0.8750189 0.4840887 0 -0.8750188 0.4840887 0 -0.8750189 0.4840887 0 -0.8750189 0.4840887 0 0.8750187 -0.4840889 -1.15416e-7 0.8750188 -0.4840889 -1.15416e-7 0.8750188 -0.4840889 -1.15416e-7 0.8750187 -0.484089 0 0.8750188 -0.484089 0 0.8750188 -0.484089 0 -1.12301e-8 5.75287e-9 -1 0 0 -0.9999999 -5.41647e-7 2.77471e-7 -1 -5.52877e-7 2.83224e-7 -1 -2.15065e-6 1.19073e-6 -0.9999999 -2.17311e-6 1.20224e-6 -1 -1.08984e-6 6.47308e-7 -1 -1.06738e-6 6.35803e-7 -1 -0.4840888 -0.8750188 0 -0.4840888 -0.8750188 0 -0.4840888 -0.8750188 0 -0.4840888 -0.8750188 0 0.4840888 0.875019 0 0.4840887 0.8750189 0 0.4840888 0.875019 0 0.4840887 0.8750189 0 4.34626e-8 -2.4045e-8 1 4.34626e-8 -2.4045e-8 1 4.34626e-8 -2.4045e-8 1 4.34624e-8 -2.40453e-8 1 4.34624e-8 -2.40453e-8 0.9999999 4.34624e-8 -2.40453e-8 1 4.34628e-8 -2.40447e-8 1 4.34628e-8 -2.40447e-8 1 4.34628e-8 -2.40447e-8 1 4.34626e-8 -2.40449e-8 1 4.34626e-8 -2.40449e-8 1 4.34626e-8 -2.40449e-8 0.9999999 0.4840886 0.875019 4.17242e-7 0.4840886 0.875019 4.17242e-7 0.4840886 0.875019 4.17242e-7 0.4840886 0.875019 4.17242e-7 0.4840886 0.875019 4.17242e-7 0.4840886 0.875019 4.17242e-7 -0.4840886 -0.875019 0 -0.4840886 -0.875019 0 -0.4840886 -0.875019 0 -0.4840886 -0.875019 0 -0.4840886 -0.875019 0 -0.4840886 -0.875019 0 5.28547e-7 1.10864e-6 -1 5.35923e-7 1.12262e-6 -1 -3.6086e-8 3.80317e-8 -1 -4.34626e-8 2.40449e-8 -1 -7.25719e-8 2.20781e-8 -0.9999999 -6.51941e-8 3.60672e-8 -1 -6.37212e-7 -1.04854e-6 -1 -6.4459e-7 -1.06253e-6 -1 0.8750181 -0.4840902 -2.30832e-7 0.8750181 -0.4840902 -2.30832e-7 0.8750181 -0.4840902 -2.30832e-7 0.8750204 -0.4840859 0 0.8750204 -0.4840859 0 0.8750204 -0.4840859 0 -0.875017 0.4840923 2.30833e-7 -0.8750169 0.4840923 2.30833e-7 -0.8750169 0.4840923 2.30833e-7 -0.8750145 0.4840965 0 -0.8750146 0.4840965 0 -0.8750146 0.4840965 0 0.8750193 -0.484088 0 0.8750192 -0.484088 0 0.8750193 -0.484088 0 0.8750193 -0.484088 0 0.8750192 -0.484088 0 0.8750193 -0.484088 0 -0.8750216 0.4840839 0 -0.8750216 0.4840838 0 -0.8750217 0.4840839 0 -0.8750216 0.4840839 0 -0.8750216 0.4840839 0 -0.8750217 0.4840839 0</float_array>
+          <technique_common>
+            <accessor count="114" source="#geom-eca_fv_wood_box-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-eca_fv_wood_box-map0">
+          <float_array count="264" id="geom-eca_fv_wood_box-map0-array">0.1619791 0.1867917 0.1357984 0.1619791 0.1867917 0.1357984 0.1619791 0.1867917 0.1357984 0.1688992 0.1937667 0.142737 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.1778383 0.2027764 0.1516998 0.5175115 0.5201481 0.4674171 0.5175115 0.5201481 0.4674171</float_array>
+          <technique_common>
+            <accessor count="88" source="#geom-eca_fv_wood_box-map0-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-eca_fv_wood_box-map1">
+          <float_array count="264" id="geom-eca_fv_wood_box-map1-array">0.5694103 0.3793813 0 0.6900458 0.3793813 0 0.690046 0.4581296 0 0.5694103 0.4581296 0 0.5700558 0.4247079 0 0.6991436 0.4247079 0 0.6991436 0.5089737 0 0.5700558 0.5089736 0 0.4652046 0.3904315 0 0.5590429 0.3904315 0 0.5590429 0.4617357 0 0.4652046 0.4617357 0 0.78422 0.389904 0 0.8780581 0.389904 0 0.8780581 0.461208 0 0.78422 0.461208 0 0.1612561 0.3893917 0 0.03351044 0.3893917 0 0.03351044 0.3853144 0 0.1612561 0.3853144 0 0.03351047 0.3901004 0 0.1612599 0.3901004 0 0.1612598 0.3941773 0 0.03351044 0.3941776 0 0.4574143 0.4469182 0 0.3635761 0.4469182 0 0.3635761 0.3756141 0 0.4574143 0.3756141 0 0.3275127 0.4923847 0 0.2336745 0.4923847 0 0.2336745 0.4210805 0 0.3275127 0.4210805 0 0.479121 0.4899285 0 0.3487094 0.4899285 0 0.3487093 0.4857666 0 0.4791209 0.4857666 0 0.3349174 0.4910269 0 0.4653306 0.4910268 0 0.4653307 0.4951887 0 0.3349173 0.4951887 0 0.6167371 0.4013543 0 0.766479 0.4013544 0 0.766479 0.4726587 0 0.6167371 0.4726586 0 0.02104255 0.4428577 0 0.1707845 0.4428577 0 0.1707845 0.5141618 0 0.02104255 0.5141618 0 0.03351044 0.3948863 0 0.2373593 0.394886 0 0.2373592 0.3989636 0 0.03351049 0.3989636 0 0.2384829 0.4040272 0 0.03384147 0.4040275 0 0.03384155 0.3999344 0 0.2384827 0.3999344 0 0.807889 0.4405427 0 0.9576308 0.4405427 0 0.9576308 0.511847 0 0.807889 0.511847 0 0.4741704 0.3629565 0 0.6239123 0.3629565 0 0.6239123 0.4342607 0 0.4741704 0.4342608 0 0.3487094 0.5010098 0 0.556814 0.5010095 0 0.556814 0.5051717 0 0.3487093 0.5051714 0 0.5568105 0.5000907 0 0.3487093 0.5000903 0 0.3487093 0.4959281 0 0.5568104 0.4959281 0 0.1535364 0.5233297 0 0.1485651 0.5233297 0 0.1485651 0.4049631 0 0.1535364 0.4049631 0 0.1602794 0.4049631 0 0.1652505 0.4049631 0 0.1652505 0.5233288 0 0.1602794 0.5233288 0 0.1544223 0.4049631 0 0.1593936 0.4049631 0 0.1593936 0.5233296 0 0.1544223 0.5233296 0 0.1476795 0.52333 0 0.1427079 0.52333 0 0.1427079 0.4049631 0 0.1476795 0.4049631 0</float_array>
+          <technique_common>
+            <accessor count="88" source="#geom-eca_fv_wood_box-map1-array" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-eca_fv_wood_box-vertices">
+          <input semantic="POSITION" source="#geom-eca_fv_wood_box-positions" />
+        </vertices>
+        <triangles count="44" material="lumber_raw">
+          <input offset="0" semantic="VERTEX" source="#geom-eca_fv_wood_box-vertices" />
+          <input offset="1" semantic="NORMAL" source="#geom-eca_fv_wood_box-normals" />
+          <input offset="2" semantic="COLOR" set="0" source="#geom-eca_fv_wood_box-map0" />
+          <input offset="3" semantic="TEXCOORD" set="0" source="#geom-eca_fv_wood_box-map1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 0 0 0 0 5 4 5 5 6 5 6 6 7 6 7 7 7 7 7 7 4 8 4 4 5 9 5 5 8 10 8 8 9 11 9 9 10 12 10 10 10 12 10 10 11 13 11 11 8 10 8 8 12 14 12 12 13 15 13 13 14 16 14 14 14 16 14 14 15 17 15 15 12 14 12 12 11 18 16 16 10 19 17 17 16 20 18 18 16 21 18 18 17 22 19 19 11 23 16 16 15 24 20 20 14 25 21 21 18 26 22 22 18 27 22 22 19 28 23 23 15 29 20 20 17 30 24 24 16 31 25 25 20 32 26 26 20 33 26 26 21 34 27 27 17 35 24 24 19 36 28 28 18 37 29 29 22 38 30 30 22 39 30 30 23 40 31 31 19 41 28 28 22 42 33 33 13 43 34 34 12 44 35 35 12 44 35 35 23 45 32 32 22 42 33 33 20 46 37 37 9 47 38 38 8 48 39 39 8 48 39 39 21 49 36 36 20 46 37 37 24 50 40 40 25 51 41 41 26 52 42 42 26 52 42 42 27 53 43 43 24 50 40 40 28 54 44 44 29 55 45 45 30 56 46 46 30 56 46 46 31 57 47 47 28 54 44 44 27 58 48 48 26 59 49 49 32 60 50 50 32 61 50 50 33 62 51 51 27 63 48 48 31 64 52 52 30 65 53 53 34 66 54 54 34 67 54 54 35 68 55 55 31 69 52 52 33 70 56 56 32 71 57 57 36 72 58 58 36 73 58 58 37 74 59 59 33 75 56 56 35 76 60 60 34 77 61 61 38 78 62 62 38 79 62 62 39 80 63 63 35 81 60 60 38 82 65 65 29 83 66 66 28 84 67 67 28 84 67 67 39 85 64 64 38 82 65 65 36 86 69 69 25 87 70 70 24 88 71 71 24 88 71 71 37 89 68 68 36 86 69 69 36 90 73 73 32 91 74 74 26 92 75 75 26 93 75 75 25 94 72 72 36 95 73 73 33 96 77 77 37 97 78 78 24 98 79 79 24 99 79 79 27 100 76 76 33 101 77 77 35 102 81 81 39 103 82 82 28 104 83 83 28 105 83 83 31 106 80 80 35 107 81 81 38 108 85 85 34 109 86 86 30 110 87 87 30 111 87 87 29 112 84 84 38 113 85 85</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight" />
+      </node>
+      <node id="node-base00" name="base00">
+        <scale>100 100 100</scale>
+        <node id="node-nulldetail1" name="nulldetail1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-start01" name="start01">
+          <node id="node-Colmesh-1_25" name="Colmesh-1">
+            <translate>4.32108e-4 5.78452e-4 0</translate>
+            <scale>0.01 0.01 0.01</scale>
+            <instance_geometry url="#geom-Colmesh-1_25">
+              <bind_material>
+                <technique_common>
+                  </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-eca_fv_wood_box" name="eca_fv_wood_box">
+            <scale>0.01 0.01 0.01</scale>
+            <node>
+              <matrix>1 0 0 -2.109555 0 1 0 -0.06380031 0 0 1 5.21541e-8 0 0 0 1</matrix>
+              <instance_geometry url="#geom-eca_fv_wood_box">
+                <bind_material>
+                  <technique_common>
+                    <instance_material symbol="lumber_raw" target="#lumber_raw-material">
+                      <bind_vertex_input input_semantic="TEXCOORD" input_set="0" semantic="CHANNEL1" />
+                    </instance_material>
+                  </technique_common>
+                </bind_material>
+              </instance_geometry>
+            </node>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-collision-1" name="collision-1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,174 @@
+{
+  "fir_bark": {
+    "name": "fir_bark",
+    "mapTo": "fir_bark",
+    "class": "Material",
+    "persistentId": "1abfef0d-b4e7-4116-b050-5a140fd64716",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_bark_ao.data.png",
+        "baseColorFactor": [
+          0.726626992,
+          0.726619005,
+          0.726619005,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_bark_b.color.png",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_bark_nm.normal.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_bark_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "groundType": "WOOD",
+    "materialTag0": "vegetation",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.294118",
+    "version": 1.5
+  },
+  "fir_leaves": {
+    "name": "fir_leaves",
+    "mapTo": "fir_leaves",
+    "class": "Material",
+    "persistentId": "aaf2fde2-8a41-473b-9d09-836efab2bc8c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_b.color.png",
+        "detailNormalMapStrength": 5,
+        "detailScale": [
+          1,
+          1
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_r.data.png",
+        "specular": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 60,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.294118",
+    "version": 1.5
+  },
+  "fir_leaves_02": {
+    "name": "fir_leaves_02",
+    "mapTo": "fir_leaves_02",
+    "class": "Material",
+    "persistentId": "62dcd932-2170-4946-b5b7-ebf65e8f74ca",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_02_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_02_b.color.png",
+        "detailNormalMapStrength": 5,
+        "detailScale": [
+          1,
+          1
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_02_r.data.png",
+        "specular": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 80,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.294118",
+    "version": 1.5
+  },
+  "fir_leaves_dead": {
+    "name": "fir_leaves_dead",
+    "mapTo": "fir_leaves_dead",
+    "class": "Material",
+    "persistentId": "c33cdda1-8084-4884-adef-f1607ac94fa0",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_dead_ao.data.png",
+        "baseColorFactor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "baseColorMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_dead_b.color.png",
+        "detailNormalMapStrength": 5,
+        "detailScale": [
+          1,
+          1
+        ],
+        "normalMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_dead_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_dead_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/shapes/trees/trees_douglasfir/t_fir_leaves_dead_r.data.png",
+        "specular": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 76,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.294118",
+    "version": 1.5
+  }
+}

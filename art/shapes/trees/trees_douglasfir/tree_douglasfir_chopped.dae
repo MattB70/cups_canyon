@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2019-04-17T16:03:58</created>
+    <modified>2019-04-17T16:03:58</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="douglasfir_trunk-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.2387575 0.2387575 0.2387575 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="douglasfir_leaves-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="trunk_chopped-effect">
+      <profile_COMMON>
+        <newparam sid="trunk_chopped_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="trunk_chopped_d_dds-sampler">
+          <sampler2D>
+            <source>trunk_chopped_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="trunk_chopped_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="wood_splinters-effect">
+      <profile_COMMON>
+        <newparam sid="wood_splinters_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="wood_splinters_d_dds-sampler">
+          <sampler2D>
+            <source>wood_splinters_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="wood_splinters_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="wood_splinters_d_dds-sampler" />
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fir_bark-effect">
+      <profile_COMMON>
+        <newparam sid="fir_bark_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="fir_bark_d_dds-sampler">
+          <sampler2D>
+            <source>fir_bark_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="fir_bark_n_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="fir_bark_n_dds-sampler">
+          <sampler2D>
+            <source>fir_bark_n_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="fir_bark_d_dds-sampler" />
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="fir_bark_n_dds-sampler" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="douglasfir_trunk-material" name="douglasfir_trunk">
+      <instance_effect url="#douglasfir_trunk-effect" />
+    </material>
+    <material id="douglasfir_leaves-material" name="douglasfir_leaves">
+      <instance_effect url="#douglasfir_leaves-effect" />
+    </material>
+    <material id="trunk_chopped-material" name="trunk_chopped">
+      <instance_effect url="#trunk_chopped-effect" />
+    </material>
+    <material id="wood_splinters-material" name="wood_splinters">
+      <instance_effect url="#wood_splinters-effect" />
+    </material>
+    <material id="fir_bark-material" name="fir_bark">
+      <instance_effect url="#fir_bark-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="tree_oak_bush_a200_070-mesh" name="tree_oak_bush_a200.070">
+      <mesh>
+        <source id="tree_oak_bush_a200_070-mesh-positions">
+          <float_array count="90" id="tree_oak_bush_a200_070-mesh-positions-array">-0.04904967 0.1393548 0.7601838 0.07176065 -0.1905725 0.7581174 -0.008156001 0.1537461 0.9341265 0.1126539 -0.1761807 0.9320603 0.01007676 0.03240895 0.7505052 0.0115751 -0.08397233 0.7683256 0.05202907 0.04714649 0.9239184 0.05352866 -0.06923389 0.9417389 -0.06615197 0.1297081 0.7720826 0.09350103 -0.1832767 0.7720826 -0.06615185 0.1297081 0.9558491 0.09350109 -0.1832767 0.9558491 0.07531499 0.163103 0.7689284 -0.1446266 0.1114433 0.8212046 -0.1972149 -0.08135336 0.9406221 -0.02800452 -0.2224904 0.7689285 0.1902216 -0.1708307 0.7689282 0.2164519 0.02196592 0.7689284 0.0426377 0.1769477 -0.1212478 -0.07767218 0.2694743 -0.1212476 -0.2316426 0.09778618 -0.1212474 -0.1640011 -0.0296911 -0.1212475 -0.2703728 -0.2008042 -0.1212474 -0.06068164 -0.2999202 -0.1212477 0.0426377 -0.1888158 -0.1212479 0.1459572 -0.2357665 -0.1212481 0.289133 -0.1660743 -0.1212483 0.2492768 -0.02969121 -0.1212482 0.2940493 0.1165018 -0.1212482 0.1459572 0.214955 -0.1212479</float_array>
+          <technique_common>
+            <accessor count="30" source="#tree_oak_bush_a200_070-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tree_oak_bush_a200_070-mesh-normals">
+          <float_array count="90" id="tree_oak_bush_a200_070-mesh-normals-array">-0.08192759 -0.1064279 0.9909395 -0.01440393 -0.2210391 0.9751586 0.0219112 -0.2058411 0.9783402 -0.1335991 0.09771406 0.9862065 -0.08000248 0.01176625 0.9967252 -0.04469782 0.02231657 0.9987513 -0.04715722 -0.08397239 0.9953516 -0.08097594 0.07829087 0.9936366 -0.07171195 0.1175869 0.99047 0.08164334 -0.1828407 0.9797468 0.07244491 -0.1622756 0.9840826 -0.06349599 0.1041178 0.992536 0.1676819 -0.6505313 0.7407374 0.7727279 0.2697171 0.5745819 0.2385646 0.8111271 0.5340036 -0.5669307 0.5073513 0.6489871 -0.8555456 0.08017688 0.5114816 0.600705 -0.7128413 0.3619542 -0.1250005 0.9884126 0.08611345 0.1467889 0.9891147 0.01025205 0.9966438 -0.04499155 0.06838792 0.9059954 -0.4119982 0.09710764 -0.8401538 -0.532728 0.1016988 -0.9941074 0.1062238 0.021613 0.3304316 0.9386556 0.09869486 0.9398458 0.3220075 0.1140229 0.1971926 -0.9773613 0.07668209 0.204176 -0.9783734 0.03313273 0.01903039 -0.9972791 0.07122045 -0.9881371 0.1251459 0.08901488</float_array>
+          <technique_common>
+            <accessor count="30" source="#tree_oak_bush_a200_070-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tree_oak_bush_a200_070-mesh-map-0">
+          <float_array count="180" id="tree_oak_bush_a200_070-mesh-map-0-array">0.666646 0.6122669 0.9999381 0.6122673 0.9999371 0.9946915 6.1837e-5 0.6122662 0.3333539 0.6122666 0.3333536 0.9946935 0.3333539 0.6122666 0.666646 0.6122669 0.6666453 0.9946925 0.6666453 0.9946925 0.666646 0.6122669 0.9999371 0.9946915 6.1837e-5 0.9946946 6.1837e-5 0.6122662 0.3333536 0.9946935 0.3333536 0.9946935 0.3333539 0.6122666 0.6666453 0.9946925 6.1837e-5 0.6122662 0.9999381 0.6122673 0.9999371 0.9946915 6.1837e-5 0.9946946 6.1837e-5 0.6122662 0.9999371 0.9946915 0.5419922 -0.001953125 0.9355469 0.7138672 0.5634766 0.9960938 0.5634766 0.9960938 0.02246093 0.9345703 0.5419922 -0.001953125 0.01464843 0.1982421 0.5419922 -0.001953125 0.02246093 0.9345703 0.9814453 0.2460937 0.9355469 0.7138672 0.5419922 -0.001953125 -1.941406 -8.836426 -1.917969 -8.370118 -2.363281 -8.812012 1.847656 -8.793457 0.9023438 -8.388672 1.457031 -8.825196 -0.3632813 -8.873536 -0.5429688 -8.306641 -0.9101563 -8.862305 -2.652344 -8.793457 -2.519531 -8.338379 -3.128906 -8.75586 0.1914062 -8.401856 -0.3632813 -8.873536 0.2695313 -8.862305 -2.363281 -8.812012 -1.917969 -8.370118 -2.652344 -8.793457 0.6914063 -8.84961 0.1914062 -8.401856 0.2695313 -8.862305 0.9023438 -8.388672 0.6914063 -8.84961 1.035156 -8.84375 1.457031 -8.825196 0.9023438 -8.388672 1.035156 -8.84375 -1.316406 -8.862305 -1.207031 -8.370118 -1.941406 -8.836426 -0.9101563 -8.862305 -1.207031 -8.370118 -1.316406 -8.862305 -3.128906 -8.75586 -2.519531 -8.338379 -3.519531 -8.705079 -1.941406 -8.836426 -1.207031 -8.370118 -1.917969 -8.370118 1.847656 -8.793457 1.480469 -8.370118 0.9023438 -8.388672 -2.652344 -8.793457 -1.917969 -8.370118 -2.519531 -8.338379 0.1914062 -8.401856 -0.5429688 -8.306641 -0.3632813 -8.873536 0.9023438 -8.388672 0.1914062 -8.401856 0.6914063 -8.84961 -0.9101563 -8.862305 -0.5429688 -8.306641 -1.207031 -8.370118</float_array>
+          <technique_common>
+            <accessor count="90" source="#tree_oak_bush_a200_070-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tree_oak_bush_a200_070-mesh-colors-Col" name="Col">
+          <float_array count="270" id="tree_oak_bush_a200_070-mesh-colors-Col-array">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="90" source="#tree_oak_bush_a200_070-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tree_oak_bush_a200_070-mesh-vertices">
+          <input semantic="POSITION" source="#tree_oak_bush_a200_070-mesh-positions" />
+        </vertices>
+        <triangles count="4" material="trunk_chopped-material">
+          <input offset="0" semantic="VERTEX" source="#tree_oak_bush_a200_070-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#tree_oak_bush_a200_070-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#tree_oak_bush_a200_070-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#tree_oak_bush_a200_070-mesh-colors-Col" />
+          <p>15 12 24 24 17 13 25 25 12 14 26 26 12 14 27 27 13 15 28 28 15 12 29 29 14 16 30 30 15 12 31 31 13 15 32 32 16 17 33 33 17 13 34 34 15 12 35 35</p>
+        </triangles>
+        <triangles count="8" material="wood_splinters-material">
+          <input offset="0" semantic="VERTEX" source="#tree_oak_bush_a200_070-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#tree_oak_bush_a200_070-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#tree_oak_bush_a200_070-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#tree_oak_bush_a200_070-mesh-colors-Col" />
+          <p>5 0 0 0 1 1 1 1 3 2 2 2 0 3 3 3 4 4 4 4 6 5 5 5 4 4 6 6 5 0 7 7 7 6 8 8 7 6 9 9 5 0 10 10 3 2 11 11 2 7 12 12 0 3 13 13 6 5 14 14 6 5 15 15 4 4 16 16 7 6 17 17 8 8 18 18 9 9 19 19 11 10 20 20 10 11 21 21 8 8 22 22 11 10 23 23</p>
+        </triangles>
+        <triangles count="18" material="fir_bark-material">
+          <input offset="0" semantic="VERTEX" source="#tree_oak_bush_a200_070-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#tree_oak_bush_a200_070-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#tree_oak_bush_a200_070-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#tree_oak_bush_a200_070-mesh-colors-Col" />
+          <p>19 18 36 36 12 14 37 37 18 19 38 38 27 20 39 39 16 17 40 40 26 21 41 41 22 22 42 42 14 16 43 43 21 23 44 44 29 24 45 45 17 13 46 46 28 25 47 47 15 12 48 48 22 22 49 49 23 26 50 50 18 19 51 51 12 14 52 52 29 24 53 53 24 27 54 54 15 12 55 55 23 26 56 56 16 17 57 57 24 27 58 58 25 28 59 59 26 21 60 60 16 17 61 61 25 28 62 62 20 29 63 63 13 15 64 64 19 18 65 65 21 23 66 66 13 15 67 67 20 29 68 68 28 25 69 69 17 13 70 70 27 20 71 71 19 18 72 72 13 15 73 73 12 14 74 74 27 20 75 75 17 13 76 76 16 17 77 77 29 24 78 78 12 14 79 79 17 13 80 80 15 12 81 81 14 16 82 82 22 22 83 83 16 17 84 84 15 12 85 85 24 27 86 86 21 23 87 87 14 16 88 88 13 15 89 89</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Circle_043-mesh" name="Circle.043">
+      <mesh>
+        <source id="Circle_043-mesh-positions">
+          <float_array count="36" id="Circle_043-mesh-positions-array">0.2088541 0.1156974 0.7498322 0.2088541 -0.1262224 0.7498322 0.006228923 -0.2471824 0.8202617 -0.1963962 -0.1262225 0.8906913 -0.1963962 0.1156976 0.8906913 0.006228864 0.2366576 0.8202617 0.3205165 0.1817655 -0.1130719 0.3205165 -0.1922907 -0.1130719 -0.003425478 -0.3793188 -0.1130719 -0.3273676 -0.1922907 -0.1130719 -0.3273676 0.1817658 -0.1130719 -0.003425478 0.368794 -0.1130719</float_array>
+          <technique_common>
+            <accessor count="12" source="#Circle_043-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_043-mesh-normals">
+          <float_array count="36" id="Circle_043-mesh-normals-array">0.7548289 -0.3667786 0.5437893 8.24024e-4 -0.989225 0.1464015 0.8561779 -0.4948338 0.1486576 -0.8570352 0.4938588 0.1469491 0.1351706 0.7552341 0.641366 8.24024e-4 0.989225 0.1464015 0.8561779 0.4948338 0.1486576 -0.8570352 -0.4938588 0.1469491 -0.5176033 0.3858525 0.7636785 0.7548289 0.3667786 0.5437893 0.1351706 -0.7552341 0.641366 -0.5176033 -0.3858525 0.7636785</float_array>
+          <technique_common>
+            <accessor count="12" source="#Circle_043-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_043-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_043-mesh-positions" />
+        </vertices>
+        <triangles count="16" material="fir_bark-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_043-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_043-mesh-normals" />
+          <p>1 0 8 1 7 2 10 3 5 4 11 5 6 6 1 0 7 2 9 7 4 8 10 3 11 5 0 9 6 6 2 10 9 7 8 1 3 11 1 0 0 9 2 10 1 0 3 11 3 11 0 9 4 8 4 8 0 9 5 4 1 0 2 10 8 1 10 3 4 8 5 4 6 6 0 9 1 0 9 7 3 11 4 8 11 5 5 4 0 9 2 10 3 11 9 7</p>
+        </triangles>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="tree_douglasfir_chopped_a50" name="tree_douglasfir_chopped_a50" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="tree_douglasfir_chopped_a50" url="#tree_oak_bush_a200_070-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="douglasfir_trunk-material" target="#douglasfir_trunk-material" />
+                  <instance_material symbol="douglasfir_leaves-material" target="#douglasfir_leaves-material" />
+                  <instance_material symbol="trunk_chopped-material" target="#trunk_chopped-material" />
+                  <instance_material symbol="wood_splinters-material" target="#wood_splinters-material" />
+                  <instance_material symbol="fir_bark-material" target="#fir_bark-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Colmesh_chopped-1" name="Colmesh_chopped-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="Colmesh_chopped-1" url="#Circle_043-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="fir_bark-material" target="#fir_bark-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="collision-1" name="collision-1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="bb__autobillboard25" name="bb__autobillboard25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

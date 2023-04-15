@@ -1,0 +1,107 @@
+//--- OBJECT WRITE BEGIN ---
+$ThisPrefab = new SimGroup() {
+  canSave = "1";
+  canSaveDynamicFields = "1";
+  groupPosition = "0 0 0";
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "160.4604949951172 -789.5271606445312 47.20948791503906";
+    rotationMatrix = "0.8941838145256042 -0.44769996404647827 -0.0 0.44769996404647827 0.8941838145256042 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "167.71498107910156 -793.196533203125 47.20948791503906";
+    rotationMatrix = "0.8941838145256042 -0.44769996404647827 -0.0 0.44769996404647827 0.8941838145256042 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "174.99278259277344 -796.877685546875 47.20948791503906";
+    rotationMatrix = "0.8941838145256042 -0.44769996404647827 -0.0 0.44769996404647827 0.8941838145256042 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "182.27125549316406 -800.5591430664062 47.20948791503906";
+    rotationMatrix = "0.8941838145256042 -0.44769996404647827 -0.0 0.44769996404647827 0.8941838145256042 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "281.04095458984375 -782.8681640625 45.95481872558594";
+    rotationMatrix = "-0.7200969457626343 -0.6937107443809509 0.015025142580270767 0.6934641599655151 -0.7202470898628235 -0.018752310425043106 0.023830493912100792 -0.0030840840190649033 0.999711275100708";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "153.74684143066406 -760.3544311523438 46.45449447631836";
+    rotationMatrix = "-0.3984823226928711 -0.9171746373176575 -0.0015878600534051657 0.9163125157356262 -0.3981817066669464 0.042692869901657104 -0.039789073169231415 0.01555737853050232 0.9990869760513306";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "152.4300994873047 -785.2015380859375 45.739234924316406";
+    rotationMatrix = "0.8417881727218628 -0.43604668974876404 0.31820741295814514 0.4599546194076538 0.8879424333572388 -1.4901161193847656e-08 -0.2825498580932617 0.14636097848415375 0.9480211138725281";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "189.5568389892578 -804.2783203125 47.0223503112793";
+    rotationMatrix = "0.8867064714431763 -0.4593144655227661 -0.052743326872587204 0.4599546790122986 0.887942373752594 0.0 0.046833038330078125 -0.0242595411837101 0.9986081123352051";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "256.75860595703125 -765.7498168945312 45.72218322753906";
+    rotationMatrix = "0.9351788759231567 -0.35417577624320984 -0.0 0.35417577624320984 0.9351788759231567 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "279.6172180175781 -803.7125854492188 45.33462905883789";
+    rotationMatrix = "0.6139035820960999 -0.7893810272216797 -0.0 0.7820042967796326 0.6081666946411133 -0.13639108836650848 0.10766454041004181 0.08373098075389862 0.9906550645828247";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+  new TSStatic() {
+    shapeName = "levels/east_coast_usa/art/shapes/buildings/sawmill_platform1.dae";
+    position = "255.3472137451172 -796.7552490234375 45.72218322753906";
+    rotationMatrix = "0.8131131529808044 -0.5821056365966797 -0.0 0.5821056365966797 0.8131131529808044 0.0 0.0 -0.0 1.0";
+    scale = "1.0 1.0 1.0";
+    decalType = "Visible Mesh Final";
+    collisionType = "Collision Mesh";
+  };
+
+};
+//--- OBJECT WRITE END ---

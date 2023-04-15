@@ -1,0 +1,29 @@
+{
+  "signs_usa": {
+    "name": "signs_usa",
+    "mapTo": "signs_usa",
+    "class": "Material",
+    "persistentId": "c1f639ea-515e-4f69-a91e-b433d6ac8f7b",
+    "Stages": [
+      {
+        "colorMap": "levels/cups_canyon/art/shapes/signs_usa/eca_roadsigns_d.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.607767701,
+        "specularMap": "levels/cups_canyon/art/shapes/signs_usa/eca_roadsigns_s.dds",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 64,
+    "alphaTest": true,
+    "annotation": "TRAFFIC_SIGNS",
+    "groundType": "METAL",
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "materialTag2": "cups_canyon",
+    "translucentBlendOp": "None"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "AsphaltRoad_damage_large_decal_01d": {
+    "name": "AsphaltRoad_damage_large_decal_01d",
+    "class": "DecalData",
+    "persistentId": "6483ead9-03ab-47a2-ad63-545eb968c30f",
+    "fadeEndPixelSize": 70,
+    "fadeStartPixelSize": 60,
+    "frame": 2,
+    "material": "AsphaltRoad_damage_large_decal_01",
+    "randomize": true,
+    "renderPriority": 2,
+    "size": 2,
+    "texCols": 2,
+    "texRows": 2,
+    "textureCoordCount": 3,
+    "textureCoords": [
+      [
+        0,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "Road_01_damage01": {
+    "name": "Road_01_damage01",
+    "class": "DecalData",
+    "persistentId": "393bfee3-2c29-48c8-ade6-2a07128a8dd2",
+    "fadeEndPixelSize": 60,
+    "fadeStartPixelSize": 50,
+    "frame": 1,
+    "material": "road_01_damage_sml_decal_01",
+    "randomize": true,
+    "renderPriority": 2,
+    "size": 2,
+    "texCols": 2,
+    "texRows": 2,
+    "textureCoordCount": 3,
+    "textureCoords": [
+      [
+        0,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "decal_damage": {
+    "name": "decal_damage",
+    "class": "DecalData",
+    "persistentId": "9262088a-6a54-4632-b738-69ba48a340cd",
+    "fadeEndPixelSize": 60,
+    "fadeStartPixelSize": 2,
+    "frame": 15,
+    "material": "damage",
+    "randomize": true,
+    "renderPriority": 11,
+    "size": 7,
+    "texCols": 4,
+    "texRows": 4,
+    "textureCoordCount": 15,
+    "textureCoords": [
+      [
+        0,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.75,
+        0.25,
+        0.25
+      ]
+    ]
+  },
+  "decal_graffiti": {
+    "name": "decal_graffiti",
+    "class": "DecalData",
+    "persistentId": "ec457370-ed2e-46bb-8b57-8ffc73e7ecec",
+    "fadeEndPixelSize": 60,
+    "fadeStartPixelSize": 50,
+    "frame": 1,
+    "material": "graffiti",
+    "randomize": true,
+    "renderPriority": 9,
+    "size": 3,
+    "texCols": 4,
+    "texRows": 4,
+    "textureCoordCount": 15,
+    "textureCoords": [
+      [
+        0,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.75,
+        0.25,
+        0.25
+      ],
+      [
+        0.75,
+        0.75,
+        0.25,
+        0.25
+      ]
+    ]
+  },
+  "eca_decals_concrete_damage_decal": {
+    "name": "eca_decals_concrete_damage_decal",
+    "class": "DecalData",
+    "persistentId": "8357aa32-2c41-4f07-8c8a-b5b878538f0c",
+    "fadeEndPixelSize": 90,
+    "fadeStartPixelSize": 80,
+    "material": "eca_decals_concrete_damage",
+    "renderPriority": 1,
+    "size": 8,
+    "textureCoordCount": 0
+  },
+  "ind_stuff_01": {
+    "name": "ind_stuff_01",
+    "class": "DecalData",
+    "persistentId": "367bf1c4-1c36-488a-83af-116457e569e8",
+    "fadeEndPixelSize": 70,
+    "fadeStartPixelSize": 60,
+    "material": "ind_decal_stuff_01",
+    "randomize": true,
+    "renderPriority": 20,
+    "size": 2,
+    "texCols": 2,
+    "texRows": 2,
+    "textureCoordCount": 3,
+    "textureCoords": [
+      [
+        0,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0,
+        0.5,
+        0.5
+      ],
+      [
+        0,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0,
+        0,
+        1,
+        15
+      ]
+    ]
+  },
+  "ind_stuff_02": {
+    "name": "ind_stuff_02",
+    "class": "DecalData",
+    "persistentId": "381c2e7f-1bad-4902-9d81-b377dd447dc6",
+    "fadeEndPixelSize": 70,
+    "fadeStartPixelSize": 60,
+    "material": "ind_decal_stuff_02",
+    "renderPriority": 30,
+    "size": 6,
+    "textureCoordCount": 0
+  },
+  "ind_stuff_02b": {
+    "name": "ind_stuff_02b",
+    "class": "DecalData",
+    "persistentId": "e94324a1-af26-4d16-991f-34dc52edec63",
+    "fadeEndPixelSize": 70,
+    "fadeStartPixelSize": 60,
+    "material": "ind_decal_stuff_02b",
+    "renderPriority": 31,
+    "textureCoordCount": 0,
+    "textureCoords": [
+      [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.666666985,
+        0.666666985,
+        0.333332986,
+        0.333332986
+      ],
+      [
+        0,
+        0.5,
+        0.333332986,
+        0.5
+      ],
+      [
+        0.333332986,
+        0.5,
+        0.333332986,
+        0.5
+      ],
+      [
+        0.666666985,
+        0.5,
+        0.333332986,
+        0.5
+      ],
+      [
+        0,
+        0.666666985,
+        0.333332986,
+        0.333332986
+      ],
+      [
+        0.333332986,
+        0.666666985,
+        0.333332986,
+        0.333332986
+      ],
+      [
+        0.666666985,
+        0.666666985,
+        0.333332986,
+        0.333332986
+      ],
+      [
+        0.333332986,
+        0.800000012,
+        0.333332986,
+        0.200000003
+      ],
+      [
+        0.666666985,
+        0.800000012,
+        0.333332986,
+        0.200000003
+      ]
+    ]
+  },
+  "nat_decals_fallen_leaves_01_decal": {
+    "name": "nat_decals_fallen_leaves_01_decal",
+    "class": "DecalData",
+    "persistentId": "5940a292-ef9e-4db1-a405-0eeee86c43f3",
+    "fadeEndPixelSize": 80,
+    "fadeStartPixelSize": 70,
+    "material": "nat_decals_fallen_leaves",
+    "renderPriority": 20,
+    "size": 4,
+    "textureCoordCount": 0
+  },
+  "nat_decals_rocks_01_decal": {
+    "name": "nat_decals_rocks_01_decal",
+    "class": "DecalData",
+    "persistentId": "884d02a2-09c0-4bbe-900e-16b1321ba67f",
+    "fadeEndPixelSize": 60,
+    "fadeStartPixelSize": 50,
+    "material": "nat_decals_rocks_01",
+    "renderPriority": 1,
+    "size": 8,
+    "textureCoordCount": 0
+  },
+  "sawdust_d": {
+    "name": "sawdust_d",
+    "class": "DecalData",
+    "persistentId": "91b8a1d2-b4ff-40eb-9630-0a81840c67c5",
+    "fadeEndPixelSize": 90,
+    "fadeStartPixelSize": 80,
+    "material": "sawdust",
+    "renderPriority": 60,
+    "size": 8,
+    "textureCoordCount": 0
+  }
+}

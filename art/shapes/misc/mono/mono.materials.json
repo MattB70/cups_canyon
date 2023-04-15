@@ -1,0 +1,25 @@
+{
+  "monolith": {
+    "name": "monolith",
+    "mapTo": "monolith",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.823535025,
+          0.732187986,
+          0.732187986,
+          1
+        ],
+        "pixelSpecular": true,
+        "roughnessFactor": 0.426999986
+      },
+      {},
+      {},
+      {}
+    ],
+    "cubemap": "global_cubemap_metalblurred",
+    "order_simset": -2147481600,
+    "translucentBlendOp": "None"
+  }
+}

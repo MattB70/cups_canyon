@@ -1,0 +1,26 @@
+{
+  "eca_cubemap_metalblurred" : {
+    "name" : "eca_cubemap_metalblurred",
+    "class" : "CubemapData",
+    "persistentId" : "56cd7ecd-8ca5-48fc-8b9c-43560f4b6309",
+    "cubeFace" : [
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_1.png",
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_2.png",
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_3.png",
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_4.png",
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_5.png",
+      "/levels/cups_canyon/art/shapes/buildings/eca_cubemap_metalblurred/cubemap/skybox_6.png"
+    ]
+  },
+  "eca_metalblurred" : {
+    "name" : "eca_metalblurred",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "3ae5a67e-cb10-4d68-be46-f9fefcd2667f",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "eca_cubemap_metalblurred",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}

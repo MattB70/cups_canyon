@@ -1,0 +1,21 @@
+{
+  "eca_bld_ornate_01_lod1" : {
+    "name" : "eca_bld_ornate_01_lod1",
+    "mapTo" : "eca_bld_ornate_01_lod1",
+    "class" : "Material",
+    "persistentId" : "707583f2-57c7-41f9-b05d-069e0ad03635",
+    "Stages" : [
+      {
+        "colorMap" : "levels/cups_canyon/art/shapes/low.png",
+        "vertColor" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0" : "beamng",
+    "materialTag1" : "building",
+    "materialTag2" : "cups_canyon",
+    "translucentBlendOp" : "None"
+  }
+}

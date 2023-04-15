@@ -1,0 +1,45 @@
+{
+  "features":"Town, Hills, Tracks",
+  "suitablefor":"Time Trails, Racing, Chases, Cruising, Rock Crawling, Mudding",
+  "authors":"BeamNG, Cup",
+  "roads":"",
+  "title":"Cup's Canyon",
+  "description":"Hill Climbs, Mud Pits, Race Tracks, and More...",
+  "defaultSpawnPointName":"spawns_highway",
+  "country":"Canada",
+  "biome":"Pacific Northwest",
+  "size":[
+    2048,
+    2048
+  ],
+  "previews":[
+    "cups_canyon_preview1_v2.jpg",
+    "cups_canyon_preview2_v2.jpg",
+    "cups_canyon_preview3_v2.jpg"
+  ],
+  "spawnPoints":[
+    {
+      "translationId":"Old Gas Station",
+      "objectname":"spawns_oldgas",
+      "preview":"spawns_oldgas.jpg"
+    }
+  ],
+  "roadRules":
+  {
+    "turnOnRed": true
+  },
+  "gasStationPoints":[
+    {
+      "translationId":"levels.cups_canyon.gasStationPoints.fuel_node_city",
+      "description":"levels.cups_canyon.gasStationPoints.fuel_node_city.description",
+      "preview":"fuel_node_city.jpg",
+      "zoneNames":["fuel_node_city"]
+    },
+    {
+      "translationId":"levels.cups_canyon.gasStationPoints.fuel_node_dealer",
+      "description":"levels.cups_canyon.gasStationPoints.fuel_node_dealer.description",
+      "preview":"fuel_node_dealer.jpg",
+      "zoneNames":["fuel_node_dealer"]
+    },
+  ],
+}

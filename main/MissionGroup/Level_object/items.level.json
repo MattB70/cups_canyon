@@ -1,0 +1,5 @@
+{"name":"Sky","class":"SimGroup","persistentId":"0b1f6224-3b80-4951-8545-2ef81e9a01cc","__parent":"Level_object"}
+{"name":"Light","class":"SimGroup","persistentId":"352ee074-413e-489b-8f0f-0f3354a9bad5","__parent":"Level_object"}
+{"name":"cloud","class":"SimGroup","persistentId":"4c032e30-b7fe-41a3-ace1-78a223deb45a","__parent":"Level_object"}
+{"name":"time","class":"SimGroup","persistentId":"c3e76ab6-aceb-4d0d-b72c-5b093378abe8","__parent":"Level_object"}
+{"name":"terrain","class":"SimGroup","persistentId":"f0ceb7d9-cf03-43ac-b36c-86f1719e147a","__parent":"Level_object"}

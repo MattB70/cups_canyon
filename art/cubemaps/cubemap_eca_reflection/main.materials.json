@@ -1,0 +1,26 @@
+{
+  "cubemap_eca_reflection" : {
+    "name" : "cubemap_eca_reflection",
+    "class" : "CubemapData",
+    "persistentId" : "2e7f47af-50e2-4ca0-aa74-30e5002eb38b",
+    "cubeFace" : [
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox0.hdr.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox1.hdr.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox2.hdr.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox3.hdr.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox4.hdr.dds",
+      "/levels/cups_canyon/art/cubemaps/cubemap_eca_reflection/cubemap/skybox5.hdr.dds"
+    ]
+  },
+  "eca_reflection" : {
+    "name" : "eca_reflection",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "000d0837-fb5a-4f05-98d8-22aff488aa96",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "cubemap_eca_reflection",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}
