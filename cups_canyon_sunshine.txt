@@ -18778,7 +18778,7 @@ new SimGroup(MissionGroup) {
       canSaveDynamicFields = "1";
 
       new TerrainBlock(Terrain) {
-         terrainFile = "levels/cups_canyon/cups_canyon.ter";
+         terrainFile = "levels/cups_canyon/terrain2.ter";
          castShadows = "1";
          squareSize = "1";
          baseTexSize = "2048";
