@@ -1,1 +1,1 @@
-{"name":"theTerrain2","class":"TerrainBlock","persistentId":"6639f0ae-89f9-4134-8285-c305155e33aa","__parent":"terrain","position":[-1024,-1024,0],"baseTexSize":2048,"materialTextureSet":"cups_canyonTerrainMaterialTextureSet","maxHeight":120,"minimapImage":"levels/cups_canyon/east_coast_minimap.png","terrainFile":"/levels/cups_canyon/theTerrain2.ter"}
+{"name":"theTerrain2","class":"TerrainBlock","persistentId":"2f3a3f04-ca12-4dfe-ac13-80c5af3c1094","__parent":"terrain","position":[-1024,-1024,-360],"maxHeight":480,"terrainFile":"/levels/cups_canyon/terrain2.ter"}
