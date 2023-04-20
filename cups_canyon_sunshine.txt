@@ -1588,7 +1588,7 @@ new SimGroup(MissionGroup) {
          terrainFile = "levels/cups_canyon/terrain2.ter";
          castShadows = "1";
          squareSize = "1";
-         baseTexSize = "1024";
+         baseTexSize = "2048";
          lightMapSize = "256";
          screenError = "16";
          position = "-1024 -1024 0";

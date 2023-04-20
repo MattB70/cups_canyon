@@ -754,6 +754,23 @@
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
     "roughnessMacroTexSize": 80
   },
+  "cups_canyonTerrainMaterialTextureSet": {
+    "name": "cups_canyonTerrainMaterialTextureSet",
+    "class": "TerrainMaterialTextureSet",
+    "persistentId": "278624cd-690a-4e3c-a32c-802a9a9f7544",
+    "baseTexSize": [
+      2048,
+      2048
+    ],
+    "detailTexSize": [
+      1024,
+      1024
+    ],
+    "macroTexSize": [
+      1024,
+      1024
+    ]
+  },
   "dirt_grass-612c6d1d-0601-43bb-9be7-1001ca17957c": {
     "name": "dirt_grass-612c6d1d-0601-43bb-9be7-1001ca17957c",
     "internalName": "dirt_grass",
@@ -830,23 +847,6 @@
     ],
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_grass_r.png",
     "roughnessMacroTexSize": 70
-  },
-  "cups_canyonTerrainMaterialTextureSet": {
-    "name": "cups_canyonTerrainMaterialTextureSet",
-    "class": "TerrainMaterialTextureSet",
-    "persistentId": "278624cd-690a-4e3c-a32c-802a9a9f7544",
-    "baseTexSize": [
-      2048,
-      2048
-    ],
-    "detailTexSize": [
-      1024,
-      1024
-    ],
-    "macroTexSize": [
-      1024,
-      1024
-    ]
   },
   "forest_floor-208a796b-af10-493a-aeb9-eb2bfd276636": {
     "name": "forest_floor-208a796b-af10-493a-aeb9-eb2bfd276636",

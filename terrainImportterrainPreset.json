@@ -2,7 +2,7 @@
   "heightMapPath":"/levels/cups_canyon/terrain export/theTerrain_heightmap - Copy.png",
   "heightScale":480,
   "holeMapPath":"/levels/cups_canyon/terrain export/theTerrain2_holemap.png",
-  "name":"theTerrain2",
+  "name":"terrain2",
   "opacityMaps":[
     "/levels/cups_canyon/terrain export/theTerrain2_layerMap_0_Grass.png",
     "/levels/cups_canyon/terrain export/theTerrain2_layerMap_10_asphalt2.png",
@@ -23,7 +23,7 @@
   "pos":{
     "x":-1024,
     "y":-1024,
-    "z":-360
+    "z":0
   },
   "squareSize":1,
   "type":"TerrainData"
