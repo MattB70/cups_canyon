@@ -1,0 +1,30 @@
+{
+  "heightMapPath":"/levels/cups_canyon/theTerrain2_heightmap.png",
+  "heightScale":120,
+  "holeMapPath":"/levels/cups_canyon/theTerrain2_holemap.png",
+  "name":"theTerrain2",
+  "opacityMaps":[
+    "/levels/cups_canyon/theTerrain2_layerMap_0_Grass.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_10_asphalt2.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_11_Grass2.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_12_Grass3.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_13_Grass4.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_14_dirt_grass.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_1_RockyDirt.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_2_Dirt.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_3_rocks_large.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_4_ROCK.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_5_Forest.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_6_GROUNDMODEL_ASPHALT1.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_7_Mud.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_8_forest_floor.png",
+    "/levels/cups_canyon/theTerrain2_layerMap_9_asphalt.png"
+  ],
+  "pos":{
+    "x":-1024,
+    "y":-1024,
+    "z":0
+  },
+  "squareSize":1,
+  "type":"TerrainData"
+}
