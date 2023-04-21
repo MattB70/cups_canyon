@@ -8,11 +8,6 @@
   "layerMapSize": 4194304,
   "materials": [
     "Grass",
-    "asphalt2",
-    "Grass2",
-    "Grass3",
-    "Grass4",
-    "dirt_grass",
     "RockyDirt",
     "Dirt",
     "rocks_large",
@@ -21,7 +16,12 @@
     "GROUNDMODEL_ASPHALT1",
     "Mud",
     "forest_floor",
-    "asphalt"
+    "asphalt",
+    "asphalt2",
+    "Grass2",
+    "Grass3",
+    "Grass4",
+    "dirt_grass"
   ],
   "size": 2048,
   "version": 8
