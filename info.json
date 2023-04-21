@@ -6,7 +6,7 @@
   "title":"Cup's Canyon",
   "description":"Hill Climbs, Mud Pits, Race Tracks, and More...",
   "defaultSpawnPointName":"spawns_highway",
-  "country":"Canada",
+  "country":"Montana, USA",
   "biome":"Pacific Northwest",
   "size":[
     2048,
@@ -34,12 +34,6 @@
       "description":"levels.cups_canyon.gasStationPoints.fuel_node_city.description",
       "preview":"fuel_node_city.jpg",
       "zoneNames":["fuel_node_city"]
-    },
-    {
-      "translationId":"levels.cups_canyon.gasStationPoints.fuel_node_dealer",
-      "description":"levels.cups_canyon.gasStationPoints.fuel_node_dealer.description",
-      "preview":"fuel_node_dealer.jpg",
-      "zoneNames":["fuel_node_dealer"]
-    },
+    }
   ],
 }
