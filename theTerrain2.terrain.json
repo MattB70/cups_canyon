@@ -1,9 +1,9 @@
 {
   "binaryFormat": "version(char), size(unsigned int), heightMap(heightMapSize * heightMapItemSize), layerMap(layerMapSize * layerMapItemSize), layerTextureMap(layerMapSize * layerMapItemSize), materialNames",
-  "datafile": "/levels/cups_canyon/terrain2.ter",
+  "datafile": "/levels/cups_canyon/theTerrain2.ter",
   "heightMapItemSize": 2,
   "heightMapSize": 4194304,
-  "heightmapImage": "/levels/cups_canyon/terrain2.terrainheightmap.png",
+  "heightmapImage": "/levels/cups_canyon/theTerrain2.terrainheightmap.png",
   "layerMapItemSize": 1,
   "layerMapSize": 4194304,
   "materials": [
