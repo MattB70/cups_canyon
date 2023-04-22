@@ -578,7 +578,7 @@
     "aoDetailTex": "/levels/cups_canyon/art/terrains/t_rock_eca_ao.png",
     "aoMacroTex": "/levels/cups_canyon/art/terrains/t_rocks_pac_ao.png",
     "aoMacroTexSize": 10,
-    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base06_b.png",
     "baseColorBaseTexSize": 2048,
     "baseColorDetailStrength": [
       0.25,
