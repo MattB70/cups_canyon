@@ -316,23 +316,23 @@
     "persistentId": "3f701454-6c16-4064-9cdf-fcb215120369",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_ao.data.png",
+        "ambientOcclusionMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_ao.data.png",
         "baseColorFactor": [
           1,
           1,
           0.999989986,
           0.899999976
         ],
-        "baseColorMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_b.color.png",
-        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_edge_brake_up_02_nm.normal.png",
+        "baseColorMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_b.color.png",
+        "detailNormalMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_nm.normal.png",
         "detailNormalMapStrength": 2,
         "detailScale": [
           1,
           0.200000003
         ],
-        "normalMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_nm.normal.png",
-        "opacityMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_o.data.png",
-        "roughnessMap": "/levels/cups_canyon/art/road/t_eca_asphalt_dirt_grass_edge_r.data.png",
+        "normalMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_nm.normal.png",
+        "opacityMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_o.data.png",
+        "roughnessMap": "/levels/cups_canyon/art/road/t_asphalt_snow_edge_02_r.data.png",
         "specular": [
           0.545098007,
           0.545098007,

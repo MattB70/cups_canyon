@@ -1,4 +1,75 @@
 {
+  "BlackIce-4b64666c-24cd-4141-ac84-b7f1acb4a269": {
+    "internalName": "BlackIce",
+    "class": "TerrainMaterial",
+    "persistentId": "4b64666c-24cd-4141-ac84-b7f1acb4a269",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_ao.png",
+    "aoBaseTexSize": 2048,
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_ao.png",
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_ao.png",
+    "aoMacroTexSize": 80,
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base03_b.png",
+    "baseColorBaseTexSize": 2048,
+    "baseColorDetailStrength": [
+      0.200000003,
+      0.300000012
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_b.png",
+    "baseColorMacroStrength": [
+      0.200000003,
+      0.300000012
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
+    "baseColorMacroTexSize": 80,
+    "detailDistances": [
+      0,
+      0,
+      20,
+      40
+    ],
+    "groundmodelName": "SNOW",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_h.png",
+    "heightBaseTexSize": 2048,
+    "heightDetailStrength": [
+      0.5,
+      0
+    ],
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_h.png",
+    "heightMacroStrength": [
+      0,
+      1
+    ],
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_h.png",
+    "heightMacroTexSize": 80,
+    "macroDistances": [
+      0,
+      10,
+      100,
+      3000
+    ],
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_nm.png",
+    "normalBaseTexSize": 2048,
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_04_nm.png",
+    "normalMacroStrength": [
+      0.200000003,
+      0.400000006
+    ],
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
+    "normalMacroTexSize": 80,
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_shiny_r.png",
+    "roughnessBaseTexSize": 2048,
+    "roughnessDetailStrength": [
+      0.800000012,
+      0.5
+    ],
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_r.png",
+    "roughnessMacroStrength": [
+      0.800000012,
+      1
+    ],
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
+    "roughnessMacroTexSize": 80
+  },
   "Dirt-da8e638c-5f6c-4542-8bb6-aae7d6232074": {
     "name": "Dirt-da8e638c-5f6c-4542-8bb6-aae7d6232074",
     "internalName": "Dirt",
@@ -628,6 +699,122 @@
     "roughnessMacroTex": "/levels/Utah/art/terrains/t_macro_rocky_r.png",
     "roughnessMacroTexSize": 50
   },
+  "SnowDeep-a928af63-bc32-4eb7-87ff-8d149a184e55": {
+    "internalName": "SnowDeep",
+    "class": "TerrainMaterial",
+    "persistentId": "a928af63-bc32-4eb7-87ff-8d149a184e55",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_mud_ao.png",
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_ao.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base05_b.png",
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_mud_b.png",
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_b.png",
+    "groundmodelName": "SNOWDEEP",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_mud_h.png",
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_h.png",
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_mud_nm.png",
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_nm.png",
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_mud_r.png",
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_r.png"
+  },
+  "SnowMedium-ddf74d5c-d706-4b2e-97e3-ebca2e4dcd2e": {
+    "internalName": "SnowMedium",
+    "class": "TerrainMaterial",
+    "persistentId": "ddf74d5c-d706-4b2e-97e3-ebca2e4dcd2e",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoDetailStrength": [
+      0.300000012,
+      0.400000006
+    ],
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_ao.png",
+    "aoMacroStrength": [
+      0.200000003,
+      0.699999988
+    ],
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_ao.png",
+    "aoMacroTexSize": 10,
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base04_b.png",
+    "baseColorDetailStrength": [
+      0.100000001,
+      0.200000003
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_b.png",
+    "baseColorMacroStrength": [
+      0,
+      0
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_b.png",
+    "baseColorMacroTexSize": 10,
+    "groundmodelName": "SNOWMEDIUM",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
+    "heightDetailStrength": [
+      0.400000006,
+      1
+    ],
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_h.png",
+    "heightMacroStrength": [
+      0.5,
+      0.400000006
+    ],
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_h.png",
+    "heightMacroTexSize": 10,
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
+    "normalDetailStrength": [
+      0.300000012,
+      0.5
+    ],
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_nm.png",
+    "normalMacroStrength": [
+      0.600000024,
+      0.699999988
+    ],
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_nm.png",
+    "normalMacroTexSize": 10,
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessDetailStrength": [
+      0.400000006,
+      0.600000024
+    ],
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_r.png",
+    "roughnessMacroStrength": [
+      0.400000006,
+      0.600000024
+    ],
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_r.png",
+    "roughnessMacroTexSize": 10
+  },
+  "SnowSurface-05142b32-477d-4e28-a6b1-851e975cb8ff": {
+    "internalName": "SnowSurface",
+    "class": "TerrainMaterial",
+    "persistentId": "05142b32-477d-4e28-a6b1-851e975cb8ff",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_ao.png",
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_ao.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base04_b.png",
+    "baseColorDetailStrength": [
+      0.5,
+      1
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_b.png",
+    "baseColorMacroStrength": [
+      0,
+      0
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_b.png",
+    "groundmodelName": "SNOW",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_h.png",
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_h.png",
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_nm.png",
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_nm.png",
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_r.png",
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_r.png"
+  },
   "asphalt-43497811-81f1-4272-8c60-04cf66cd598c": {
     "name": "asphalt-43497811-81f1-4272-8c60-04cf66cd598c",
     "internalName": "asphalt",
@@ -754,6 +941,23 @@
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
     "roughnessMacroTexSize": 80
   },
+  "cups_canyonTerrainMaterialTextureSet": {
+    "name": "cups_canyonTerrainMaterialTextureSet",
+    "class": "TerrainMaterialTextureSet",
+    "persistentId": "278624cd-690a-4e3c-a32c-802a9a9f7544",
+    "baseTexSize": [
+      2048,
+      2048
+    ],
+    "detailTexSize": [
+      1024,
+      1024
+    ],
+    "macroTexSize": [
+      1024,
+      1024
+    ]
+  },
   "dirt_grass-612c6d1d-0601-43bb-9be7-1001ca17957c": {
     "name": "dirt_grass-612c6d1d-0601-43bb-9be7-1001ca17957c",
     "internalName": "dirt_grass",
@@ -830,23 +1034,6 @@
     ],
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_grass_r.png",
     "roughnessMacroTexSize": 70
-  },
-  "cups_canyonTerrainMaterialTextureSet": {
-    "name": "cups_canyonTerrainMaterialTextureSet",
-    "class": "TerrainMaterialTextureSet",
-    "persistentId": "278624cd-690a-4e3c-a32c-802a9a9f7544",
-    "baseTexSize": [
-      2048,
-      2048
-    ],
-    "detailTexSize": [
-      1024,
-      1024
-    ],
-    "macroTexSize": [
-      1024,
-      1024
-    ]
   },
   "forest_floor-208a796b-af10-493a-aeb9-eb2bfd276636": {
     "name": "forest_floor-208a796b-af10-493a-aeb9-eb2bfd276636",
@@ -935,7 +1122,7 @@
     ],
     "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
     "baseColorMacroTexSize": 80,
-    "groundmodelName": "GROUNDMODEL_ASPHALT1",
+    "groundmodelName": "ASPHALT",
     "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_h.png",
     "heightBaseTexSize": 2048,
     "heightDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_h.png",

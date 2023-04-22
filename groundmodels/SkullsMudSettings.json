@@ -1,0 +1,133 @@
+{
+	"SnowDeep" : {
+    "staticFrictionCoefficient"  : 0.65,
+    "slidingFrictionCoefficient" : 0.65,
+    "hydrodynamicFriction"       : 0.4,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.3,
+    "roughnessCoefficient"       : 0.3,
+
+    "fluidDensity"               : 7000,
+    "flowConsistencyIndex"       : 2000,
+    "flowBehaviorIndex"          : 0.6,
+    "dragAnisotropy"             : 0.4,
+    "shearStrength"              : 4000,
+    "defaultDepth"               : 0.40,
+    "collisiontype"              : "ROCK",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SnowMedium"]*/
+   },
+	"SnowMedium" : {
+    "staticFrictionCoefficient"  : 0.65,
+    "slidingFrictionCoefficient" : 0.65,
+    "hydrodynamicFriction"       : 0.5,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.3,
+    "roughnessCoefficient"       : 0.3,
+
+    "fluidDensity"               : 4000,
+    "flowConsistencyIndex"       : 2000,
+    "flowBehaviorIndex"          : 0.6,
+    "dragAnisotropy"             : 0.3,
+    "shearStrength"              : 4000,
+    "defaultDepth"               : 0.20,
+    "collisiontype"              : "ROCK",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SnowMedium"]*/
+   },
+   
+  "SkullsModerateMud" : {
+    "staticFrictionCoefficient"  : 0.55,
+    "slidingFrictionCoefficient" : 0.55,
+    "hydrodynamicFriction"       : 0.3,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.2,
+    "roughnessCoefficient"       : 0.5,
+
+    "fluidDensity"               : 7000,
+    "flowConsistencyIndex"       : 2000,
+    "flowBehaviorIndex"          : 0.5,
+    "dragAnisotropy"             : 0.45,
+    "shearStrength"              : 4500,
+    "defaultDepth"               : 0.35,
+    "collisiontype"              : "MUD",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SkullsModerateMud"]*/
+   },
+   
+    "SkullsDeepMud" : {
+    "staticFrictionCoefficient"  : 0.55,
+    "slidingFrictionCoefficient" : 0.55,
+    "hydrodynamicFriction"       : 0.8,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.6,
+    "roughnessCoefficient"       : 0.5,
+
+    "fluidDensity"               : 7000,
+    "flowConsistencyIndex"       : 1800,
+    "flowBehaviorIndex"          : 0.5,
+    "dragAnisotropy"             : 0.75,
+    "shearStrength"              : 5000,
+    "defaultDepth"               : 0.65,
+    "collisiontype"              : "MUD",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SkullsDeepMud"]*/
+   },
+   
+   "SkullsVeryDeepMud" : {
+    "staticFrictionCoefficient"  : 0.55,
+    "slidingFrictionCoefficient" : 0.55,
+    "hydrodynamicFriction"       : 1.0,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.4,
+    "roughnessCoefficient"       : 0.5,
+
+    "fluidDensity"               : 5000,
+    "flowConsistencyIndex"       : 1400,
+    "flowBehaviorIndex"          : 0.5,
+    "dragAnisotropy"             : 0.75,
+    "shearStrength"              : 6000,
+    "defaultDepth"               : 0.95,
+    "collisiontype"              : "MUD",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SkullsVeryDeepMud"]*/
+   },
+   
+   "SkullsMud" : {
+    "staticFrictionCoefficient"  : 0.55,
+    "slidingFrictionCoefficient" : 0.55,
+    "hydrodynamicFriction"       : 0.0,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 1,
+    "roughnessCoefficient"       : 0.5,
+
+    "fluidDensity"               : 8000,
+    "flowConsistencyIndex"       : 2000,
+    "flowBehaviorIndex"          : 0.5,
+    "dragAnisotropy"             : 0.75,
+    "shearStrength"              : 3000,
+    "defaultDepth"               : 0.20,
+    "collisiontype"              : "MUD",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SkullsMud"]*/
+   },
+   
+   "SkullsHazardMud" : {
+    "staticFrictionCoefficient"  : 0.55,
+    "slidingFrictionCoefficient" : 0.55,
+    "hydrodynamicFriction"       : 1.2,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.0,
+    "roughnessCoefficient"       : 0.8,
+
+    "fluidDensity"               : 3000,
+    "flowConsistencyIndex"       : 1400,
+    "flowBehaviorIndex"          : 0.3,
+    "dragAnisotropy"             : 0.85,
+    "shearStrength"              : 7000,
+    "defaultDepth"               : 0.99,
+    "collisiontype"              : "MUD",
+    "skidMarks"                  : false
+    /*"aliases"                    : ["", "", "", "", "", "", "SkullsHazardMud"]*/
+	}
+}

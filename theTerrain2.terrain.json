@@ -21,7 +21,11 @@
     "Grass2",
     "Grass3",
     "Grass4",
-    "dirt_grass"
+    "dirt_grass",
+    "SnowSurface",
+    "BlackIce",
+    "SnowMedium",
+    "SnowDeep"
   ],
   "size": 2048,
   "version": 8
