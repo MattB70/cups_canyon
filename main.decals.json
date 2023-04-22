@@ -4,5 +4,22 @@
     "comments": "// Instances format: rectIdx, size, renderPriority, position.x, position.y, position.z, normal.x, normal.y, normal.z, tangent.x, tangent.y, tangent.z",
     "version": 1
   },
-  "instances": {}
+  "instances": {
+    "AsphaltRoad_damage_large_decal_01d": [
+      [
+        2,
+        2,
+        0,
+        2.28458953,
+        -11.551877,
+        249.999985,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0
+      ]
+    ]
+  }
 }
