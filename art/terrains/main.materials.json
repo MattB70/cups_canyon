@@ -80,7 +80,7 @@
     "aoDetailTex": "/levels/cups_canyon/art/terrains/t_dirt_rocky_ao.png",
     "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_ao.png",
     "aoMacroTexSize": 40,
-    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b_brown.png",
     "baseColorBaseTexSize": 2048,
     "baseColorDetailStrength": [
       0.25,
@@ -513,7 +513,7 @@
     "aoBaseTexSize": 2048,
     "aoDetailTex": "/levels/cups_canyon/art/terrains/t_mud_ao.png",
     "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_ao.png",
-    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b_brown2.png",
     "baseColorBaseTexSize": 2048,
     "baseColorDetailStrength": [
       0.25,
