@@ -1,0 +1,56 @@
+{
+  "BNG_waterfallspray": {
+    "name": "BNG_waterfallspray",
+    "class": "ParticleData",
+    "persistentId": "4d3e58b0-b07a-4f34-876f-ca4c182f6a55",
+    "animTexName": "art/shapes/particles/Particle_splash.dds",
+    "colors": [
+      [
+        0.996078014,
+        0.996078014,
+        0.996078014,
+        0.512000024
+      ],
+      [
+        0.996078014,
+        0.996078014,
+        0.996078014,
+        2
+      ],
+      [
+        0.996078014,
+        0.996078014,
+        0.996078014,
+        1.96700001
+      ],
+      [
+        0.996078014,
+        0.996078014,
+        0.996078014,
+        0.00800000038
+      ]
+    ],
+    "dragCoefficient": 0.747801006,
+    "gravityCoefficient": 0.666666985,
+    "inheritedVelFactor": 1,
+    "lifetimeMS": 2500,
+    "lifetimeVarianceMS": 500,
+    "sizes": [
+      null,
+      4,
+      6,
+      8
+    ],
+    "spinRandomMax": 360,
+    "spinRandomMin": -360,
+    "spinSpeed": 0.300000012,
+    "textureName": "art/shapes/particles/Particle_splash.dds",
+    "times": [
+      null,
+      0.354167014,
+      0.74901998,
+      null
+    ],
+    "useInvAlpha": true
+  }
+}

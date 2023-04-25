@@ -1,0 +1,25 @@
+{
+  "BNGP_waterfallspray": {
+    "name": "BNGP_waterfallspray",
+    "class": "ParticleEmitterData",
+    "persistentId": "e84041a4-71bc-41a2-b6f2-2f12c20508ca",
+    "alignDirection": [
+      0,
+      0,
+      0
+    ],
+    "blendStyle": "NORMAL",
+    "ejectionOffset": 0.200000003,
+    "ejectionOffsetVariance": 1,
+    "highResOnly": false,
+    "originalName": "BNGP_23",
+    "particles": "BNG_waterfallspray",
+    "periodVarianceMS": 20,
+    "phiVariance": 90,
+    "reverseOrder": true,
+    "softParticles": "0",
+    "softnessDistance": 0.850000024,
+    "thetaMax": 180,
+    "velocityVariance": 2
+  }
+}
