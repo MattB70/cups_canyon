@@ -1,0 +1,37 @@
+Assets to bring over to new map:
+
+west coast:
+!/levels/west_coast_usa/art/shapes/buildings/dealership_mid.dae
+!/levels/west_coast_usa/art/shapes/buildings/dragstrip_tree.dae
+!/levels/west_coast_usa/art/shapes/buildings/seating1.dae
+!/levels/west_coast_usa/art/shapes/buildings/office_mobile2.dae
+!/levels/west_coast_usa/art/shapes/buildings/billboards_drag.dae
+!/levels/west_coast_usa/art/shapes/buildings/house1.dae
+!/levels/west_coast_usa/art/shapes/buildings/house2.dae
+!/levels/west_coast_usa/art/shapes/buildings/house3.dae
+!/levels/west_coast_usa/art/shapes/buildings/house4.dae
+!/levels/west_coast_usa/art/shapes/buildings/antenna.dae
+!/levels/west_coast_usa/art/shapes/objects/guardrail1_red.dae
+!/levels/west_coast_usa/art/shapes/objects/guardrail2_white.dae
+!/levels/west_coast_usa/art/shapes/objects/sign_truss1.dae
+!/levels/west_coast_usa/art/shapes/objects/hr_tirestack_blue.dae
+!/levels/west_coast_usa/art/shapes/objects/hr_tirestack_white.dae
+!/levels/west_coast_usa/art/shapes/objects/barrierfence_folk.dae
+!/levels/west_coast_usa/art/shapes/objects/jerseybarrier_3m.dae
+!/levels/west_coast_usa/art/shapes/objects/jerseybarrier_end.dae
+!/levels/west_coast_usa/art/shapes/objects/constructionbarrier.dae
+!/levels/west_coast_usa/art/shapes/objects/sandbarrel.dae
+!/levels/west_coast_usa/art/shapes/objects/trafficlightbox_green.dae
+
+utah:
+!/levels/utah/art/shapes/buildings/ut_autorepair_walls.DAE
+!/levels/utah/art/shapes/buildings/dealer_c.dae
+!/levels/Utah/art/shapes/buildings/ut_bridge_massive.dae
+!/levels/Utah/art/shapes/buildings/ut_bridge_tiny_north.dae
+!/levels/Utah/art/shapes/buildings/ut_bridge_tiny_topcanyon.dae
+!/levels/Utah/art/shapes/buildings/ut_bridge_upward.dae
+!/levels/Utah/art/shapes/buildings/ut_caravan_a.dae
+!/levels/Utah/art/shapes/buildings/ut_tunnel_entrance.dae
+!/levels/Utah/art/shapes/buildings/ut_tunnel_end_east.dae
+!/levels/Utah/art/shapes/buildings/ut_tunnel_end_west.dae
+!/levels/Utah/art/shapes/buildings/ut_tunnel_64m.dae
