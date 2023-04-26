@@ -132,6 +132,62 @@
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_r.png",
     "roughnessMacroTexSize": 40
   },
+  "Dragstrip-5d36e58b-70c7-448b-8bbc-cba8ed46b9eb": {
+    "internalName": "Dragstrip",
+    "class": "TerrainMaterial",
+    "persistentId": "5d36e58b-70c7-448b-8bbc-cba8ed46b9eb",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoBaseTexSize": 2048,
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_ao.png",
+    "aoDetailTexSize": 3,
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_ao.png",
+    "aoMacroTexSize": 500,
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base07_b.png",
+    "baseColorBaseTexSize": 2048,
+    "baseColorDetailStrength": [
+      0.0500000007,
+      0.0500000007
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_b.png",
+    "baseColorDetailTexSize": 3,
+    "baseColorMacroStrength": [
+      0.0500000007,
+      0.100000001
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
+    "baseColorMacroTexSize": 500,
+    "groundmodelName": "ASPHALT_PREPPED",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
+    "heightBaseTexSize": 2048,
+    "heightDetailStrength": [
+      0,
+      0
+    ],
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_h.png",
+    "heightDetailTexSize": 3,
+    "heightMacroStrength": [
+      0,
+      0
+    ],
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_h.png",
+    "heightMacroTexSize": 500,
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
+    "normalBaseTexSize": 2048,
+    "normalDetailStrength": [
+      0.100000001,
+      0.100000001
+    ],
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_nm.png",
+    "normalDetailTexSize": 3,
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
+    "normalMacroTexSize": 500,
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessBaseTexSize": 2048,
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_r.png",
+    "roughnessDetailTexSize": 3,
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
+    "roughnessMacroTexSize": 500
+  },
   "Forest-3af05f17-3005-4330-a0a0-ebe2f8dd33f8": {
     "name": "Forest-3af05f17-3005-4330-a0a0-ebe2f8dd33f8",
     "internalName": "Forest",

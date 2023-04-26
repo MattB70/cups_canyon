@@ -25,7 +25,8 @@
     "SnowSurface",
     "BlackIce",
     "SnowMedium",
-    "SnowDeep"
+    "SnowDeep",
+    "Dragstrip"
   ],
   "size": 2048,
   "version": 8
