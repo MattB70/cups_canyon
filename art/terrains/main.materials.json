@@ -855,10 +855,6 @@
       1
     ],
     "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_b.png",
-    "baseColorMacroStrength": [
-      0,
-      0
-    ],
     "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_b.png",
     "groundmodelName": "SNOW",
     "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
@@ -866,6 +862,10 @@
     "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_h.png",
     "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
     "normalDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_nm.png",
+    "normalMacroStrength": [
+      1,
+      0.400000006
+    ],
     "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_nm.png",
     "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
     "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_r.png",
