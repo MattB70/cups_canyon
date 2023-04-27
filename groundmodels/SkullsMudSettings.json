@@ -4,7 +4,7 @@
     "slidingFrictionCoefficient" : 0.65,
     "hydrodynamicFriction"       : 0.4,
     "stribeckVelocity"           : 6,
-    "strength"                   : 0.3,
+    "strength"                   : 0.6,
     "roughnessCoefficient"       : 0.3,
 
     "fluidDensity"               : 7000,
@@ -15,14 +15,14 @@
     "defaultDepth"               : 0.40,
     "collisiontype"              : "ROCK",
     "skidMarks"                  : false
-    /*"aliases"                    : ["", "", "", "", "", "", "SnowMedium"]*/
+    /*"aliases"                    : ["", "", "", "", "", "", "SnowDeep"]*/
    },
 	"SnowMedium" : {
     "staticFrictionCoefficient"  : 0.65,
     "slidingFrictionCoefficient" : 0.65,
     "hydrodynamicFriction"       : 0.5,
     "stribeckVelocity"           : 6,
-    "strength"                   : 0.3,
+    "strength"                   : 0.4,
     "roughnessCoefficient"       : 0.3,
 
     "fluidDensity"               : 4000,
@@ -34,6 +34,25 @@
     "collisiontype"              : "ROCK",
     "skidMarks"                  : false
     /*"aliases"                    : ["", "", "", "", "", "", "SnowMedium"]*/
+   },
+   
+   "Track" : {
+    "staticFrictionCoefficient"  : 0.8,
+    "slidingFrictionCoefficient" : 0.75,
+    "hydrodynamicFriction"       : 0.8,
+    "stribeckVelocity"           : 6,
+    "strength"                   : 0.8,
+    "roughnessCoefficient"       : 0.1,
+
+    "fluidDensity"               : 4000,
+    "flowConsistencyIndex"       : 2000,
+    "flowBehaviorIndex"          : 0.6,
+    "dragAnisotropy"             : 0.4,
+    "shearStrength"              : 4000,
+    "defaultDepth"               : 0,
+    "collisiontype"              : "ASPHALT",
+    "skidMarks"                  : true
+    /*"aliases"                    : ["", "", "", "", "", "", "Track"]*/
    },
    
   "SkullsModerateMud" : {

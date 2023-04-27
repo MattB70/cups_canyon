@@ -871,6 +871,57 @@
     "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_macro_clumpy_r.png",
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_holes_r.png"
   },
+  "Track-5173c8fe-bb6e-4f56-ac10-06b43de15e14": {
+    "internalName": "Track",
+    "class": "TerrainMaterial",
+    "persistentId": "5173c8fe-bb6e-4f56-ac10-06b43de15e14",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_ao.png",
+    "aoBaseTexSize": 2048,
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_02_ao.png",
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_ao.png",
+    "aoMacroTexSize": 200,
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base03_b.png",
+    "baseColorBaseTexSize": 2048,
+    "baseColorDetailStrength": [
+      0.100000001,
+      0.100000001
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_02_b.png",
+    "baseColorMacroStrength": [
+      0.0700000003,
+      0.129999995
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
+    "baseColorMacroTexSize": 200,
+    "groundmodelName": "TRACK",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_h.png",
+    "heightBaseTexSize": 2048,
+    "heightDetailStrength": [
+      0,
+      0
+    ],
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_02_h.png",
+    "heightMacroStrength": [
+      0,
+      0
+    ],
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_h.png",
+    "heightMacroTexSize": 200,
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_nm.png",
+    "normalBaseTexSize": 2048,
+    "normalDetailStrength": [
+      0.200000003,
+      0.200000003
+    ],
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_02_nm.png",
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
+    "normalMacroTexSize": 200,
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_r.png",
+    "roughnessBaseTexSize": 2048,
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_02_r.png",
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
+    "roughnessMacroTexSize": 200
+  },
   "asphalt-43497811-81f1-4272-8c60-04cf66cd598c": {
     "name": "asphalt-43497811-81f1-4272-8c60-04cf66cd598c",
     "internalName": "asphalt",
