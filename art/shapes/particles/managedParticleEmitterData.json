@@ -8,18 +8,21 @@
       0,
       0
     ],
-    "blendStyle": "NORMAL",
+    "blendStyle": "ADDITIVE",
     "ejectionOffset": 0.200000003,
     "ejectionOffsetVariance": 1,
+    "ejectionPeriodMS": 400,
+    "ejectionVelocity": 4,
     "highResOnly": false,
     "originalName": "BNGP_23",
     "particles": "BNG_waterfallspray",
     "periodVarianceMS": 20,
     "phiVariance": 90,
+    "renderReflection": false,
     "reverseOrder": true,
     "softParticles": "0",
-    "softnessDistance": 0.850000024,
+    "softnessDistance": 20,
     "thetaMax": 180,
-    "velocityVariance": 2
+    "velocityVariance": 3
   }
 }
