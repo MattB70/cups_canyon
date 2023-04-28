@@ -2,10 +2,10 @@
   "binaryFormat": "version(char), size(unsigned int), heightMap(heightMapSize * heightMapItemSize), layerMap(layerMapSize * layerMapItemSize), layerTextureMap(layerMapSize * layerMapItemSize), materialNames",
   "datafile": "/levels/cups_canyon/theTerrain2.ter",
   "heightMapItemSize": 2,
-  "heightMapSize": 4194304,
+  "heightMapSize": 16777216,
   "heightmapImage": "/levels/cups_canyon/theTerrain2.terrainheightmap.png",
   "layerMapItemSize": 1,
-  "layerMapSize": 4194304,
+  "layerMapSize": 16777216,
   "materials": [
     "Grass",
     "RockyDirt",
@@ -27,8 +27,8 @@
     "SnowMedium",
     "SnowDeep",
     "Dragstrip",
-    "Track"
+    "Grass"
   ],
-  "size": 2048,
+  "size": 4096,
   "version": 8
 }
