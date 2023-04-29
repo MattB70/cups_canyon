@@ -559,6 +559,62 @@
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_grass_r.png",
     "roughnessMacroTexSize": 100
   },
+  "Gravel-366e48fc-67b2-480b-8c3f-cbd1d7637757": {
+    "internalName": "Gravel",
+    "class": "TerrainMaterial",
+    "persistentId": "366e48fc-67b2-480b-8c3f-cbd1d7637757",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_ao.png",
+    "aoBaseTexSize": 4096,
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_ao.png",
+    "aoDetailTexSize": 40,
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_ao.png",
+    "aoMacroTexSize": 1,
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_b.png",
+    "baseColorBaseTexSize": 4096,
+    "baseColorDetailStrength": [
+      0.400000006,
+      0.300000012
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
+    "baseColorDetailTexSize": 40,
+    "baseColorMacroStrength": [
+      0.400000006,
+      0.100000001
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_b.png",
+    "baseColorMacroTexSize": 1,
+    "groundmodelName": "GRAVEL",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_h.png",
+    "heightBaseTexSize": 4096,
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_h.png",
+    "heightDetailTexSize": 40,
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_h.png",
+    "heightMacroTexSize": 1,
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_nm.png",
+    "normalBaseTexSize": 4096,
+    "normalDetailStrength": [
+      0.300000012,
+      0.400000006
+    ],
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
+    "normalDetailTexSize": 40,
+    "normalMacroStrength": [
+      0.200000003,
+      0.200000003
+    ],
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_nm.png",
+    "normalMacroTexSize": 1,
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_r.png",
+    "roughnessBaseTexSize": 4096,
+    "roughnessDetailStrength": [
+      0,
+      0
+    ],
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
+    "roughnessDetailTexSize": 40,
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_r.png",
+    "roughnessMacroTexSize": 1
+  },
   "Mud-02f839d3-c911-44c9-8d3d-5ebd1e3bd9cc": {
     "name": "Mud-02f839d3-c911-44c9-8d3d-5ebd1e3bd9cc",
     "internalName": "Mud",
