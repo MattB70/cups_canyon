@@ -1,0 +1,15 @@
+{
+  "HD_sky": {
+    "name": "HD_sky",
+    "mapTo": "HD_sky",
+    "class": "Material",
+    "persistentId": "a2f9560e-88c8-432a-9f4b-522b01e3d8ea",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "cubemap": "CubemapData_1"
+  }
+}
