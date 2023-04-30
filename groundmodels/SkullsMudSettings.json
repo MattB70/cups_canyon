@@ -38,9 +38,9 @@
    
    "Track" : {
     "staticFrictionCoefficient"  : 0.99,
-    "slidingFrictionCoefficient" : 0.75,
+    "slidingFrictionCoefficient" : 0.84,
     "hydrodynamicFriction"       : 0,
-    "stribeckVelocity"           : 4.6,
+    "stribeckVelocity"           : 5.5,
     "strength"                   : 1,
     "roughnessCoefficient"       : 0,
 
