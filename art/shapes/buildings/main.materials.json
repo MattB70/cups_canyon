@@ -473,6 +473,61 @@
     "materialTag2": "east_coast_usa",
     "translucentBlendOp": "None"
   },
+  "trackbarriers": {
+    "name": "trackbarriers",
+    "mapTo": "trackbarriers",
+    "class": "Material",
+    "persistentId": "9144b2ae-bdc5-4f50-bbea-ece11426f744",
+    "Stages": [
+      {
+        "colorMap": "/levels/Utah/art/shapes/buildings/ut_plastic_trim_d.color.png",
+        "normalMap": "/levels/Utah/art/shapes/buildings/ut_plastic_trim_nm.normal.png",
+        "overlayMap": "levels/Utah/art/shapes/buildings/utah_breakup_texture.dds",
+        "specularMap": "/levels/Utah/art/shapes/buildings/ut_plastic_trim_s.color.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "PLASTIC",
+    "materialTag0": "beamng",
+    "materialTag1": "building",
+    "materialTag2": "utah",
+    "order_simset": -1125201513,
+    "translucentBlendOp": "None"
+  },
+  "concrete_plain": {
+    "name": "concrete_plain",
+    "mapTo": "concrete_plain",
+    "class": "Material",
+    "persistentId": "bdaa001e-5175-42bb-ab76-9ab9506712d9",
+    "Stages": [
+      {
+        "colorMap": "levels/east_coast_usa/art/shapes/buildings/eca_bld_concrete_d.dds",
+        "detailMap": "levels/east_coast_usa/art/shapes/buildings/detail_grunge_01b_low_desat.dds",
+        "detailScale": [
+          0.300000012,
+          0.300000012
+        ],
+        "normalMap": "levels/east_coast_usa/art/shapes/buildings/eca_bld_concrete_n.dds",
+        "overlayMap": "levels/east_coast_usa/art/shapes/buildings/eca_breakup_texture.dds",
+        "specularMap": "levels/east_coast_usa/art/shapes/buildings/eca_bld_concrete_s.dds",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "BUILDINGS",
+    "groundType": "CONCRETE",
+    "materialTag0": "beamng",
+    "materialTag1": "building",
+    "materialTag2": "east_coast_usa",
+    "translucentBlendOp": "None"
+  },
   "eca_bld_concrete": {
     "name": "eca_bld_concrete",
     "mapTo": "eca_bld_concrete",

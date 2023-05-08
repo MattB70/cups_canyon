@@ -136,7 +136,7 @@
     "internalName": "Dragstrip",
     "class": "TerrainMaterial",
     "persistentId": "5d36e58b-70c7-448b-8bbc-cba8ed46b9eb",
-    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_r.png",
     "aoBaseTexSize": 4096,
     "aoDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_ao.png",
     "aoDetailTexSize": 3,
@@ -181,7 +181,7 @@
     "normalDetailTexSize": 3,
     "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
     "normalMacroTexSize": 500,
-    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base03_r.png",
     "roughnessBaseTexSize": 4096,
     "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_r.png",
     "roughnessDetailTexSize": 3,
@@ -815,6 +815,44 @@
     ],
     "roughnessMacroTex": "/levels/Utah/art/terrains/t_macro_rocky_r.png",
     "roughnessMacroTexSize": 50
+  },
+  "Sand-1e00b42f-a3ea-40e6-aaa3-b2d2d32ddd06": {
+    "internalName": "Sand",
+    "class": "TerrainMaterial",
+    "persistentId": "1e00b42f-a3ea-40e6-aaa3-b2d2d32ddd06",
+    "aoBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_ao.png",
+    "aoBaseTexSize": 4096,
+    "aoDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_ao.png",
+    "aoMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_ao.png",
+    "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_yellow_b.png",
+    "baseColorBaseTexSize": 4096,
+    "baseColorDetailStrength": [
+      0.600000024,
+      0.300000012
+    ],
+    "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_b.png",
+    "baseColorMacroStrength": [
+      0.400000006,
+      0.400000006
+    ],
+    "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_b.png",
+    "groundmodelName": "SANDTRAP",
+    "heightBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_h.png",
+    "heightBaseTexSize": 4096,
+    "heightDetailStrength": [
+      0,
+      0
+    ],
+    "heightDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_h.png",
+    "heightMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_h.png",
+    "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
+    "normalBaseTexSize": 4096,
+    "normalDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_nm.png",
+    "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_nm.png",
+    "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_r.png",
+    "roughnessBaseTexSize": 4096,
+    "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_asphalt_03_r.png",
+    "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png"
   },
   "SnowDeep-a928af63-bc32-4eb7-87ff-8d149a184e55": {
     "internalName": "SnowDeep",
