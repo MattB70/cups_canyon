@@ -266,7 +266,7 @@
     "baseColorBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_b.png",
     "baseColorBaseTexSize": 4096,
     "baseColorDetailStrength": [
-      0.319999993,
+      0.100000001,
       0
     ],
     "baseColorDetailTex": "/levels/cups_canyon/art/terrains/t_grass1_b.png",
@@ -307,13 +307,13 @@
     "normalBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base_nm.png",
     "normalBaseTexSize": 4096,
     "normalDetailStrength": [
-      0.5,
+      0.400000006,
       0
     ],
     "normalDetailTex": "/levels/cups_canyon/art/terrains/t_grass1_nm.png",
     "normalDetailTexSize": 3,
     "normalMacroStrength": [
-      0.5,
+      0.300000012,
       0.5
     ],
     "normalMacroTex": "/levels/cups_canyon/art/terrains/t_macro_grass_nm.png",
