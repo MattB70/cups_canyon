@@ -584,7 +584,7 @@
     "baseColorDetailTexSize": 40,
     "baseColorMacroStrength": [
       0.400000006,
-      0.100000001
+      0.200000003
     ],
     "baseColorMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_b.png",
     "baseColorMacroTexSize": 1,
@@ -611,10 +611,6 @@
     "normalMacroTexSize": 1,
     "roughnessBaseTex": "/levels/cups_canyon/art/terrains/t_terrain_base02_r.png",
     "roughnessBaseTexSize": 4096,
-    "roughnessDetailStrength": [
-      0,
-      0
-    ],
     "roughnessDetailTex": "/levels/cups_canyon/art/terrains/t_macro_asphalt_r.png",
     "roughnessDetailTexSize": 40,
     "roughnessMacroTex": "/levels/cups_canyon/art/terrains/t_pebbles_r.png",
