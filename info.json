@@ -1,10 +1,10 @@
 {
   "features":"Town, Hills, Tracks",
-  "suitablefor":"Time Trails, Racing, Chases, Cruising, Rock Crawling, Mudding, Ice, Snow",
+  "suitablefor":"Time Trials, Racing, Chases, Cruising, Rock Crawling, Mudding, Ice, Snow",
   "authors":"BeamNG, Cup, SKULL0FD3ATH",
   "roads":"",
   "title":"Cup's Canyon",
-  "description":"Hill Climbs, Mud Pits, Race Tracks, Ice Roads, and More...",
+  "description":"1.5 Mile (2.5 Km) Ring Road, Hill Climb, Mud Pit, Race Track, Small Town, Ice Road, Long Straight Road",
   "defaultSpawnPointName":"spawns_highway",
   "country":"Canada",
   "biome":"Pacific Northwest",
@@ -19,9 +19,29 @@
   ],
   "spawnPoints":[
     {
-      "translationId":"Old Gas Station",
+      "translationId":"Track Gas Station",
       "objectname":"spawns_oldgas",
       "preview":"spawns_oldgas.jpg"
+    },
+	{
+      "translationId":"Drag Strip",
+      "objectname":"spawns_drag",
+      "preview":"spawns_drag.jpg"
+    },
+	{
+      "translationId":"Race Track",
+      "objectname":"spawns_track",
+      "preview":"spawns_track.jpg"
+    },
+	{
+      "translationId":"Grocery Store",
+      "objectname":"spawns_grocery",
+      "preview":"spawns_grocery.jpg"
+    },
+	{
+      "translationId":"Police/Fire Station",
+      "objectname":"spawns_police",
+      "preview":"spawns_police.jpg"
     }
   ],
   "roadRules":
